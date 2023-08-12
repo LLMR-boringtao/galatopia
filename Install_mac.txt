@@ -1,0 +1,15 @@
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+nvm install 14.15.0
+node -v
+
+brew tap mongodb/brew
+brew install mongodb-community@5.0
+brew services start mongodb/brew/mongodb-community
+echo 'export PATH="/usr/local/opt/mongodb-community@5.0/bin:$PATH"' >> ~/.profile
+brew services start mongodb/brew/mongodb-community@5.0
+brew services restart mongodb-community@5.0
+mongosh
+
