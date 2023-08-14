@@ -7,15 +7,15 @@
         v-for="(message, index) in messages", 
         :key="index", 
         :class="message.type != 'received' ? 'cents' : 'receive'")
-        .interaction2-image(v-if="message.type != 'received'")
-          img.interaction2-rectangle26(src="/external/rectangle26i652-g2u2-200h.png", alt="Rectangle26I652")
         .interaction2-frame498(v-if="message.type != 'received'")
           .interaction2-frame432
             span.interaction2-text.ButtonSmall {{ message.content }}
-        .interaction2-frame4321(v-if="message.type === 'received'")
-          span.interaction2-text05.ButtonSmall {{ message.content }}
+        .interaction2-image(v-if="message.type != 'received'")
+          img.interaction2-rectangle26(src="/external/rectangle26i652-g2u2-200h.png", alt="Rectangle26I652")
         .interaction2-image1(v-if="message.type === 'received'")
           img.interaction2-rectangle261(src="/external/rectangle26i652-rtm-200h.png", alt="Rectangle26I652")
+        .interaction2-frame4321(v-if="message.type === 'received'")
+          span.interaction2-text05.ButtonSmall {{ message.content }}
     .interaction2-navigation
       .interaction2-system-status
         .interaction2-notch
@@ -215,6 +215,16 @@ export default {
   align-items: flex-start;
   flex-direction: column;
 }
+/* .cents {
+  gap: 6px;
+  width: 100%;
+  display: flex;
+  padding: 0 16px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  box-sizing: border-box;
+} */
+
 .cents {
   gap: 6px;
   width: 100%;
@@ -222,6 +232,7 @@ export default {
   padding: 0 16px;
   align-items: flex-start;
   flex-shrink: 0;
+  justify-content: flex-end;
   box-sizing: border-box;
 }
 .interaction2-image {
@@ -313,7 +324,7 @@ export default {
   width: 32px;
   height: 32px;
 }
-.receive {
+/* .receive {
   gap: 6px;
   width: 100%;
   display: flex;
@@ -321,6 +332,16 @@ export default {
   align-items: flex-start;
   flex-shrink: 0;
   justify-content: flex-end;
+  box-sizing: border-box;
+} */
+
+.receive {
+  gap: 6px;
+  width: 100%;
+  display: flex;
+  padding: 0 16px;
+  align-items: flex-start;
+  flex-shrink: 0;
   box-sizing: border-box;
 }
 .interaction2-frame4321 {
