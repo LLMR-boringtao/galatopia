@@ -1,7 +1,7 @@
 <template lang="pug">
 .town-suncity-container
   .town-suncity-town-suncity
-    img.town-suncity-rectangle1(src="/external/rectangle1i652-h6a-400w.png", alt="Rectangle1I652")
+    img.town-suncity-rectangle1(src="/external/event_run_final_page.png", alt="Rectangle1I652")
     .town-suncity-frame521
       .town-suncity-frame506
         .town-suncity-title
@@ -14,7 +14,7 @@
               img.town-suncity-vector04(src="/external/vectori652-inml.svg", alt="VectorI652")
               img.town-suncity-vector05(src="/external/vectori652-r45i.svg", alt="VectorI652")
             span.town-suncity-text
-              span SunCity
+              span Marathon
       .town-suncity-frame520
         .town-suncity-frame519
           .town-suncity-group474
@@ -38,9 +38,9 @@
                     img.town-suncity-vector07(src="/external/vectori652-y9q.svg", alt="VectorI652")
             .town-suncity-frame486
               span.town-suncity-text06
-                span Price
+                span 价格
               span.town-suncity-text08
-                span $50.00
+                span £18.00
           .town-suncity-frame488
             button.town-suncity-button-icon1
               .town-suncity-clock1
@@ -49,16 +49,16 @@
                     img.town-suncity-vector08(src="/external/vectori652-w1pn.svg", alt="VectorI652")
             .town-suncity-frame4861
               span.town-suncity-text10
-                span Duration
+                span 时长
               span.town-suncity-text12
                 span 4h ~ 6h
         .town-suncity-frame14
           span.town-suncity-text14
-            span About
+            span 介绍
           span.town-suncity-text16
             span.
               
-              It will be a great party for people from Naples, Italy! We will celebrate Friday with a new friend at the SunCity club. Feel free to connect :)
+              周日下午我们在摄政公园举办了夏季长跑活动，全长35公里，欢迎参加！
               
         .town-suncity-frame498
           img.town-suncity-rectangle71(src="/external/rectangle71i652-027h-200h.png", alt="Rectangle71I652")

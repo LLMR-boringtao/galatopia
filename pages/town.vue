@@ -20,7 +20,7 @@
                 span 20
             .town-frame463
               span.town-text08.ButtonLarge
-                span Friday party at SunCity
+                span 伦敦夏日长跑！
               .town-group446
                 .town-frame462
                   .town-location2
@@ -42,7 +42,7 @@
               img.town-ellipse20(src="/external/ellipse20i652-vqkn-200h.png", alt="Ellipse20I652")
               img.town-ellipse21(src="/external/ellipse21i652-q4mf-200h.png", alt="Ellipse21I652")
               img.town-ellipse22(src="/external/ellipse22i652-5ow7-200h.png", alt="Ellipse22I652")
-          img.town-rectangle83(src="/external/rectangle83i652-rwd-200h.png", alt="Rectangle83I652")
+          img.town-rectangle83(src="/external/event_run_final.png", alt="Rectangle83I652")
         .town-group476
           .town-frame4651
             .town-frame4611
