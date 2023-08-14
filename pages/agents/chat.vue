@@ -152,7 +152,7 @@ export default {
           const history =  res.data.data.history
           for (let item of history) {
             this.messages.push({ type: "sent", content: item[0].split(':')[1] });
-            this.messages.push({ type: "received", content: item[1].split(':')[1] });
+            this.messages.push({ type: "received", content: item[1] });
           }
           this.composedMessage = ""
         }
