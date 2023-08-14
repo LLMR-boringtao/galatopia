@@ -7,9 +7,8 @@ node -v
 
 brew tap mongodb/brew
 brew install mongodb-community@5.0
-brew services start mongodb/brew/mongodb-community
 echo 'export PATH="/usr/local/opt/mongodb-community@5.0/bin:$PATH"' >> ~/.profile
 brew services start mongodb/brew/mongodb-community@5.0
 brew services restart mongodb-community@5.0
-mongosh
+# mongosh
 

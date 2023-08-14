@@ -1,0 +1,31 @@
+{
+  "db": "mongodb://127.0.0.1/ai",
+  "base": "http://127.0.0.1",
+  "port": 3000,
+  "SITE_ROOT_URL": "http://fufu.natapp4.cc",
+  "imageCDN": "http://pic.china-op.cn/",
+  "wechat": {
+    "appID": "wxa317aab69d70d411",
+    "appSecret": "9a893290d68fca71b17e4a83d3f4edd2",
+    "token": "test"
+  },
+  "mina": {
+    "appid": "wxcac851ec7e9550e2",
+    "secret": "352c61a7c8887e03643a1ff18eb8c5c8"
+  },
+  "shop": {
+    "appID": "wx0cf76260671ceb45",
+    "mchId": "1555424201",
+    "notifyUrl": "http://natapp.nodefu.net/wx/n",
+    "key": "imoocisareallyamzingplacetolearn"
+  },
+  "qiniu": {
+    "AK": "yqeiKHxgubXvRTySoqSVX1Sa8_Bki__hRPrmJKEn",
+    "SK": "5gdH8Gb3uqj_i9ivAZ3li8lTvfPR5K7gYOXet_hU",
+    "bucket": "oppic"
+  },
+  "sms": {
+    "url": "https://sms.yunpian.com/v2/sms/single_send.json",
+    "apikey" : "61ca46daf371748574f924c83de7a022"
+  }
+}

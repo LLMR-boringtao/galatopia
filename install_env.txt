@@ -22,14 +22,12 @@ sudo systemctl enable mongod
 sudo systemctl status mongod
 mongo
 
-
-npm run dev
-npm install
-npm audit fix
-npm install css-what
-npm audit fix
-npm install @babel/plugin-proposal-private-property-in-object
-npm audit fix
-npm run dev
-npx browserslist@latest --update-db
+## package installation
+# npm install
+# npm audit fix
+# npm install css-what
+# npm audit fix
+# npm install @babel/plugin-proposal-private-property-in-object
+# npm audit fix
+# npx browserslist@latest --update-db
 npm run dev
