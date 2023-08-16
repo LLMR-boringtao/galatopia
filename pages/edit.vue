@@ -1,7 +1,7 @@
 <template lang="pug">
 .page5-container
   .page5-frame1
-    img.page5-rectangle1(src="/external/rectangle1i652-7xf-400w.png", alt="Rectangle1I652")
+    img.page5-rectangle1(src="/external/zhouxiaonan_profile1_final.png", alt="Rectangle1I652")
     .page5-frame523
       .page5-frame11
         .page5-title
@@ -18,16 +18,14 @@
       .page5-frame522
         .page5-group456
           .page5-group455
-            span.page5-text02
-              span My bio
-            span.page5-text04
-              span Write fun and punchy intro.
+            span.page5-text02.HeadlineHeadline6
+              span 自我介绍
           .page5-group454
             span.page5-text06
               span A little bit about you...
         .page5-group453
-          span.page5-text08
-            span My basics
+          span.page5-text08.HeadlineHeadline6
+            span 基本信息
           .page5-frame476
             .page5-list
               .page5-frame469
@@ -39,7 +37,7 @@
                           .page5-location
                             img.page5-combined-shape(src="/external/combinedshapei652-gdm.svg", alt="CombinedShapeI652")
                 span.page5-text10
-                  span Work
+                  span 工作
               .page5-frame470
                 span.page5-text12
                   span Add
@@ -57,7 +55,7 @@
                           .page5-location1
                             img.page5-combined-shape1(src="/external/combinedshapei652-kbzo.svg", alt="CombinedShapeI652")
                 span.page5-text14
-                  span Education
+                  span 学历
               .page5-frame4701
                 span.page5-text16
                   span Add
@@ -69,7 +67,7 @@
               .page5-frame4692
                 img.page5-leo1(src="/external/leo1i652-slar.svg", alt="leo1I652")
                 span.page5-text18
-                  span Zodiac
+                  span MIBT
               .page5-frame4702
                 span.page5-text20
                   span Add
@@ -157,7 +155,7 @@
     .page7-frame512
       .page7-frame507
         span.page7-text.HeadlineHeadline6
-          span Interests
+          span 兴趣爱好
         .page7-group495
           .page7-frame479
             .page7-frame486
@@ -187,10 +185,10 @@
                 span Gaming
       .page7-frame498
         img.page7-rectangle71(src="/external/rectangle71i652-6c3w-200h.png", alt="Rectangle71I652")
-        img.page7-rectangle72(src="/external/rectangle72i652-ck-200w.png", alt="Rectangle72I652")
-        img.page7-rectangle73(src="/external/rectangle73i652-wqx8-200w.png", alt="Rectangle73I652")
+        img.page7-rectangle72(src="/external/zhouxiaonan_profile4_final.png", alt="Rectangle72I652")
+        img.page7-rectangle73(src="/external/zhouxiaonan_profile2_final.png", alt="Rectangle73I652")
         a(href="/info") 
-          img.page7-rectangle711(src="/external/rectangle71i652-fmvq-200w.png", alt="Rectangle71I652")
+          img.page7-rectangle711(src="/external/zhouxiaonan_profile3_final.png", alt="Rectangle71I652")
         img.page7-rectangle721(src="/external/rectangle72i652-kpet-200h.png", alt="Rectangle72I652")
       .page7-frame458
         .page7-group455

@@ -1,7 +1,7 @@
 <template lang="pug">
 .message-container
   .message-message
-    img.message-rectangle1(src="/external/rectangle1i652-ch9h-400w.png", alt="Rectangle1I652")
+    img.message-rectangle1(src="/external/zhangxiaoyue_hiking_fina.png", alt="Rectangle1I652")
     .message-navigation
       .message-system-status
         .message-notch
@@ -45,55 +45,55 @@
             img.message-vector4(src="/external/vectori652-o2q.svg", alt="VectorI652")
             img.message-vector5(src="/external/vectori652-py3.svg", alt="VectorI652")
           span.message-text
-            span Hailey, 21
+            span 张小悦
       .message-frame14
         span.message-text02.HeadlineHeadline6
-          span About
+          span 介绍
         .message-group490
           span.message-text04.BodySmall
             span.
               
-              My name is Madeline and I enjoy meet new people and finding ways to help them have an uplifting...
+              HI，自我介绍好麻烦，我喜欢健身和电子游戏，人在伦敦，想了解我可以和我的agent多聊聊哦！
               
           span.message-text06.ButtonSmall
             span More
       .message-frame498(@click="goPage('info')")
         img.message-rectangle71(src="/external/rectangle71i652-odnq-200h.png", alt="Rectangle71I652")
         img.message-rectangle72(src="/external/rectangle72i652-g0lp-200w.png", alt="Rectangle72I652")
-        img.message-rectangle73(src="/external/rectangle73i652-xks6-200w.png", alt="Rectangle73I652")
-        img.message-rectangle711(src="/external/rectangle71i652-5idi-200w.png", alt="Rectangle71I652")
+        img.message-rectangle73(src="/external/zhangxiaoyue_gym_final.png", alt="Rectangle73I652")
+        img.message-rectangle711(src="/external/zhangxiaoyue_profile2_final.png", alt="Rectangle71I652")
         img.message-rectangle721(src="/external/rectangle72i652-hkx49-200w.png", alt="Rectangle72I652")
         img.message-rectangle731(src="/external/rectangle73i652-zycn-200h.png", alt="Rectangle73I652")
       .message-frame507
         span.message-text08.HeadlineHeadline6
-          span Interests
+          span 兴趣
         .message-group495
           .message-frame479
             .message-frame486
               img.message-image1335(src="/external/image1335i652-kdbs-200h.png", alt="image1335I652")
               span.message-text10.ButtonSmall
-                span Bowling
+                span 保龄球
             .message-frame489
               img.message-image13351(src="/external/image1335i652-u3w-200h.png", alt="image1335I652")
               span.message-text12.ButtonSmall
-                span Party
+                span 派对
             .message-frame487
               img.message-image13352(src="/external/image1335i652-a4m5-200h.png", alt="image1335I652")
               span.message-text14.ButtonSmall
-                span Football
+                span 足球
           .message-frame480
             .message-frame490
               img.message-image13353(src="/external/image1335i652-qwwt-200h.png", alt="image1335I652")
               span.message-text16.ButtonSmall
-                span 8-ball
+                span 桌球
             .message-frame488
               img.message-image13354(src="/external/image1335i652-0ucb-200h.png", alt="image1335I652")
               span.message-text18.ButtonSmall
-                span Cat
+                span 撸猫
             .message-frame4871
               img.message-image13355(src="/external/image1335i652-1vp6-200h.png", alt="image1335I652")
               span.message-text20.ButtonSmall
-                span Gaming
+                span 游戏宅
     .message-system-footer
       .message-home-indicator
         img.message-home-indicator1(src="/external/homeindicatori652-vt8-200h.png", alt="HomeIndicatorI652")

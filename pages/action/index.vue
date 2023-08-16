@@ -7,25 +7,16 @@
         .interaction1-frame474
           span.interaction1-text
             span Cindy
-        img.interaction1-ellipse19(src="/external/ellipse19i652-q89b-200h.png", alt="Ellipse19I652")
       .interaction1-frame475(@click="goPage('user')")
         img.interaction1-rectangle301(src="/external/zhangxiaoyue_profile_final.png", alt="Rectangle30I652")
         .interaction1-frame4741
-          span.interaction1-text02
+          span.interaction1-text02_CH
             span 张小悦
-        img.interaction1-ellipse191(src="/external/ellipse19i652-yiw-200h.png", alt="Ellipse19I652")
       .interaction1-frame476(@click="goPage('user')")
         img.interaction1-rectangle302(src="/external/two_people_final.png", alt="Rectangle30I652")
         .interaction1-frame4742
-          span.interaction1-text04
+          span.interaction1-text04_CH
             span 陈小曦
-        img.interaction1-ellipse192(src="/external/ellipse19i652-3ib71-200w.png", alt="Ellipse19I652")
-      .interaction1-frame477(@click="goPage('user')")
-        img.interaction1-rectangle303(src="/external/rectangle30i652-59bx-300h.png", alt="Rectangle30I652")
-        .interaction1-frame4743
-          span.interaction1-text06
-            span Hailey,21
-        img.interaction1-ellipse193(src="/external/ellipse19i652-oz1-200h.png", alt="Ellipse19I652")
     .interaction1-navigation
       .interaction1-system-status
         .interaction1-notch
@@ -79,10 +70,10 @@
     .interaction1-frame2
       .interaction1-list(@click="goPage('chat', 1)")
         .interaction1-frame21
-          img.interaction1-rectangle31(src="/external/rectangle31i652-nfso-200h.png", alt="Rectangle31I652")
+          img.interaction1-rectangle31(src="/external/wuxiaoting_icon-modified.png", alt="Rectangle31I652")
           .interaction1-frame3
             .interaction1-frame22
-              span.interaction1-text10.ButtonDefault
+              span.interaction1-text10.ButtonDefault_CH
                 span 吴小婷
               span.interaction1-text12.ButtonMini
                 span 2:30 pm
@@ -92,10 +83,10 @@
                 
       .interaction1-frame8(@click="goPage('chat', 2)")
         .interaction1-frame21
-          img.interaction1-rectangle31(src="/external/rectangle31i652-nfso-200h.png", alt="Rectangle31I652")
+          img.interaction1-rectangle31(src="/external/yangxiaogang_icon.png", alt="Rectangle31I652")
           .interaction1-frame31
             .interaction1-frame24
-              span.interaction1-text16.ButtonDefault
+              span.interaction1-text16.ButtonDefault_CH
                 span 杨小刚
               span.interaction1-text18.ButtonMini
                 span 1:34 pm
@@ -106,10 +97,10 @@
                 
       .interaction1-frame9(@click="goPage('chat', 3)")
         .interaction1-frame25
-          img.interaction1-rectangle311(src="/external/rectangle31i652-3irk-200h.png", alt="Rectangle31I652")
+          img.interaction1-rectangle311(src="/external/huxiaohua_icon.png", alt="Rectangle31I652")
           .interaction1-frame32
             .interaction1-frame26
-              span.interaction1-text22.ButtonDefault
+              span.interaction1-text22.ButtonDefault_CH
                 span 胡小花
               span.interaction1-text24.ButtonMini
                 span 1:24 pm
@@ -120,10 +111,10 @@
                 
       .interaction1-frame10(@click="goPage('chat', 4)")
         .interaction1-frame27
-          img.interaction1-rectangle312(src="/external/rectangle31i652-8cw5-200h.png", alt="Rectangle31I652")
+          img.interaction1-rectangle312(src="/external/chenxiaohao_icon.png", alt="Rectangle31I652")
           .interaction1-frame33
             .interaction1-frame28
-              span.interaction1-text28.ButtonDefault
+              span.interaction1-text28.ButtonDefault_CH
                 span 陈小昊
               span.interaction1-text30.ButtonMini
                 span 2:30 pm
@@ -133,10 +124,10 @@
                 我的球拍是不是在你这里呀，记忆力完全错乱
       .interaction1-frame9(@click="goPage('chat', 5)")
         .interaction1-frame25
-          img.interaction1-rectangle311(src="/external/rectangle31i652-3irk-200h.png", alt="Rectangle31I652")
+          img.interaction1-rectangle311(src="/external/zhangxiaowen_icon.png", alt="Rectangle31I652")
           .interaction1-frame32
             .interaction1-frame26
-              span.interaction1-text22.ButtonDefault
+              span.interaction1-text22.ButtonDefault_CH
                 span 张小雯
               span.interaction1-text24.ButtonMini
                 span 1:24 pm
@@ -147,10 +138,10 @@
                 
       .interaction1-frame10(@click="goPage('chat', 6)")
         .interaction1-frame27
-          img.interaction1-rectangle312(src="/external/rectangle31i652-8cw5-200h.png", alt="Rectangle31I652")
+          img.interaction1-rectangle312(src="/external/huangxiaoe_icon.png", alt="Rectangle31I652")
           .interaction1-frame33
             .interaction1-frame28
-              span.interaction1-text28.ButtonDefault
+              span.interaction1-text28.ButtonDefault_CH
                 span 黄小鹅
               span.interaction1-text30.ButtonMini
                 span 2:30 pm
@@ -420,6 +411,19 @@ export default {
   font-stretch: normal;
   text-decoration: none;
 }
+
+.interaction1-text02_CH {
+  color: var(--dl-color-light_element-1100);
+  height: auto;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: ZCOOL KuaiLe;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
 .interaction1-ellipse191 {
   border-radius: 50%;
   top: 141px;
@@ -469,6 +473,18 @@ export default {
   font-style: Regular;
   text-align: left;
   font-family: Gochi Hand;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.interaction1-text04_CH {
+  color: var(--dl-color-light_element-1100);
+  height: auto;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: ZCOOL KuaiLe;
   font-weight: 400;
   line-height: normal;
   font-stretch: normal;
