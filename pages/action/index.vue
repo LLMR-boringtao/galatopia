@@ -77,7 +77,7 @@
       span.interaction1-text08
         span Network
     .interaction1-frame2
-      .interaction1-list(@click="goPage('chat')")
+      .interaction1-list(@click="goPage('chat', 1)")
         .interaction1-frame21
           img.interaction1-rectangle31(src="/external/rectangle31i652-nfso-200h.png", alt="Rectangle31I652")
           .interaction1-frame3
@@ -90,7 +90,7 @@
               span.
                 我靠，你也在海德公园，快来一起喂鸽子！
                 
-      .interaction1-frame8(@click="goPage('chat')")
+      .interaction1-frame8(@click="goPage('chat', 2)")
         .interaction1-frame21
           img.interaction1-rectangle31(src="/external/rectangle31i652-nfso-200h.png", alt="Rectangle31I652")
           .interaction1-frame31
@@ -104,7 +104,7 @@
                 
                 去不去一起听一个讲座，就在市中心那块。
                 
-      .interaction1-frame9(@click="goPage('chat')")
+      .interaction1-frame9(@click="goPage('chat', 3)")
         .interaction1-frame25
           img.interaction1-rectangle311(src="/external/rectangle31i652-3irk-200h.png", alt="Rectangle31I652")
           .interaction1-frame32
@@ -118,7 +118,7 @@
                 
                 我做完的实验告诉你就好了，咱俩不要做重复就可以。
                 
-      .interaction1-frame10(@click="goPage('chat')")
+      .interaction1-frame10(@click="goPage('chat', 4)")
         .interaction1-frame27
           img.interaction1-rectangle312(src="/external/rectangle31i652-8cw5-200h.png", alt="Rectangle31I652")
           .interaction1-frame33
@@ -131,7 +131,7 @@
               span.
                 
                 我的球拍是不是在你这里呀，记忆力完全错乱
-      .interaction1-frame9(@click="goPage('chat')")
+      .interaction1-frame9(@click="goPage('chat', 5)")
         .interaction1-frame25
           img.interaction1-rectangle311(src="/external/rectangle31i652-3irk-200h.png", alt="Rectangle31I652")
           .interaction1-frame32
@@ -145,7 +145,7 @@
                 
                 太搞笑了你们哈哈哈哈
                 
-      .interaction1-frame10(@click="goPage('chat')")
+      .interaction1-frame10(@click="goPage('chat', 6)")
         .interaction1-frame27
           img.interaction1-rectangle312(src="/external/rectangle31i652-8cw5-200h.png", alt="Rectangle31I652")
           .interaction1-frame33
@@ -253,11 +253,11 @@ export default {
 
   },
   methods: {
-    goPage (page) {
+    goPage (page, userID=1) {
       if (page === 'user') {
         this.$router.push('/action/user')
       } else if (page === 'chat') {
-        this.$router.push('/action/1')
+        this.$router.push('/action/' + userID)
       } else if (page === 'match') {
         this.$router.push('/action/match')
       } else if (page === 'edit') {

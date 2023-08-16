@@ -3,21 +3,18 @@
   .interaction2-interaction2
     img.interaction2-rectangle84(src="/external/rectangle84i652-gzhi-400w.png", alt="Rectangle84I652")
     .chats
-      .cents
-        .interaction2-image
+      div(
+        v-for="(message, index) in messages", 
+        :key="index", 
+        :class="message.type != 'received' ? 'cents' : 'receive'")
+        .interaction2-image(v-if="message.type != 'received'")
           img.interaction2-rectangle26(src="/external/rectangle26i652-g2u2-200h.png", alt="Rectangle26I652")
-        .interaction2-frame498
+        .interaction2-frame498(v-if="message.type != 'received'")
           .interaction2-frame432
-            span.interaction2-text.ButtonSmall
-              span
-                span lets do this its been way
-                br
-                span to long since we were all together
-      .receive
-        .interaction2-frame4321
-          span.interaction2-text05.ButtonSmall
-            span YES! I got the day off! Say when and where?
-        .interaction2-image1
+            span.interaction2-text.ButtonSmall {{ message.content }}
+        .interaction2-frame4321(v-if="message.type === 'received'")
+          span.interaction2-text05.ButtonSmall {{ message.content }}
+        .interaction2-image1(v-if="message.type === 'received'")
           img.interaction2-rectangle261(src="/external/rectangle26i652-rtm-200h.png", alt="Rectangle26I652")
     .interaction2-navigation
       .interaction2-system-status
@@ -146,14 +143,26 @@ export default {
     },
     async sendMessage() {
       const user = this.$store.state.user
+      const userID = this.$route.params
+      console.log(userID)
+      
       if (this.composedMessage.trim() !== "") {
+        console.log(userID.id)
+        const urls = ['https://5fa2c9364a47.ngrok.app', 
+        'https://a324e4fd48c1.ngrok.app', 
+        'https://5fa2c9364a47.ngrok.app',
+        "https://3a9855754f28.ngrok.app",
+        "https://c85eccdef31d.ngrok.app",
+        "https://b26042a5c52f.ngrok.app"
+      ];
+        console.log(urls[userID.id])
         const res = await axios({
           url: '/user/chat',
           method: 'post',
           data: {
             question: user.name + ':' + this.composedMessage,
             history: this.history,
-            url: 'https://3a9855754f28.ngrok.app/chat'
+            url: urls[userID.id-1] + '/chat'
           }
         })
         console.log(res)
