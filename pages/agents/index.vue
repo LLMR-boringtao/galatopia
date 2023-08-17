@@ -1,9 +1,17 @@
 <template lang="pug">
 .my-agents-container
   .my-agents-my-agents
-    .my-agents-thumb-image(@click = 'handleChat')
-      img.my-agents-rectangle11(src="/external/zhouxiaonan_agent_pic_final.png", alt="Rectangle1I652")
-      .my-agents-frame12
+    .my-agents-thumb-image
+      div(@click='isFlipped = !isFlipped' :class="{ flipped: isFlipped }")
+        transition(name="flip")
+          span.wrapper(v-if="!isFlipped")
+            img.my-agents-rectangle11(src="/external/zhouxiaonan_agent_pic_final.png", alt="Rectangle1I652")
+          span.wrapper(v-else)
+            span.wrapper-text
+              | long...............
+              | ...................
+              | ..........text
+      .my-agents-frame12(@click = 'handleChat')
         span.my-agents-text04
           span 周小楠
         .my-agents-frame31
@@ -104,7 +112,11 @@ export default {
       title: 'agents page'
     }
   },
-
+  data() {
+    return {
+      isFlipped: false
+    };
+  },
   data() {
     return {
       active: 'agents',
@@ -122,7 +134,8 @@ export default {
           img: '/img/3.png'
         }
       ],
-      showNav: false
+      showNav: true,
+      isFlipped: false
     }
   },
 
@@ -189,14 +202,46 @@ export default {
 
 </script>
 <style scoped>
-.my-agents-container {
-  width: 100%;
-  display: flex;
-  overflow: auto;
-  min-height: 100vh;
-  align-items: center;
-  flex-direction: column;
+.my-agents-thumb-image div {
+  position: relative;
 }
+
+.my-agents-thumb-image div span.wrapper {
+  position: absolute;
+  height: 468px;
+  width: 264px;
+  color: white;
+}
+
+.my-agents-thumb-image div span.wrapper span.wrapper-text {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+}
+
+img.my-agents-rectangle11 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.6s, visibility 0.6s;
+  opacity: 1;
+  visibility: visible;
+}
+
+.flipped img.my-agents-rectangle11:first-child {
+  opacity: 1;
+}
+
+
+
+
+
+
 .my-agents-my-agents {
   width: 100%;
   height: 100vh;
