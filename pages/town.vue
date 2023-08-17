@@ -8,7 +8,7 @@
             span.town-text.ButtonSmall
               span All Party
           button.town-button1
-            span.town-text02.ButtonSmall
+            span.town-text.ButtonSmall
               span I’m in
       .town-frame517(@click="goPage('suncity')")
         .town-list
@@ -34,10 +34,10 @@
             .town-frame475
               .town-frame492
                 span.town-text12.ButtonSmall
-                  span 10:00 AM
+                  span 13:00 PM
               .town-frame491
                 span.town-text14.ButtonSmall
-                  span 10:00 AM
+                  span 18:00 PM
             .town-group474
               img.town-ellipse20(src="/external/ellipse20i652-vqkn-200h.png", alt="Ellipse20I652")
               img.town-ellipse21(src="/external/ellipse21i652-q4mf-200h.png", alt="Ellipse21I652")
@@ -66,10 +66,10 @@
             .town-frame4751
               .town-frame4921
                 span.town-text24
-                  span 10:00 AM
+                  span 09:00 AM
               .town-frame4911
                 span.town-text26
-                  span 10:00 AM
+                  span 20:00 PM
             .town-group4741
               img.town-ellipse201(src="/external/ellipse20i652-5mnk-200h.png", alt="Ellipse20I652")
               img.town-ellipse211(src="/external/ellipse21i652-6et4-200h.png", alt="Ellipse21I652")

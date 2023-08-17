@@ -61,9 +61,9 @@
               周日下午我们在摄政公园举办了夏季长跑活动，全长35公里，欢迎参加！
               
         .town-suncity-frame498
-          img.town-suncity-rectangle71(src="/external/rectangle71i652-027h-200h.png", alt="Rectangle71I652")
-          img.town-suncity-rectangle72(src="/external/rectangle72i652-xxsi-200h.png", alt="Rectangle72I652")
-          img.town-suncity-rectangle73(src="/external/rectangle73i652-fwl8-200w.png", alt="Rectangle73I652")
+          img.town-suncity-rectangle71(src="/external/run1_final.png", alt="Rectangle71I652")
+          img.town-suncity-rectangle72(src="/external/run2_final.png", alt="Rectangle72I652")
+          img.town-suncity-rectangle73(src="/external/run3_final.png", alt="Rectangle73I652")
           img.town-suncity-rectangle711(src="/external/rectangle71i652-pqp8-200h.png", alt="Rectangle71I652")
           img.town-suncity-rectangle721(src="/external/rectangle72i652-u5h-200h.png", alt="Rectangle72I652")
           img.town-suncity-rectangle731(src="/external/rectangle73i652-iin-200h.png", alt="Rectangle73I652")

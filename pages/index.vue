@@ -33,9 +33,10 @@
                 span Events
 
         .news-group31
-          .news-frame9
+          img.news-rectangle12(src="/external/zhouxiaonan_agent_pic_new.png", alt="Rectangle1I652")
+          .news-frame9_summary
             span.news-text
-              span 张小悦
+              span 周小楠 今天遇到了16位有趣的人，参加了5场活动。
             .news-frame2
               img.news-ellipse1(src="/external/ellipse1i652-9t0w-200h.png", alt="Ellipse1I652")
               span.news-status
@@ -43,7 +44,7 @@
 
       .news-frame12
         .news-thumb-image2
-          img.news-rectangle14(src="/external/rectangle1i652-wmwa-300h.png", alt="Rectangle1I652")
+          img.news-rectangle14(src="/external/event_food_news.png", alt="Rectangle1I652")
           .news-frame94
             span.news-text16
               span Hailey, 21
@@ -52,7 +53,7 @@
               span.news-text18.ButtonTiny
                 span Active
         .news-group32
-          img.news-rectangle15(src="/external/rectangle1i652-bx3n-300h.png", alt="Rectangle1I652")
+          img.news-rectangle15(src="/external/event_club_news.png", alt="Rectangle1I652")
           .news-frame95
             span.news-text20
               span Hailey, 21
@@ -267,10 +268,25 @@ export default {
   background-color: var(--dl-color-default-overlay);
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6000000238418579) 100%);
 }
+.news-frame9_summary {
+  top: 180px;
+  bottom: 0px;
+  left: 0px;
+  width: 164px;
+  display: flex;
+  padding: 8px 12px 12px;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-default-overlay);
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6000000238418579) 100%);
+}
 .news-text {
   color: var(--dl-color-light_element-1100);
   height: auto;
-  font-size: 20px;
+  font-size: 15px;
   font-style: Regular;
   text-align: left;
   font-family: ZCOOL KuaiLe;

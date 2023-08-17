@@ -3,7 +3,7 @@
   .page-frame
     .page-frame516
       .page-frame531
-        img.page-star1(src="/external/Star 1.svg", alt="Star1I652")
+        img.page-star1(src="/external/zhnagxiaoyue_icon.svg", alt="Star1I652")
         .page-frame464
           span.page-text.ButtonSmall
             span 张小玥 给你发送了真人聊天邀请。
@@ -11,7 +11,7 @@
             span.page-text05
             span • 今天 13：25
       .page-frame534
-        img.page-star11(src="/external/Star 2.svg", alt="Star1I652")
+        img.page-star11(src="/external/aobenhaimo.svg", alt="Star1I652")
         .page-frame4641
           span.page-text07.ButtonSmall
             span 周小楠 刚刚参加了《奥本海默》电影首映礼！他觉得场景超级震撼，BOOM！
@@ -19,7 +19,7 @@
             span.page-text12
             span • 今天 10：00
       .page-frame532
-        img.page-star12(src="/external/Star 3.svg", alt="Star1I652")
+        img.page-star12(src="/external/zhounan_icon.svg", alt="Star1I652")
         .page-frame4642
           span.page-text14.ButtonSmall
             span 今日总结：认识了20位新小伙伴，参加了城镇里3项活动，周小楠 想和你分享。
@@ -27,7 +27,7 @@
             span.page-text19
             span • 昨天 23：59
       .page-frame533
-        img.page-star13(src="/external/Star 4.svg", alt="Star1I652")
+        img.page-star13(src="/external/zhounan_icon.svg", alt="Star1I652")
         .page-frame4643
           span.page-text21.ButtonSmall
             span 周小楠 突然对你的音乐爱好很感兴趣，你愿意介绍平时听什么歌吗？
@@ -35,7 +35,7 @@
             span.page-text26
             span • 昨天 21：00
       .page-frame535
-        img.page-star14(src="/external/Star 5.svg", alt="Star1I652")
+        img.page-star14(src="/external/chinajoy_icon.svg", alt="Star1I652")
         .page-frame4644
           span.page-text28.ButtonSmall
             span
@@ -44,7 +44,7 @@
             span.page-text36
             span • 昨天 17：30
       .page-frame536
-        img.page-star15(src="/external/Star 1.svg", alt="Star1I653")
+        img.page-star15(src="/external/cosplay.svg", alt="Star1I653")
         .page-frame4645
           span.page-text38.ButtonSmall
             span ChinaJoy！周小楠 在活动现场玩了一整天。

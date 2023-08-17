@@ -5,8 +5,8 @@
       .interaction1-thumb-image(@click="goPage('user')")
         img.interaction1-rectangle30(src="/external/zhangxiaoyue_profile3_final2.png", alt="Rectangle30I652")
         .interaction1-frame474
-          span.interaction1-text
-            span Cindy
+          span.interaction1-text02_CH
+            span 赵小静
       .interaction1-frame475(@click="goPage('user')")
         img.interaction1-rectangle301(src="/external/zhangxiaoyue_profile_final.png", alt="Rectangle30I652")
         .interaction1-frame4741
