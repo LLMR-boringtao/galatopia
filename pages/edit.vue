@@ -187,7 +187,7 @@
         img.page7-rectangle71(src="/external/rectangle71i652-6c3w-200h.png", alt="Rectangle71I652")
         img.page7-rectangle72(src="/external/zhouxiaonan_profile4_final.png", alt="Rectangle72I652")
         img.page7-rectangle73(src="/external/zhouxiaonan_profile2_final.png", alt="Rectangle73I652")
-        a(href="/info") 
+        a(href="/info_zn") 
           img.page7-rectangle711(src="/external/zhouxiaonan_profile3_final.png", alt="Rectangle71I652")
         img.page7-rectangle721(src="/external/rectangle72i652-kpet-200h.png", alt="Rectangle72I652")
       .page7-frame458
@@ -221,9 +221,9 @@
                 
                 Connecting your Spotify will add your latest posts to your profile. Your username won't bevisible.
                 
-    .page7-system-footer
-      .page7-home-indicator
-        img.page7-home-indicator1(src="/external/homeindicatori652-1op3-200h.png", alt="HomeIndicatorI652")
+    //- .page7-system-footer
+    //-   .page7-home-indicator
+    //-     img.page7-home-indicator1(src="/external/homeindicatori652-1op3-200h.png", alt="HomeIndicatorI652")
 </template>
 
 <script>
@@ -1335,7 +1335,9 @@ export default {
   bottom: 0;
   left: 0px;
   width: 100%;
-  display: flex;
+  /* display: flex; */
+  display: none;
+  visibility: hidden;
   position: fixed;
   align-items: center;
   flex-shrink: 0;
@@ -1641,7 +1643,7 @@ export default {
 }
 .page7-frame2 {
   width: 100%;
-  height: 900px;
+  height: 800px;
   display: flex;
   overflow: hidden;
   position: relative;
@@ -2140,6 +2142,8 @@ export default {
   align-items: center;
   flex-shrink: 0;
   flex-direction: column;
+  visibility: hidden;
+  display: none;
 }
 .page7-home-indicator {
   width: 100%;
