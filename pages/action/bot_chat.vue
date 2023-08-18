@@ -223,6 +223,7 @@ export default {
   }
 }
 
+
 </script>
 <style scoped>
 .interaction2-container {

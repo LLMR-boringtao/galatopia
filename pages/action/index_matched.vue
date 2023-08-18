@@ -7,16 +7,16 @@
         .interaction1-frame474
           span.interaction1-text02_CH
             span 赵小静
-      .interaction1-frame475(@click="goPage('bot_chat')")
-        img.interaction1-rectangle301(src="/external/zhangxiaoyue_profile_final.png", alt="Rectangle30I652")
-        .interaction1-frame4741
-          span.interaction1-text02_CH
-            span 张小悦
       .interaction1-frame476(@click="goPage('user')")
         img.interaction1-rectangle302(src="/external/two_people_final.png", alt="Rectangle30I652")
         .interaction1-frame4742
           span.interaction1-text04_CH
             span 陈小曦
+      .interaction1-frame475(@click="goPage('bot_chat')")
+        img.interaction1-rectangle301(src="/external/zhangxiaoyue_profile_final.png", alt="Rectangle30I652")
+        .interaction1-frame4741
+          span.interaction1-text02_CH
+            span 张大雄
     .interaction1-navigation
       .interaction1-system-status
         .interaction1-notch
@@ -74,13 +74,24 @@
           .interaction1-frame3
             .interaction1-frame22
               span.interaction1-text10.ButtonDefault_CH
+                span 张小悦
+              span.interaction1-text12.ButtonMini
+                span 2:30 pm
+            span.interaction1-text14.BodyMini
+              span.
+                你也在海德公园，快来一起喂鸽子！
+      .interaction1-list(@click="goPage('chat', 1)")
+        .interaction1-frame21
+          img.interaction1-rectangle31(src="/external/wuxiaoting_icon-modified.png", alt="Rectangle31I652")
+          .interaction1-frame3
+            .interaction1-frame22
+              span.interaction1-text10.ButtonDefault_CH
                 span 吴小婷
               span.interaction1-text12.ButtonMini
                 span 2:30 pm
             span.interaction1-text14.BodyMini
               span.
-                我靠，你也在海德公园，快来一起喂鸽子！
-                
+                你也在海德公园，快来一起喂鸽子！      
       .interaction1-frame8(@click="goPage('chat', 2)")
         .interaction1-frame21
           img.interaction1-rectangle31(src="/external/yangxiaogang_icon.png", alt="Rectangle31I652")

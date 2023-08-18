@@ -10,17 +10,7 @@
           .interaction2-frame432
             span.interaction2-text.ButtonSmall
               span
-                span lets do this its been way
-                br
-                span to long since we were all together
-                span lets do this its been way
-                br
-                span to long since we were all together
-                span lets do this its been way
-                br
-                span to long since we were all together
-                span
-                  img.interaction1-rectangle301(src="/external/zhangxiaoyue_profile_final.png", alt="Rectangle30I652")
+                span Start conversation!
     .interaction2-navigation
       .interaction2-system-status
         .interaction2-notch
@@ -36,7 +26,7 @@
           img.interaction2-svg941(src="/external/svg941i652-xhab.svg", alt="SVG941I652")
       .interaction2-navigation1
         .interaction2-component-elements
-          button.interaction2-button-icon(@click="onClickLeft")
+          button.interaction2-button-icon(@click="goPage('index_matched')")
             .interaction2-iconarrowleft
               img.interaction2-stroke1(src="/external/stroke1i652-gx98.svg", alt="Stroke1I652")
         //- .interaction2-component-elements1
@@ -49,7 +39,7 @@
                 .interaction2-group05
                   .interaction2-iconly-curved-call
                     .interaction2-call
-                      img.interaction2-stroke-stroke(src="/external/stroke1strokei652-ag5f.svg", alt="Stroke1StrokeI652")(@click="goPage('bot_human_chat')")
+                      img.interaction2-stroke-stroke(src="/external/stroke1strokei652-ag5f.svg", alt="Stroke1StrokeI652")
           //- .interaction2-component3
           //-   .interaction2-video2
           //-     img.interaction2-union(src="/external/unioni652-88vi.svg", alt="UnionI652")
@@ -138,8 +128,8 @@ export default {
         this.$router.push('/agents')
       } else if (page === 'town') {
         this.$router.push('/town')
-      } else if (page === 'bot_human_chat') {
-        this.$router.push('/action/bot_human_chat')
+      } else if (page === 'index_matched') {
+        this.$router.push('/action/index_matched')
       }
     },
     async sendMessage() {
