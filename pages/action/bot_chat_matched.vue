@@ -36,7 +36,7 @@
           img.interaction2-svg941(src="/external/svg941i652-xhab.svg", alt="SVG941I652")
       .interaction2-navigation1
         .interaction2-component-elements
-          button.interaction2-button-icon(@click="onClickLeft")
+          button.interaction2-button-icon(@click='goPage("action")')
             .interaction2-iconarrowleft
               img.interaction2-stroke1(src="/external/stroke1i652-gx98.svg", alt="Stroke1I652")
         //- .interaction2-component-elements1

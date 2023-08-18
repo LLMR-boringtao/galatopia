@@ -2,17 +2,17 @@
 .interaction1-container
   .interaction1-interaction1
     .interaction1-frame1
-      .interaction1-thumb-image(@click="goPage('user')")
+      .interaction1-thumb-image
         img.interaction1-rectangle30(src="/external/zhangxiaoyue_profile3_final2.png", alt="Rectangle30I652")
         .interaction1-frame474
           span.interaction1-text02_CH
             span 赵小静
-      .interaction1-frame476(@click="goPage('user')")
+      .interaction1-frame476
         img.interaction1-rectangle302(src="/external/two_people_final.png", alt="Rectangle30I652")
         .interaction1-frame4742
           span.interaction1-text04_CH
             span 陈小曦
-      .interaction1-frame475(@click="goPage('bot_chat')")
+      .interaction1-frame475
         img.interaction1-rectangle301(src="/external/zhangxiaoyue_profile_final.png", alt="Rectangle30I652")
         .interaction1-frame4741
           span.interaction1-text02_CH
