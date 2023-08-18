@@ -7,7 +7,7 @@
         .interaction1-frame474
           span.interaction1-text02_CH
             span 赵小静
-      .interaction1-frame475(@click="goPage('user')")
+      .interaction1-frame475(@click="goPage('bot_chat')")
         img.interaction1-rectangle301(src="/external/zhangxiaoyue_profile_final.png", alt="Rectangle30I652")
         .interaction1-frame4741
           span.interaction1-text02_CH
@@ -249,6 +249,8 @@ export default {
         this.$router.push('/action/user')
       } else if (page === 'chat') {
         this.$router.push('/action/' + userID)
+      } else if (page === 'bot_chat') {
+        this.$router.push('/action/bot_chat')
       } else if (page === 'match') {
         this.$router.push('/action/match')
       } else if (page === 'edit') {

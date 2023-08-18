@@ -57,7 +57,7 @@
         span You and Katie like each other. Why
         br
         span not make the first move?
-    button.page6-button
+    button.page6-button(@click='goPage("bot_chat_matched")')
       span.page6-text11.ButtonDefault
         span Chat Now
 </template>
@@ -111,6 +111,8 @@ export default {
         this.$router.push('/action/user')
       } else if (page === 'chat') {
         this.$router.push('/action/1')
+      } else if (page === 'bot_chat_matched') {
+        this.$router.push('/action/bot_chat_matched')
       }
     },
 
