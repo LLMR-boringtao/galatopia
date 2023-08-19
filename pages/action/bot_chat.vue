@@ -134,9 +134,7 @@
         :circle="getShape"
         @passcallback="goPage('match')"
       )
-      .interaction2-system-footer
-        .interaction2-home-indicator
-          img.interaction2-home-indicator1(src="/external/homeindicatori652-rawd-200h.png", alt="HomeIndicatorI652")
+      
 
 
 </template>
@@ -1090,7 +1088,7 @@ export default {
   align-items: flex-start;
   flex-direction: column;
   background-color: var(--dl-color-dark_background-100);
-  padding: 0 15px;
+  padding: 15px;
 }
 .interaction2-frame4361 {
   gap: 18px;
