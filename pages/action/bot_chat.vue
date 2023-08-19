@@ -128,7 +128,7 @@
         :progress-bar-bg="progressBarBg"
         :completed-bg="completedBg"
         :handler-bg="handlerBg"
-        :handler-icon="handlerIcon"
+        :handler-icon="'pink'"
         :text-size="textSize"
         :success-icon="successIcon"
         :circle="getShape"
