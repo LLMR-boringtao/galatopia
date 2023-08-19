@@ -31,3 +31,31 @@ mongo
 # npm audit fix
 # npx browserslist@latest --update-db
 npm run dev
+
+
+
+
+
+
+
+您13:04
+System has not been booted with systemd as init system (PID 1). Can't operate.
+Failed to connect to bus: Host is down
+Xinghui Tao13:07
+sudo apt update
+sudo apt install systemd systemd-sysv
+sudo dpkg-reconfigure systemd-sysv
+sudo reboot
+ps -p 1 -o comm=
+Xinghui Tao13:11
+mongod --config /etc/mongod.conf
+Xinghui Tao13:13
+mongo
+您13:13
+Error: couldn't connect to server 127.0.0.1:27017, connection attempt failed: SocketException: Error connecting to 127.0.0.1:27017 :: caused by :: Connection refused :
+connect@src/mongo/shell/mongo.js:372:17
+@(connect):2:6
+exception: connect failed
+exiting with code 1
+Xinghui Tao13:14
+mongod --config /etc/mongod.conf --fork
