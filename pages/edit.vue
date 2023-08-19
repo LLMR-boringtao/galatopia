@@ -67,7 +67,7 @@
               .page5-frame4692
                 img.page5-leo1(src="/external/leo1i652-slar.svg", alt="leo1I652")
                 span.page5-text18
-                  span MIBT
+                  span MBTI
               .page5-frame4702
                 span.page5-text20
                   span Add
