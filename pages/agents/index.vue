@@ -1238,8 +1238,8 @@ img.my-agents-rectangle11 {
   line-height: 18px;
 }
 .my-agents-component-elements2 {
-  top: 8px;
-  right: 12px;
+  top: 12px;
+  right: 30px;
   width: 40px;
   display: flex;
   position: absolute;

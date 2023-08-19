@@ -40,15 +40,6 @@
                     img.interaction1-vector(src="/external/vectori652-ycl.svg", alt="VectorI652")
                     img.interaction1-vector01(src="/external/vectori652-djz.svg", alt="VectorI652")
                     img.interaction1-vector02(src="/external/vectori652-7jrq.svg", alt="VectorI652")
-        //- .my-agents-component-elements1
-        //-   .my-agents-segmented
-        //-     .my-agents-bar-segmented-variant3
-        //-       button.my-agents-button
-        //-         span.my-agents-text14.ButtonSmall
-        //-           span Discovery
-        //-       button.my-agents-button1(@click="goPage('match')")
-        //-         span.my-agents-text16.ButtonSmall
-        //-           span Match
         .interaction1-component-elements1
           button.interaction1-button-icon1
             .interaction1-iconsearch
