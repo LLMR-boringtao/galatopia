@@ -5,15 +5,9 @@
       <p>Fireworks Animation!</p>
     </vue-damp-fireworks>
     .page6-thumb-image
-      img.page6-rectangle1(src="/external/rectangle1i652-vx1q-300h.png", alt="Rectangle1I652")
-      .page6-frame9
-        span.page6-text
-          span Hailey, 21
+      img.page6-rectangle1(src="/external/zhouxiaonan_agent_pic_final.png", alt="Rectangle1I652")
     .page6-group492
-      img.page6-rectangle11(src="/external/rectangle1i652-btm-300h.png", alt="Rectangle1I652")
-      .page6-frame91
-        span.page6-text02
-          span Hailey, 21
+      img.page6-rectangle11(src="/external/zhangxiaoyue_profile_final Cropped (1).png", alt="Rectangle1I652")
     .page6-group464
       img.page6-star1(src="/external/star1i652-enec.svg", alt="Star1I652")
       img.page6-star3(src="/external/star3i652-369r.svg", alt="Star3I652")
@@ -57,12 +51,12 @@
                   img.page6-stroke1(src="/external/stroke1i652-36gw.svg", alt="Stroke1I652")
     span.page6-text06.ButtonDefault
       span
-        span You and Katie like each other. Why
+        span 周小楠 和 张小悦 似乎聊得很愉快
         br
-        span not make the first move?
+        span 为什么不亲自聊聊看呢？
     button.page6-button(@click='goPage("bot_chat_matched")')
-      span.page6-text11.ButtonDefault
-        span Chat Now
+      span.page6-text11.ButtonDefault_CH
+        span 开始聊天
 </template>
 
 <script>

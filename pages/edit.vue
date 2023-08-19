@@ -22,7 +22,7 @@
               span 自我介绍
           .page5-group454
             span.page5-text06
-              span A little bit about you...
+              span 刚用这个社交软件，怪有意思的，欢迎和我的周小楠闲聊。
         .page5-group453
           span.page5-text08.HeadlineHeadline6
             span 基本信息
@@ -40,7 +40,7 @@
                   span 工作
               .page5-frame470
                 span.page5-text12
-                  span Add
+                  span AI研究员
                 .page5-arrowright12
                   .page5-group03
                     .page5-group04
@@ -56,9 +56,9 @@
                             img.page5-combined-shape1(src="/external/combinedshapei652-kbzo.svg", alt="CombinedShapeI652")
                 span.page5-text14
                   span 学历
-              .page5-frame4701
+              .page5-frame470
                 span.page5-text16
-                  span Add
+                  span 机器学习硕士
                 .page5-arrowright121
                   .page5-group07
                     .page5-group08
@@ -70,7 +70,7 @@
                   span MBTI
               .page5-frame4702
                 span.page5-text20
-                  span Add
+                  span ENFJ
                 .page5-arrowright122
                   .page5-group09
                     .page5-group10
@@ -188,12 +188,12 @@
         img.page7-rectangle72(src="/external/zhouxiaonan_profile4_final.png", alt="Rectangle72I652")
         img.page7-rectangle73(src="/external/zhouxiaonan_profile2_final.png", alt="Rectangle73I652")
         a(href="/info_zn") 
-          img.page7-rectangle711(src="/external/zhouxiaonan_profile3_final.png", alt="Rectangle71I652")
+          img.page7-rectangle711(src="/external/zhouxiaonan_profile3.png", alt="Rectangle71I652")
         img.page7-rectangle721(src="/external/rectangle72i652-kpet-200h.png", alt="Rectangle72I652")
       .page7-frame458
         .page7-group455
           span.page7-text14.HeadlineHeadline5
-            span Connected accounts
+            span 关联账号
           span.page7-text16.BodyMini
             span Show off your Instagram and Music.
         .page7-frame478
@@ -516,7 +516,7 @@ export default {
   align-self: stretch;
   font-style: Regular;
   text-align: center;
-  font-family: ZCOOL KuaiLe;
+  font-family: ZCOOL XiaoWei;
   font-weight: 400;
   line-height: 40px;
   font-stretch: normal;
@@ -730,7 +730,7 @@ export default {
 }
 .page5-frame470 {
   gap: 6px;
-  width: 58px;
+  width: 128px;
   display: flex;
   align-items: center;
   flex-shrink: 0;

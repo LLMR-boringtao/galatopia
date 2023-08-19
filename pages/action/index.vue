@@ -420,7 +420,7 @@ export default {
   font-size: 20px;
   font-style: Regular;
   text-align: left;
-  font-family: ZCOOL KuaiLe;
+  font-family: ZCOOL XiaoWei;
   font-weight: 400;
   line-height: normal;
   font-stretch: normal;
@@ -486,7 +486,7 @@ export default {
   font-size: 20px;
   font-style: Regular;
   text-align: left;
-  font-family: ZCOOL KuaiLe;
+  font-family: ZCOOL XiaoWei;
   font-weight: 400;
   line-height: normal;
   font-stretch: normal;

@@ -19,7 +19,7 @@
           .interaction2-iconarrowleft
             img.interaction2-stroke1(src="/external/stroke1i652-gx98.svg", alt="Stroke1I652")
     .page8-frame512
-      img.page8-rectangle1(src="/external/zhangxiaoyue_profile2_big.png", alt="Rectangle1I694")
+      img.page8-rectangle1(src="/external/zhouxiaonan_profile2_big.png", alt="Rectangle1I694")
       .page8-frame5121
         .page8-progess-bar
           .page8-frame5
