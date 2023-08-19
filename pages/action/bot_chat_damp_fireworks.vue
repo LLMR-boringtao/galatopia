@@ -1,7 +1,11 @@
 <template lang="pug">
 .interaction2-container
   .interaction2-interaction2
+    
     img.interaction2-rectangle84(src="/external/rectangle84i652-gzhi-400w.png", alt="Rectangle84I652")
+    <vue-damp-fireworks v-if="showFireworks" :boxHeight="700" :boxWidth="500">
+      <p>Fireworks Animation!</p>
+    </vue-damp-fireworks>
     .chats
       .receive
         .interaction2-frame4321
@@ -118,21 +122,15 @@
     .interaction2-bottom-input
       .interaction2-frame73
           .interaction2-input-frame82
-              button.send-btn(@click='triggerFireworksAndNavigate')
+              button.send-btn(@click='toggleFireworks')
                   .interaction2-send21
                       .interaction2-group08
                           .interaction2-group09
                               img.interaction2-vector5(src="/external/vectori652-hgl.svg", alt="VectorI652")
-                              div.fireworks-container(v-if="showFireworks")
-                              div.fireworks-container(v-if="showFireworks")
       .interaction2-system-footer
         .interaction2-home-indicator
           img.interaction2-home-indicator1(src="/external/homeindicatori652-rawd-200h.png", alt="HomeIndicatorI652")
-      div.firework-effect(
-        v-for="firework in fireworks",
-        :key="firework.id", 
-        :style="{ animationDuration: firework.duration + 's', animationDelay: firework.delay + 's', background: firework.color }"
-    )
+    
 
 </template>
 
@@ -140,6 +138,10 @@
 import { mapState } from 'vuex'
 import axios from 'axios'
 import moment from 'moment'
+import Vue from 'vue'
+import VueFireworks from 'vue-damp-fireworks'
+
+Vue.use(VueFireworks)
 
 export default {
   middleware: 'user',
@@ -155,8 +157,7 @@ export default {
       messages: [],
       composedMessage: "",
       history: [],
-      showFireworks: false,
-      fireworks: []
+      showFireworks: false
     }
   },
 
@@ -166,32 +167,17 @@ export default {
     ])
   },
   components: {
-
+    VueFireworks
   },
   methods: {
     onClickLeft() {
       this.$router.go(-1)
     },
-    triggerFireworksAndNavigate() {
-        this.generateFireworks();
+    toggleFireworks() {
         this.showFireworks = true;
         setTimeout(() => {
-            this.showFireworks = false;
-            this.goPage("match");
-        }, 2000); // Assuming the longest firework lasts 2 seconds
-    },
-    generateFireworks() {
-        const colors = ['red', 'yellow', 'blue', 'green', 'orange', 'purple'];
-        const numFireworks = 5; // Number of fireworks
-
-        this.fireworks = Array.from({ length: numFireworks }).map((_, idx) => {
-            return {
-                id: idx,
-                color: colors[Math.floor(Math.random() * colors.length)],
-                duration: 0.5 + Math.random() * 1.5, // Between 0.5s and 2s
-                delay: Math.random() * 1 // Up to 1s delay
-            };
-        });
+            this.goPage('match');
+        }, 5000);
     },
     goPage (page, userID=1) {
       if (page === 'user') {
@@ -256,29 +242,15 @@ export default {
 
 </script>
 <style scoped>
-.fireworks-container {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 9999;
-}
-
-.firework-effect {
+.vue-damp-fireworks {
     position: absolute;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    animation-name: fireworks;
-    animation-timing-function: cubic-bezier(0.09, 0.57, 0.49, 0.9);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99999999;
+    /* background-color: rgba(0, 0, 0, 0.7); */
 }
-
-@keyframes fireworks {
-    0% { transform: scale(0.1); opacity: 1; }
-    100% { transform: scale(1); opacity: 0; }
-}
-
-
 .interaction2-container {
   width: 100%;
   display: flex;
@@ -286,6 +258,11 @@ export default {
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
+  z-index: 0;
+}
+.hidden-content {
+    opacity: 0;
+    pointer-events: none;  /* Prevent interaction with the hidden content */
 }
 .interaction2-interaction2 {
   width: 100%;
@@ -296,6 +273,7 @@ export default {
   align-items: flex-start;
   flex-shrink: 0;
   background-color: var(--dl-color-dark_background-100);
+  z-index: 0;
 }
 
 .chat-input {
@@ -306,20 +284,10 @@ export default {
   left: 0px;
   width: 100%;
   height: 566px;
-  opacity: 0.80;
+  /* opacity: 0.80; */
   position: absolute;
   border-radius: 24px;
 }
-/* .chats {
-  gap: 20px;
-  top: 120px;
-  left: 0px;
-  width: 100%;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-direction: column;
-} */
 
 .chats {
   gap: 20px;
@@ -332,6 +300,7 @@ export default {
   align-items: flex-start;
   flex-direction: column;
   overflow-y: auto;
+  z-index: 0;
 }
 .cents {
   gap: 6px;

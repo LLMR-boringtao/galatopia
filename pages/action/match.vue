@@ -1,6 +1,9 @@
 <template lang="pug">
 .page6-container
   .page6-frame
+    <vue-damp-fireworks v-if="showFireworks" :boxHeight="700" :boxWidth="500">
+      <p>Fireworks Animation!</p>
+    </vue-damp-fireworks>
     .page6-thumb-image
       img.page6-rectangle1(src="/external/rectangle1i652-vx1q-300h.png", alt="Rectangle1I652")
       .page6-frame9
@@ -66,6 +69,10 @@
 import { mapState } from 'vuex'
 import axios from 'axios'
 import moment from 'moment'
+import Vue from 'vue'
+import VueFireworks from 'vue-damp-fireworks'
+
+Vue.use(VueFireworks)
 
 export default {
   middleware: 'user',
@@ -88,7 +95,8 @@ export default {
         { id: 5, name: "黄小鹅", status: "online", img: "/img/avatar-5.jpg", msg: "Hey! there I'm available", url:"https://b26042a5c52f.ngrok.app"},
         { id: 6, name: "胡小花", status: "online", img: "/img/avatar-6.jpg", msg: "Hey! there I'm available", url:"https://c85eccdef31d.ngrok.ap"}
         // Add more users here...
-      ]
+      ],
+      showFireworks: true
     }
   },
 
@@ -98,14 +106,15 @@ export default {
     ])
   },
   components: {
-
+    VueFireworks
   },
   methods: {
     onClickLeft() {
       // 返回上一页的逻辑
       this.$router.go(-1)
     },
-
+    mounted() {
+    },
     goPage (page) {
       if (page === 'user') {
         this.$router.push('/action/user')
@@ -139,6 +148,29 @@ export default {
 
 </script>
 <style scoped>
+.vue-damp-fireworks {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99999999;
+    /* background-color: rgba(0, 0, 0, 0.7); */
+}
+.interaction2-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  z-index: 0;
+}
+.hidden-content {
+    opacity: 0;
+    pointer-events: none;  /* Prevent interaction with the hidden content */
+}
+
 .page6-container {
   width: 100%;
   display: flex;

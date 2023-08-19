@@ -1,11 +1,7 @@
 <template lang="pug">
 .interaction2-container
   .interaction2-interaction2
-    
-    img.interaction2-rectangle84(src="/external/rectangle84i652-gzhi-400w.png", alt="Rectangle84I652")(v-bind:class="{ 'hidden-content': showFireworks }")
-    <vue-damp-fireworks v-if="showFireworks" :boxHeight="700" :boxWidth="500">
-      <p>Fireworks Animation!</p>
-    </vue-damp-fireworks>
+    img.interaction2-rectangle84(src="/external/rectangle84i652-gzhi-400w.png", alt="Rectangle84I652")
     .chats
       //- <vue-damp-fireworks v-if="showFireworks" :boxHeight="800" :boxWidth="500">
       //-   <p>Fireworks Animation!</p>
@@ -125,7 +121,7 @@
     .interaction2-bottom-input
       .interaction2-frame73
           .interaction2-input-frame82
-              button.send-btn(@click='toggleFireworks')
+              button.send-btn(@click='goPage("match")')
                   .interaction2-send21
                       .interaction2-group08
                           .interaction2-group09
@@ -141,10 +137,6 @@
 import { mapState } from 'vuex'
 import axios from 'axios'
 import moment from 'moment'
-import Vue from 'vue'
-import VueFireworks from 'vue-damp-fireworks'
-
-Vue.use(VueFireworks)
 
 export default {
   middleware: 'user',
@@ -159,8 +151,7 @@ export default {
     return {
       messages: [],
       composedMessage: "",
-      history: [],
-      showFireworks: false
+      history: []
     }
   },
 
@@ -170,17 +161,10 @@ export default {
     ])
   },
   components: {
-    VueFireworks
   },
   methods: {
     onClickLeft() {
       this.$router.go(-1)
-    },
-    toggleFireworks() {
-        this.showFireworks = true;
-        setTimeout(() => {
-            this.goPage('match');
-        }, 5000);
     },
     goPage (page, userID=1) {
       if (page === 'user') {
@@ -245,28 +229,7 @@ export default {
 
 </script>
 <style scoped>
-.vue-damp-fireworks {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 99999999;
-    /* background-color: rgba(0, 0, 0, 0.7); */
-}
-.interaction2-container {
-  width: 100%;
-  display: flex;
-  overflow: auto;
-  min-height: 100vh;
-  align-items: center;
-  flex-direction: column;
-  z-index: 0;
-}
-.hidden-content {
-    opacity: 0;
-    pointer-events: none;  /* Prevent interaction with the hidden content */
-}
+
 .interaction2-interaction2 {
   width: 100%;
   height: 100vh;
