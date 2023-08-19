@@ -119,17 +119,25 @@
           //-     img.interaction2-union(src="/external/unioni652-88vi.svg", alt="UnionI652")
           div
     .interaction2-bottom-input
-      .interaction2-frame73
-          .interaction2-input-frame82
-              button.send-btn(@click='goPage("match")')
-                  .interaction2-send21
-                      .interaction2-group08
-                          .interaction2-group09
-                              img.interaction2-vector5(src="/external/vectori652-hgl.svg", alt="VectorI652")
+      drag-verify(
+        :width="360"
+        :height="60"
+        :text="'Drag to match'"
+        :success-text="'Matched!'"
+        :background="'black'"
+        :progress-bar-bg="progressBarBg"
+        :completed-bg="completedBg"
+        :handler-bg="handlerBg"
+        :handler-icon="handlerIcon"
+        :text-size="textSize"
+        :success-icon="successIcon"
+        :circle="getShape"
+        @passcallback="goPage('match')"
+      )
       .interaction2-system-footer
         .interaction2-home-indicator
           img.interaction2-home-indicator1(src="/external/homeindicatori652-rawd-200h.png", alt="HomeIndicatorI652")
-    
+
 
 </template>
 
@@ -137,8 +145,11 @@
 import { mapState } from 'vuex'
 import axios from 'axios'
 import moment from 'moment'
+import Vue from 'vue'
+import dragVerify from 'vue-drag-verify'
 
 export default {
+  name: 'app',
   middleware: 'user',
   layout: 'wechat',
   head() {
@@ -161,6 +172,12 @@ export default {
     ])
   },
   components: {
+    dragVerify
+  },
+  passcallback() {
+    setTimeout(() => {
+      this.goPage('match');
+    }, 2000); // 1 second delay
   },
   methods: {
     onClickLeft() {
@@ -1073,6 +1090,7 @@ export default {
   align-items: flex-start;
   flex-direction: column;
   background-color: var(--dl-color-dark_background-100);
+  padding: 0 15px;
 }
 .interaction2-frame4361 {
   gap: 18px;
