@@ -49,6 +49,7 @@
     "uuid": "^8.3.2",
     "vant": "^2.12.38",
     "vue-damp-fireworks": "^1.1.1",
+    "vue-drag-verify": "^1.0.6",
     "vue-quill-editor": "^3.0.6",
     "wechat-pay": "0.2.5",
     "xlsx": "^0.18.5",

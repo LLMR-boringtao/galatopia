@@ -43,13 +43,13 @@
         //-   span.interaction2-text09.ButtonLarge
         //-     span Eleanor Pena
         .interaction2-component-elements2
-          button.interaction2-button-icon1
+          button.interaction2-button-icon1(@click="goPage('bot_human_chat')")
             .interaction2-call1
               .interaction2-group04
                 .interaction2-group05
                   .interaction2-iconly-curved-call
                     .interaction2-call
-                      img.interaction2-stroke-stroke(src="/external/stroke1strokei652-ag5f.svg", alt="Stroke1StrokeI652")(@click="goPage('bot_human_chat')")
+                      img.interaction2-stroke-stroke(src="/external/stroke1strokei652-ag5f.svg", alt="Stroke1StrokeI652")
           //- .interaction2-component3
           //-   .interaction2-video2
           //-     img.interaction2-union(src="/external/unioni652-88vi.svg", alt="UnionI652")
