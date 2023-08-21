@@ -68,7 +68,7 @@
       span.interaction1-text08
         span Network
     .interaction1-frame2
-      .interaction1-list(@click="goPage('chat', 1)")
+      .interaction1-list(@click="goPage('chat', 7)")
         .interaction1-frame21
           img.interaction1-rectangle31(src="/external/张小玥 _chat_icon.png", alt="Rectangle31I652")
           .interaction1-frame3

@@ -39,9 +39,9 @@
           button.interaction2-button-icon(@click='goPage("action")')
             .interaction2-iconarrowleft
               img.interaction2-stroke1(src="/external/stroke1i652-gx98.svg", alt="Stroke1I652")
-        //- .interaction2-component-elements1
-        //-   span.interaction2-text09.ButtonLarge
-        //-     span Eleanor Pena
+        .interaction2-component-elements1
+          span.interaction2-text09.ButtonLarge
+            span 张小悦
         .interaction2-component-elements2
           button.interaction2-button-icon1(@click="goPage('bot_human_chat')")
             .interaction2-call1
@@ -938,6 +938,7 @@ export default {
   height: auto;
   text-align: left;
   line-height: 24px;
+  padding-left: 20px;
 }
 .interaction2-component-elements2 {
   gap: 8px;
