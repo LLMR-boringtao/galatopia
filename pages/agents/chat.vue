@@ -34,9 +34,9 @@
           button.interaction2-button-icon(@click="onClickLeft")
             .interaction2-iconarrowleft
               img.interaction2-stroke1(src="/external/stroke1i652-gx98.svg", alt="Stroke1I652")
-        //- .interaction2-component-elements1
-        //-   span.interaction2-text09.ButtonLarge
-        //-     span Eleanor Pena
+        .interaction2-component-elements1
+          span.interaction2-text09.ButtonLarge
+            span 周小楠
           //- .interaction2-component3
           //-   .interaction2-video2
           //-     img.interaction2-union(src="/external/unioni652-88vi.svg", alt="UnionI652")
@@ -925,6 +925,7 @@ export default {
   display: flex;
   position: absolute;
   align-items: center;
+  padding-left: 20px;
 }
 .interaction2-text09 {
   color: var(--dl-color-dark_element-100);
