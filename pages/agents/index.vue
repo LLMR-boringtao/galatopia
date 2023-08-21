@@ -8,9 +8,9 @@
             img.my-agents-rectangle11(src="/external/zhouxiaonan_agent_pic_final.png", alt="Rectangle1I652")
           span.wrapper(v-else)
             span.wrapper-text
-              | long...............
-              | ...................
-              | ..........text
+              | 兴趣爱好
+              | 性格特点
+              | 训练时间
       .my-agents-frame12(@click = 'handleChat')
         span.my-agents-text04
           span 周小楠
@@ -29,8 +29,16 @@
           .my-agents-discover1
             .my-agents-group06
               .my-agents-group07
-                img.my-agents-vector06(src="/external/vectori652-rzli.svg", alt="VectorI652")
+                img.my-agents-vector06(src="/external/vectori652-5d9qpg.svg", alt="VectorI652")
                 img.my-agents-vector07(src="/external/vectori652-2lv8.svg", alt="VectorI652")
+        .my-agents-component-tab-bar1(@click='goPage("agents")')
+          .my-agents-ticket1
+            .my-agents-group08
+              .my-agents-group09
+                img.my-agents-vector08(src="/external/vectori652-62fg.svg", alt="VectorI652")
+                img.my-agents-vector09(src="/external/vectori652-xxgb.svg", alt="VectorI652")
+                img.my-agents-vector10(src="/external/vectori652-khsd.svg", alt="VectorI652")
+                img.my-agents-vector11(src="/external/vectori652-zv4d.svg", alt="VectorI652")
         .my-agents-component-tab-bar2(@click='goPage("action")')
           .my-agents-messages11
             .my-agents-group10
@@ -42,18 +50,9 @@
           .my-agents-profilecircle2
             .my-agents-group12
               .my-agents-group13
-                img.my-agents-vector08(src="/external/vectori652-62fg.svg", alt="VectorI652")
-                img.my-agents-vector09(src="/external/vectori652-xxgb.svg", alt="VectorI652")
-                img.my-agents-vector10(src="/external/vectori652-khsd.svg", alt="VectorI652")
-                img.my-agents-vector11(src="/external/vectori652-zv4d.svg", alt="VectorI652") 
-        .my-agents-component-tab-bar1(@click='goPage("agents")')
-          .my-agents-ticket1
-            .my-agents-group08
-              .my-agents-group09
                 img.my-agents-vector15(src="/external/vectori652-xnj.svg", alt="VectorI652")
                 img.my-agents-vector16(src="/external/vectori652-94qp.svg", alt="VectorI652")
                 img.my-agents-vector17(src="/external/vectori652-750o.svg", alt="VectorI652")
-        
       .my-agents-system-footer
         .my-agents-home-indicator
           img.my-agents-home-indicator1(src="/external/homeindicatori652-rmm-200h.png", alt="HomeIndicatorI652")
@@ -89,8 +88,6 @@
                   .my-agents-group16
                     img.my-agents-vector24(src="/external/vectori652-04q4.svg", alt="VectorI652")
                     img.my-agents-vector25(src="/external/vectori652-rbxd.svg", alt="VectorI652")
-        //- .my-agents-component-elements3
-        //-     span 周小楠
         .my-agents-component-elements2
           button.my-agents-button-icon1(@click='goPage("notify")')
             .my-agents-notificationbing1
@@ -483,7 +480,7 @@ img.my-agents-rectangle11 {
   font-size: 16px;
   font-style: Medium;
   text-align: left;
-  font-family: ZCOOL XiaoWei;
+  font-family: Noto Sans;
   font-weight: 500;
   line-height: 22px;
   font-stretch: normal;
@@ -672,6 +669,7 @@ img.my-agents-rectangle11 {
   left: 0px;
   width: 23px;
   height: 23px;
+  opacity: 0.40;
   position: absolute;
 }
 .my-agents-vector07 {
@@ -686,7 +684,7 @@ img.my-agents-rectangle11 {
   width: 28px;
   height: 28px;
   display: flex;
-  padding: 18px 23px;
+  padding: 23px;
   position: relative;
   flex-grow: 1;
   align-self: stretch;
@@ -827,7 +825,6 @@ img.my-agents-rectangle11 {
   align-self: stretch;
   align-items: center;
   justify-content: center;
-  margin-top: 4px;
 }
 .my-agents-profilecircle2 {
   top: 18px;
@@ -1247,16 +1244,6 @@ img.my-agents-rectangle11 {
   display: flex;
   position: absolute;
   align-items: flex-start;
-}
-.my-agents-component-elements3 {
-  top: 15px;
-  right: 180px;
-  width: 40px;
-  display: flex;
-  position: absolute;
-  color: white;
-  align-items: flex-start;
-  width: 60px;
 }
 .my-agents-button-icon1 {
   border: none;
