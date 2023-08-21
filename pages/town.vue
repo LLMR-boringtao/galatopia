@@ -29,7 +29,7 @@
                         img.town-vector(src="/external/vectori652-uzs.svg", alt="VectorI652")
                         img.town-vector01(src="/external/vectori652-y7cc.svg", alt="VectorI652")
                   span.town-text10.ButtonSmall
-                    span Distance (3km)
+                    span 距离 1km
           .town-group488
             .town-frame475
               .town-frame492
@@ -61,7 +61,7 @@
                         img.town-vector02(src="/external/vectori652-iszw.svg", alt="VectorI652")
                         img.town-vector03(src="/external/vectori652-r9mu.svg", alt="VectorI652")
                   span.town-text22
-                    span Distance (3km)
+                    span 距离 2km
           .town-group4881
             .town-frame4751
               .town-frame4921
