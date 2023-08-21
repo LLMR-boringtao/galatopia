@@ -29,15 +29,15 @@
                         img.town-vector(src="/external/vectori652-uzs.svg", alt="VectorI652")
                         img.town-vector01(src="/external/vectori652-y7cc.svg", alt="VectorI652")
                   span.town-text10.ButtonSmall
-                    span Distance (3km)
+                    span 距离 1km
           .town-group488
             .town-frame475
               .town-frame492
                 span.town-text12.ButtonSmall
-                  span 13:00 PM
+                  span 13:00PM
               .town-frame491
                 span.town-text14.ButtonSmall
-                  span 18:00 PM
+                  span 18:00PM
             .town-group474
               img.town-ellipse20(src="/external/ellipse20i652-vqkn-200h.png", alt="Ellipse20I652")
               img.town-ellipse21(src="/external/ellipse21i652-q4mf-200h.png", alt="Ellipse21I652")
@@ -49,10 +49,10 @@
               span.town-text16
                 span Oct
               span.town-text18
-                span 19
+                span 25
             .town-frame4631
               span.town-text20
-                span 走！ 想去海边 （白崖）
+                span 天气热到🔥想去海边！
               .town-group4461
                 .town-frame4621
                   .town-location21
@@ -61,15 +61,15 @@
                         img.town-vector02(src="/external/vectori652-iszw.svg", alt="VectorI652")
                         img.town-vector03(src="/external/vectori652-r9mu.svg", alt="VectorI652")
                   span.town-text22
-                    span Distance (3km)
+                    span 距离 2km
           .town-group4881
             .town-frame4751
               .town-frame4921
                 span.town-text24
-                  span 09:00 AM
+                  span 09:00AM
               .town-frame4911
                 span.town-text26
-                  span 20:00 PM
+                  span 20:00PM
             .town-group4741
               img.town-ellipse201(src="/external/ellipse20i652-5mnk-200h.png", alt="Ellipse20I652")
               img.town-ellipse211(src="/external/ellipse21i652-6et4-200h.png", alt="Ellipse21I652")
