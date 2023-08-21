@@ -623,7 +623,8 @@ export default {
 }
 .page5-frame476 {
   gap: 8px;
-  top: 36px;
+  top: 16px;
+  margin-top: -22px;
   left: 0px;
   display: flex;
   position: absolute;
