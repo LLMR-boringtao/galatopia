@@ -29,16 +29,8 @@
           .my-agents-discover1
             .my-agents-group06
               .my-agents-group07
-                img.my-agents-vector06(src="/external/vectori652-5d9qpg.svg", alt="VectorI652")
+                img.my-agents-vector06(src="/external/vectori652-rzli.svg", alt="VectorI652")
                 img.my-agents-vector07(src="/external/vectori652-2lv8.svg", alt="VectorI652")
-        .my-agents-component-tab-bar1(@click='goPage("agents")')
-          .my-agents-ticket1
-            .my-agents-group08
-              .my-agents-group09
-                img.my-agents-vector08(src="/external/vectori652-62fg.svg", alt="VectorI652")
-                img.my-agents-vector09(src="/external/vectori652-xxgb.svg", alt="VectorI652")
-                img.my-agents-vector10(src="/external/vectori652-khsd.svg", alt="VectorI652")
-                img.my-agents-vector11(src="/external/vectori652-zv4d.svg", alt="VectorI652")
         .my-agents-component-tab-bar2(@click='goPage("action")')
           .my-agents-messages11
             .my-agents-group10
@@ -50,9 +42,18 @@
           .my-agents-profilecircle2
             .my-agents-group12
               .my-agents-group13
+                img.my-agents-vector08(src="/external/vectori652-62fg.svg", alt="VectorI652")
+                img.my-agents-vector09(src="/external/vectori652-xxgb.svg", alt="VectorI652")
+                img.my-agents-vector10(src="/external/vectori652-khsd.svg", alt="VectorI652")
+                img.my-agents-vector11(src="/external/vectori652-zv4d.svg", alt="VectorI652") 
+        .my-agents-component-tab-bar1(@click='goPage("agents")')
+          .my-agents-ticket1
+            .my-agents-group08
+              .my-agents-group09
                 img.my-agents-vector15(src="/external/vectori652-xnj.svg", alt="VectorI652")
                 img.my-agents-vector16(src="/external/vectori652-94qp.svg", alt="VectorI652")
                 img.my-agents-vector17(src="/external/vectori652-750o.svg", alt="VectorI652")
+        
       .my-agents-system-footer
         .my-agents-home-indicator
           img.my-agents-home-indicator1(src="/external/homeindicatori652-rmm-200h.png", alt="HomeIndicatorI652")
@@ -669,7 +670,6 @@ img.my-agents-rectangle11 {
   left: 0px;
   width: 23px;
   height: 23px;
-  opacity: 0.40;
   position: absolute;
 }
 .my-agents-vector07 {
@@ -684,7 +684,7 @@ img.my-agents-rectangle11 {
   width: 28px;
   height: 28px;
   display: flex;
-  padding: 23px;
+  padding: 18px 23px;
   position: relative;
   flex-grow: 1;
   align-self: stretch;
@@ -825,6 +825,7 @@ img.my-agents-rectangle11 {
   align-self: stretch;
   align-items: center;
   justify-content: center;
+  margin-top: 4px;
 }
 .my-agents-profilecircle2 {
   top: 18px;

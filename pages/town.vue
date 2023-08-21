@@ -115,13 +115,6 @@
               .town-group08
                 img.town-vector12(src="/external/vectori652-rzli.svg", alt="VectorI652")
                 img.town-vector13(src="/external/vectori652-dtyp.svg", alt="VectorI652")
-        .town-component-tab-bar1(@click = "goPage('agents')")
-          .town-ticketstar1
-            .town-ticket2
-              .town-group09
-                .town-group10
-                  img.town-vector14(src="/external/vectori652-sn8a.svg", alt="VectorI652")
-                  img.town-vector15(src="/external/vectori652-gk08.svg", alt="VectorI652")
         .town-component-tab-bar2(@click = "goPage('action')")
           .town-messages11
             .town-group11
@@ -129,7 +122,14 @@
                 img.town-vector16(src="/external/vectori652-8rw5.svg", alt="VectorI652")
                 img.town-vector17(src="/external/vectori652-jn1e.svg", alt="VectorI652")
                 img.town-vector18(src="/external/vectori652-hk.svg", alt="VectorI652")
-        .town-component-tab-bar3()
+        .town-component-tab-bar1(@click = "goPage('town')")
+          .town-ticketstar1
+            .town-ticket2
+              .town-group09
+                .town-group10
+                  img.town-vector14(src="/external/vectori652-sn8a.svg", alt="VectorI652")
+                  img.town-vector15(src="/external/vectori652-gk08.svg", alt="VectorI652")
+        .town-component-tab-bar3(@click = "goPage('agents')")
           .town-profilecircle2
             .town-group13
               .town-group14
