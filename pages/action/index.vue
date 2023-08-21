@@ -135,7 +135,7 @@
               span.interaction1-text28.ButtonDefault_CH
                 span 黄小鹅
               span.interaction1-text12.ButtonMini
-                span 2:30 pm
+                span 10:03 am
             span.interaction1-text32.BodyMini
               span.
                 
