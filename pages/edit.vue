@@ -63,7 +63,7 @@
                   .page5-group07
                     .page5-group08
                       img.page5-vector07(src="/external/vectori652-aj74.svg", alt="VectorI652")
-            .page5-frame473
+            .page5-frame472
               .page5-frame4692
                 img.page5-leo1(src="/external/leo1i652-slar.svg", alt="leo1I652")
                 span.page5-text18
