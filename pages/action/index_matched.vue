@@ -13,10 +13,10 @@
           span.interaction1-text04_CH
             span 陈小曦
       .interaction1-frame475
-        img.interaction1-rectangle301(src="/external/zhangxiaoyue_profile_final.png", alt="Rectangle30I652")
+        img.interaction1-rectangle301(src="/external/刘小萱_icon_final.png", alt="Rectangle30I652")
         .interaction1-frame4741
           span.interaction1-text02_CH
-            span 张大雄
+            span 刘小萱
     .interaction1-navigation
       .interaction1-system-status
         .interaction1-notch
@@ -70,7 +70,7 @@
     .interaction1-frame2
       .interaction1-list(@click="goPage('chat', 1)")
         .interaction1-frame21
-          img.interaction1-rectangle31(src="/external/wuxiaoting_icon-modified.png", alt="Rectangle31I652")
+          img.interaction1-rectangle31(src="/external/张小玥 _chat_icon.png", alt="Rectangle31I652")
           .interaction1-frame3
             .interaction1-frame22
               span.interaction1-text10.ButtonDefault_CH
@@ -131,7 +131,7 @@
                 span 2:30 pm
             span.interaction1-text32.BodyMini
               span.
-              
+
                 我的球拍是不是在你这里呀，记忆力完全错乱
       .interaction1-frame9(@click="goPage('chat', 5)")
         .interaction1-frame25
