@@ -147,8 +147,7 @@
           .interaction1-discover11
             .interaction1-group05
               .interaction1-group06
-                img.interaction1-vector11(src="/external/vectori652-wsmc.svg", alt="VectorI652")
-                img.interaction1-vector12(src="/external/vectori652-843b.svg", alt="VectorI652")
+                img.interaction1-vector11(src="/external/主页.svg", alt="VectorI652")
         .interaction1-component-tab-bar2(@click="goPage('action')")
           .interaction1-messages1
             .interaction1-group09
