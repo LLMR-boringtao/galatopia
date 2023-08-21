@@ -74,7 +74,7 @@
               img.town-ellipse201(src="/external/ellipse20i652-5mnk-200h.png", alt="Ellipse20I652")
               img.town-ellipse211(src="/external/ellipse21i652-6et4-200h.png", alt="Ellipse21I652")
               img.town-ellipse221(src="/external/ellipse22i652-z02-200h.png", alt="Ellipse22I652")
-          img.town-rectangle831(src="/external/rectangle83i652-hf3i-200h.png", alt="Rectangle83I652")
+          img.town-rectangle831(src="/external/白崖_final.png", alt="Rectangle83I652")
     .town-title
       .town-group04
         img.town-vector04(src="/external/vectori652-9uk.svg", alt="VectorI652")
@@ -113,15 +113,12 @@
           .town-discover11
             .town-group07
               .town-group08
-                img.town-vector12(src="/external/vectori652-rzli.svg", alt="VectorI652")
-                img.town-vector13(src="/external/vectori652-dtyp.svg", alt="VectorI652")
+                img.town-vector12(src="/external/主页.svg", alt="VectorI652")
         .town-component-tab-bar2(@click = "goPage('action')")
           .town-messages11
             .town-group11
               .town-group12
-                img.town-vector16(src="/external/vectori652-8rw5.svg", alt="VectorI652")
-                img.town-vector17(src="/external/vectori652-jn1e.svg", alt="VectorI652")
-                img.town-vector18(src="/external/vectori652-hk.svg", alt="VectorI652")
+                img.town-vector16(src="/external/network.svg", alt="VectorI652")
         .town-component-tab-bar1(@click = "goPage('town')")
           .town-ticketstar1
             .town-ticket2
@@ -133,8 +130,7 @@
           .town-profilecircle2
             .town-group13
               .town-group14
-                img.town-vector19(src="/external/vectori652-t9zs.svg", alt="VectorI652")
-                img.town-vector20(src="/external/vectori652-jmfc.svg", alt="VectorI652")
+                img.town-vector20(src="/external/bot.svg", alt="VectorI652")
                 img.town-vector21(src="/external/vectori652-9a6q.svg", alt="VectorI652")
       .town-system-footer
         .town-home-indicator

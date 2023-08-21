@@ -27,7 +27,7 @@
               span.town-suncity-text02
                 span +23
           span.town-suncity-text04
-            span View All
+            span 查看全部
         .town-suncity-frame512
           .town-suncity-frame487
             button.town-suncity-button-icon

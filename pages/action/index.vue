@@ -152,9 +152,7 @@
           .interaction1-messages1
             .interaction1-group09
               .interaction1-group10
-                img.interaction1-vector17(src="/external/vectori652-vavp.svg", alt="VectorI652")
-                img.interaction1-vector18(src="/external/vectori652-4xqd.svg", alt="VectorI652")
-                img.interaction1-vector19(src="/external/vectori652-dhpk.svg", alt="VectorI652")
+                img.interaction1-vector17(src="/external/network.svg", alt="VectorI652")
         .interaction1-component-tab-bar1(@click="goPage('town')")
           .interaction1-ticket1
             .interaction1-group07
