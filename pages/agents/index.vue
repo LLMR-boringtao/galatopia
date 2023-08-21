@@ -411,7 +411,7 @@ img.my-agents-rectangle11 {
   align-self: stretch;
   font-style: Regular;
   text-align: left;
-  font-family: ZCOOL KuaiLe;
+  font-family: Noto Sans;
   font-weight: 400;
   line-height: 40px;
   font-stretch: normal;
@@ -481,7 +481,7 @@ img.my-agents-rectangle11 {
   font-size: 16px;
   font-style: Medium;
   text-align: left;
-  font-family: ZCOOL KuaiLe;
+  font-family: ZCOOL XiaoWei;
   font-weight: 500;
   line-height: 22px;
   font-stretch: normal;

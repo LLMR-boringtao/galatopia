@@ -70,7 +70,7 @@
                 span 2:30 pm
             span.interaction1-text14.BodyMini
               span.
-                我靠，你也在海德公园，快来一起喂鸽子！
+                嗨！你也在海德公园，快来一起喂鸽子！
                 
       .interaction1-frame8(@click="goPage('chat', 2)")
         .interaction1-frame21
@@ -107,7 +107,7 @@
             .interaction1-frame28
               span.interaction1-text28.ButtonDefault_CH
                 span 陈小昊
-              span.interaction1-text30.ButtonMini
+              span.interaction1-text12.ButtonMini
                 span 2:30 pm
             span.interaction1-text32.BodyMini
               span.
@@ -134,7 +134,7 @@
             .interaction1-frame28
               span.interaction1-text28.ButtonDefault_CH
                 span 黄小鹅
-              span.interaction1-text30.ButtonMini
+              span.interaction1-text12.ButtonMini
                 span 2:30 pm
             span.interaction1-text32.BodyMini
               span.
@@ -411,7 +411,7 @@ export default {
   font-size: 20px;
   font-style: Regular;
   text-align: left;
-  font-family: ZCOOL KuaiLe;
+  font-family: Noto Sans;
   font-weight: 400;
   line-height: normal;
   font-stretch: normal;
@@ -477,7 +477,7 @@ export default {
   font-size: 20px;
   font-style: Regular;
   text-align: left;
-  font-family: ZCOOL KuaiLe;
+  font-family: Noto Sans;
   font-weight: 400;
   line-height: normal;
   font-stretch: normal;

@@ -6,10 +6,10 @@
         .town-bar-segmented-variant3
           button.town-button
             span.town-text.ButtonSmall
-              span All Party
+              span 活动列表
           button.town-button1
             span.town-text.ButtonSmall
-              span I’m in
+              span 我已参加
       .town-frame517(@click="goPage('suncity')")
         .town-list
           .town-frame465

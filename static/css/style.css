@@ -347,21 +347,21 @@
 .ButtonSmall {
   font-size: 14px;
   font-style: normal;
-  font-family: ZCOOL KuaiLe;
+  font-family: Noto Sans;
   font-weight: 500px;
   font-stretch: normal;
 }
 .BodySmall {
   font-size: 14px;
   font-style: normal;
-  font-family: ZCOOL KuaiLe;
+  font-family: Noto Sans;
   font-weight: 400px;
   font-stretch: normal;
 }
 .ButtonMini {
   font-size: 12px;
   font-style: normal;
-  font-family: ZCOOL KuaiLe;
+  font-family: Noto Sans;
   font-weight: 500px;
   font-stretch: normal;
 }
@@ -389,7 +389,7 @@
 .ButtonDefault_CH {
   font-size: 16px;
   font-style: normal;
-  font-family: ZCOOL KuaiLe;
+  font-family: Noto Sans;
   font-weight: 500px;
   font-stretch: normal;
 }
@@ -403,13 +403,13 @@
 .HeadingHeading3 {
   font-size: 80px;
   font-style: normal;
-  font-family: ZCOOL KuaiLe;
+  font-family: Noto Sans;
   font-weight: 700px;
   font-stretch: normal;
 }
 .HeadingHeading1 {
   font-size: 96px;
-  font-style: ZCOOL KuaiLe;
+  font-style: Noto Sans;
   font-family: Aeonik;
   font-weight: 700px;
   font-stretch: normal;
@@ -417,7 +417,7 @@
 .HeadlineHeadline3 {
   font-size: 28px;
   font-style: normal;
-  font-family: ZCOOL KuaiLe;
+  font-family: ZCOOL XiaoWei;
   font-weight: 700px;
   font-stretch: normal;
 }

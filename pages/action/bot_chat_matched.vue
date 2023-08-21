@@ -20,7 +20,7 @@
                 br
                 span to long since we were all together
                 span
-                  img.interaction1-rectangle301(src="/external/zhangxiaoyue_profile_final.png", alt="Rectangle30I652")
+                  img.interaction1-rectangle301(src="/external/zhangxiaoyue_match_chat.png")
     .interaction2-navigation
       .interaction2-system-status
         .interaction2-notch
