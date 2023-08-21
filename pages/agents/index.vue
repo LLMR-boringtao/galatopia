@@ -89,6 +89,8 @@
                   .my-agents-group16
                     img.my-agents-vector24(src="/external/vectori652-04q4.svg", alt="VectorI652")
                     img.my-agents-vector25(src="/external/vectori652-rbxd.svg", alt="VectorI652")
+        .my-agents-component-elements3
+            span 周小楠
         .my-agents-component-elements2
           button.my-agents-button-icon1(@click='goPage("notify")')
             .my-agents-notificationbing1
@@ -1245,6 +1247,16 @@ img.my-agents-rectangle11 {
   display: flex;
   position: absolute;
   align-items: flex-start;
+}
+.my-agents-component-elements3 {
+  top: 15px;
+  right: 180px;
+  width: 40px;
+  display: flex;
+  position: absolute;
+  color: white;
+  align-items: flex-start;
+  width: 60px;
 }
 .my-agents-button-icon1 {
   border: none;
