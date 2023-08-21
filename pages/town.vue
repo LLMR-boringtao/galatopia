@@ -74,7 +74,7 @@
               img.town-ellipse201(src="/external/ellipse20i652-5mnk-200h.png", alt="Ellipse20I652")
               img.town-ellipse211(src="/external/ellipse21i652-6et4-200h.png", alt="Ellipse21I652")
               img.town-ellipse221(src="/external/ellipse22i652-z02-200h.png", alt="Ellipse22I652")
-          img.town-rectangle831(src="/external/rectangle83i652-hf3i-200h.png", alt="Rectangle83I652")
+          img.town-rectangle831(src="/external/白崖_final.png", alt="Rectangle83I652")
     .town-title
       .town-group04
         img.town-vector04(src="/external/vectori652-9uk.svg", alt="VectorI652")
