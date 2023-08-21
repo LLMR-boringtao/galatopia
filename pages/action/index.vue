@@ -107,7 +107,8 @@
             .interaction1-frame28
               span.interaction1-text28.ButtonDefault_CH
                 span 陈小昊
-              span.interaction1-text30.ButtonMini
+              span.interaction1-text12
+              .ButtonMini
                 span 2:30 pm
             span.interaction1-text32.BodyMini
               span.
@@ -411,7 +412,7 @@ export default {
   font-size: 20px;
   font-style: Regular;
   text-align: left;
-  font-family: ZCOOL XiaoWei;
+  font-family: Noto Sans;
   font-weight: 400;
   line-height: normal;
   font-stretch: normal;

@@ -431,7 +431,7 @@ export default {
   font-size: 20px;
   font-style: Regular;
   text-align: left;
-  font-family: ZCOOL XiaoWei;
+  font-family: Noto+Sans;
   font-weight: 400;
   line-height: normal;
   font-stretch: normal;

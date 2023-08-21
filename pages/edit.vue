@@ -516,7 +516,7 @@ export default {
   align-self: stretch;
   font-style: Regular;
   text-align: center;
-  font-family: ZCOOL XiaoWei;
+  font-family: Noto Sans;
   font-weight: 400;
   line-height: 40px;
   font-stretch: normal;
