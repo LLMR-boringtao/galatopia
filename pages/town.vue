@@ -953,7 +953,7 @@ export default {
 .town-component-elements {
   gap: 10px;
   top: 8px;
-  left: 319px;
+  left: 336px;
   width: 40px;
   display: flex;
   position: absolute;
