@@ -891,7 +891,7 @@ export default {
 }
 .news-component-elements2 {
   top: 8px;
-  left: 319px;
+  left: 336px;
   width: 40px;
   display: flex;
   position: absolute;
