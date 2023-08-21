@@ -76,10 +76,10 @@
               span.interaction1-text10.ButtonDefault_CH
                 span 张小悦
               span.interaction1-text12.ButtonMini
-                span 2:30 pm
+                span 18:47 pm
             span.interaction1-text14.BodyMini
               span.
-                你也在海德公园，快来一起喂鸽子！
+                很高兴认识你呀！听 小悦 说你也是喜欢乐队嘛！
       .interaction1-list(@click="goPage('chat', 1)")
         .interaction1-frame21
           img.interaction1-rectangle31(src="/external/wuxiaoting_icon-modified.png", alt="Rectangle31I652")
@@ -88,7 +88,7 @@
               span.interaction1-text10.ButtonDefault_CH
                 span 吴小婷
               span.interaction1-text12.ButtonMini
-                span 2:30 pm
+                span 16:30 pm
             span.interaction1-text14.BodyMini
               span.
                 你也在海德公园，快来一起喂鸽子！      
@@ -100,7 +100,7 @@
               span.interaction1-text16.ButtonDefault_CH
                 span 杨小刚
               span.interaction1-text18.ButtonMini
-                span 1:34 pm
+                span 16:04 pm
             span.interaction1-text20.BodyMini
               span.
                 
@@ -114,7 +114,7 @@
               span.interaction1-text22.ButtonDefault_CH
                 span 胡小花
               span.interaction1-text24.ButtonMini
-                span 1:24 pm
+                span 15:24 pm
             span.interaction1-text26.BodyMini
               span.
                 
@@ -128,7 +128,7 @@
               span.interaction1-text28.ButtonDefault_CH
                 span 陈小昊
               span.interaction1-text12.ButtonMini
-                span 2:30 pm
+                span 14:30 pm
             span.interaction1-text32.BodyMini
               span.
 
@@ -141,7 +141,7 @@
               span.interaction1-text22.ButtonDefault_CH
                 span 张小雯
               span.interaction1-text24.ButtonMini
-                span 1:24 pm
+                span 12:24 pm
             span.interaction1-text26.BodyMini
               span.
                 
@@ -155,7 +155,7 @@
               span.interaction1-text28.ButtonDefault_CH
                 span 黄小鹅
               span.interaction1-text12.ButtonMini
-                span 2:30 pm
+                span 10:03 am
             span.interaction1-text32.BodyMini
               span.
                 
