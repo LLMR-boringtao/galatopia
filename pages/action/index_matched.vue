@@ -173,10 +173,7 @@
           .interaction1-ticket1
             .interaction1-group07
               .interaction1-group08
-                img.interaction1-vector13(src="/external/vectori652-ye2c.svg", alt="VectorI652")
-                img.interaction1-vector14(src="/external/vectori652-yjuj.svg", alt="VectorI652")
-                img.interaction1-vector15(src="/external/vectori652-858.svg", alt="VectorI652")
-                img.interaction1-vector16(src="/external/vectori652-p725.svg", alt="VectorI652")
+                img.interaction1-vector13(src="/external/搜索_G.svg", alt="VectorI652")
         .interaction1-component-tab-bar2(@click="goPage('action')")
           .interaction1-messages1
             .interaction1-group09

@@ -7,7 +7,7 @@
           img.news-rectangle1(src="/external/rectangle1i652-fr6-200w.png", alt="Rectangle1I652")
           .news-frame9
             span.news-text
-              span 张小玥，她想请你一杯冰拿铁！
+              span 张小悦，她想请你一杯冰拿铁！
             .news-frame2
               img.news-ellipse1(src="/external/ellipse1i652-9t0w-200h.png", alt="Ellipse1I652")
               span.news-status
@@ -81,7 +81,8 @@
               .news-setting22
                 .news-group
                   .news-group01
-                    img.news-vector(src="/external/设置.svg", alt="VectorI652")
+                    img.news-vector(src="/external/vectori652-f7bt.svg", alt="VectorI652")
+                    img.news-vector01(src="/external/vectori652-z4r.svg", alt="VectorI652")
         .news-component-elements2
           button.news-button-icon1(@click="goPage('notify')")
             .news-notificationbing1
@@ -97,23 +98,17 @@
           .news-discover1
             .news-group04
               .news-group05
-                img.news-vector05(src="/external/vectori652-2ota.svg", alt="VectorI652")
-                img.news-vector06(src="/external/vectori652-qf5g.svg", alt="VectorI652")
+                img.news-vector05(src="/external/主页.svg", alt="VectorI652")
         .news-component-tab-bar1(@click="goPage('action')")
           .news-ticket1
             .news-group06
               .news-group07
-                img.news-vector07(src="/external/vectori652-y7im.svg", alt="VectorI652")
-                img.news-vector08(src="/external/vectori652-87.svg", alt="VectorI652")
-                img.news-vector09(src="/external/vectori652-dr3b.svg", alt="VectorI652")
-                img.news-vector10(src="/external/vectori652-y1lj.svg", alt="VectorI652")
+                img.news-vector07(src="/external/network.svg", alt="VectorI652")
         .news-component-tab-bar2(@click="goPage('town')")
           .news-messages11
             .news-group08
               .news-group09
-                img.news-vector11(src="/external/vectori652-z8y6.svg", alt="VectorI652")
-                img.news-vector12(src="/external/vectori652-rf8o.svg", alt="VectorI652")
-                img.news-vector13(src="/external/vectori652-jhoe.svg", alt="VectorI652")
+                img.news-vector11(src="/external/搜索_G.svg", alt="VectorI652")
         .news-component-tab-bar3(@click="goPage('agents')")
           .news-profilecircle2
             .news-group10
@@ -813,10 +808,10 @@ export default {
   flex-shrink: 1;
 }
 .news-vector {
-  top: 0px;
-  left: 0px;
-  width: 24px;
-  height: 24px;
+  top: 6.437786102294922px;
+  left: 7px;
+  width: 7px;
+  height: 7px;
   position: absolute;
 }
 .news-vector01 {
@@ -1164,8 +1159,8 @@ export default {
 .news-vector11 {
   top: 0px;
   left: 0px;
-  width: 19px;
-  height: 21px;
+  width: 23px;
+  height: 23px;
   position: absolute;
 }
 .news-vector12 {

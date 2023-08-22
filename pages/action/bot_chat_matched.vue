@@ -1009,6 +1009,14 @@ export default {
   align-items: flex-start;
   flex-shrink: 1;
 }
+.interaction2-stroke-stroke_2 {
+  top: -2px;
+  left: 0px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+
 .interaction2-stroke-stroke {
   top: -2px;
   left: -2px;

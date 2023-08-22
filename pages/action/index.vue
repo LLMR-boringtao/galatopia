@@ -157,10 +157,7 @@
           .interaction1-ticket1
             .interaction1-group07
               .interaction1-group08
-                img.interaction1-vector13(src="/external/vectori652-ye2c.svg", alt="VectorI652")
-                img.interaction1-vector14(src="/external/vectori652-yjuj.svg", alt="VectorI652")
-                img.interaction1-vector15(src="/external/vectori652-858.svg", alt="VectorI652")
-                img.interaction1-vector16(src="/external/vectori652-p725.svg", alt="VectorI652")
+                img.interaction1-vector13(src="/external/搜索_G.svg", alt="VectorI652")
         .interaction1-component-tab-bar3(@click="goPage('agent')")
           .interaction1-profilecircle2
             .interaction1-group11
@@ -1389,8 +1386,8 @@ export default {
 .interaction1-vector17 {
   top: 0px;
   left: 0px;
-  width: 17px;
-  height: 19px;
+  width: 19px;
+  height: 21px;
   opacity: 0.40;
   position: absolute;
 }

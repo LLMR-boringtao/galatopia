@@ -129,8 +129,7 @@
             .town-ticket2
               .town-group09
                 .town-group10
-                  img.town-vector14(src="/external/vectori652-sn8a.svg", alt="VectorI652")
-                  img.town-vector15(src="/external/vectori652-gk08.svg", alt="VectorI652")
+                  img.town-vector14(src="/external/搜索_G.svg", alt="VectorI652")
         .town-component-tab-bar3(@click = "goPage('agents')")
           .town-profilecircle2
             .town-group13
@@ -1175,8 +1174,8 @@ export default {
 .town-vector14 {
   top: 0px;
   left: 0px;
-  width: 10px;
-  height: 20px;
+  width: 23px;
+  height: 23px;
   position: absolute;
 }
 .town-vector15 {
@@ -1233,7 +1232,7 @@ export default {
 .town-vector16 {
   top: 0px;
   left: 0px;
-  width: 19px;
+  width: 21px;
   height: 21px;
   position: absolute;
 }

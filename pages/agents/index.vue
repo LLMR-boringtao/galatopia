@@ -29,23 +29,17 @@
           .my-agents-discover1
             .my-agents-group06
               .my-agents-group07
-                img.my-agents-vector06(src="/external/vectori652-5d9qpg.svg", alt="VectorI652")
-                img.my-agents-vector07(src="/external/vectori652-2lv8.svg", alt="VectorI652")
+                img.my-agents-vector06(src="/external/主页.svg", alt="VectorI652")
         .my-agents-component-tab-bar1(@click='goPage("action")')
           .my-agents-ticket1
             .my-agents-group08
               .my-agents-group09
-                img.my-agents-vector08(src="/external/vectori652-62fg.svg", alt="VectorI652")
-                img.my-agents-vector09(src="/external/vectori652-xxgb.svg", alt="VectorI652")
-                img.my-agents-vector10(src="/external/vectori652-khsd.svg", alt="VectorI652")
-                img.my-agents-vector11(src="/external/vectori652-zv4d.svg", alt="VectorI652")
+                img.my-agents-vector08(src="/external/network.svg", alt="VectorI652")
         .my-agents-component-tab-bar2(@click='goPage("town")')
           .my-agents-messages11
             .my-agents-group10
               .my-agents-group11
-                img.my-agents-vector12(src="/external/vectori652-ygkm.svg", alt="VectorI652")
-                img.my-agents-vector13(src="/external/vectori652-0szl.svg", alt="VectorI652")
-                img.my-agents-vector14(src="/external/vectori652-afoa.svg", alt="VectorI652")
+                img.my-agents-vector12(src="/external/搜索_G.svg", alt="VectorI652")
         .my-agents-component-tab-bar3(@click='goPage("agents")')
           .my-agents-profilecircle2
             .my-agents-group12
@@ -796,8 +790,8 @@ img.my-agents-rectangle11 {
 .my-agents-vector12 {
   top: 0px;
   left: 0px;
-  width: 19px;
-  height: 21px;
+  width: 23px;
+  height: 23px;
   position: absolute;
 }
 .my-agents-vector13 {
