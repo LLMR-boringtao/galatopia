@@ -51,7 +51,7 @@
                   img.page6-stroke1(src="/external/stroke1i652-36gw.svg", alt="Stroke1I652")
     span.page6-text06.ButtonDefault
       span
-        span 周小楠 和 张小悦 似乎聊得很愉快
+        span 周小楠 和 张小玥 似乎聊得很愉快
         br
         span 为什么不亲自聊聊看呢？
     button.page6-button(@click='goPage("bot_chat_matched")')

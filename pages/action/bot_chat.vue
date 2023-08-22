@@ -113,7 +113,7 @@
         .interaction2-botto
           .interaction2-component-elements1
             span.interaction2-text09.ButtonLarge
-              span 张小悦
+              span 张小玥
             //- .interaction2-component3
             //-   .interaction2-video2
             //-     img.interaction2-union(src="/external/unioni652-88vi.svg", alt="UnionI652")
@@ -121,7 +121,7 @@
       drag-verify(
         :width="360"
         :height="60"
-        :text="'Drag to match'"
+        :text="'解锁一位新好友'"
         :success-text="'Matched!'"
         :background="'black'"
         :progress-bar-bg="progressBarBg"

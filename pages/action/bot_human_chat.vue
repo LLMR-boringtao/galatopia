@@ -31,7 +31,7 @@
               img.interaction2-stroke1(src="/external/stroke1i652-gx98.svg", alt="Stroke1I652")
         .interaction2-component-elements1
           span.interaction2-text09.ButtonLarge
-            span 张小悦
+            span 张小玥
         .interaction2-component-elements2
           button.interaction2-button-icon1
             .interaction2-call1

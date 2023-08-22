@@ -74,12 +74,12 @@
           .interaction1-frame3
             .interaction1-frame22
               span.interaction1-text10.ButtonDefault_CH
-                span 张小悦
+                span 张小玥
               span.interaction1-text12.ButtonMini
                 span 18:47 pm
             span.interaction1-text14.BodyMini
               span.
-                很高兴认识你呀！听 小悦 说你也是喜欢乐队嘛！
+                很高兴认识你呀！听小玥说你也是喜欢乐队嘛！
       .interaction1-list(@click="goPage('chat', 1)")
         .interaction1-frame21
           img.interaction1-rectangle31(src="/external/wuxiaoting_icon-modified.png", alt="Rectangle31I652")

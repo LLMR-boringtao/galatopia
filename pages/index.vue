@@ -7,7 +7,7 @@
           img.news-rectangle1(src="/external/rectangle1i652-fr6-200w.png", alt="Rectangle1I652")
           .news-frame9
             span.news-text
-              span 张小悦，她想请你一杯冰拿铁！
+              span 张小玥，她想请你一杯冰拿铁！
             .news-frame2
               img.news-ellipse1(src="/external/ellipse1i652-9t0w-200h.png", alt="Ellipse1I652")
               span.news-status
@@ -805,18 +805,18 @@ export default {
 .news-group01 {
   top: 0px;
   left: 0px;
-  width: 41.520000457763672px;
-  height: 40.381864547729492px;
+  width: 21.520000457763672px;
+  height: 20.381864547729492px;
   display: flex;
   position: absolute;
   align-items: flex-start;
   flex-shrink: 1;
 }
 .news-vector {
-  top: 6.437786102294922px;
-  left: 7px;
-  width: 7px;
-  height: 7px;
+  top: 0px;
+  left: 0px;
+  width: 24px;
+  height: 24px;
   position: absolute;
 }
 .news-vector01 {
