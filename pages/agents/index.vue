@@ -39,9 +39,7 @@
           .my-agents-messages11
             .my-agents-group10
               .my-agents-group11
-                img.my-agents-vector12(src="/external/vectori652-ygkm.svg", alt="VectorI652")
-                img.my-agents-vector13(src="/external/vectori652-0szl.svg", alt="VectorI652")
-                img.my-agents-vector14(src="/external/vectori652-afoa.svg", alt="VectorI652")
+                img.my-agents-vector12(src="/external/搜索_G.svg", alt="VectorI652")
         .my-agents-component-tab-bar3(@click='goPage("agents")')
           .my-agents-profilecircle2
             .my-agents-group12
@@ -792,8 +790,8 @@ img.my-agents-rectangle11 {
 .my-agents-vector12 {
   top: 0px;
   left: 0px;
-  width: 19px;
-  height: 21px;
+  width: 23px;
+  height: 23px;
   position: absolute;
 }
 .my-agents-vector13 {

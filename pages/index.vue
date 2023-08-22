@@ -98,16 +98,12 @@
           .news-discover1
             .news-group04
               .news-group05
-                img.news-vector05(src="/external/vectori652-2ota.svg", alt="VectorI652")
-                img.news-vector06(src="/external/vectori652-qf5g.svg", alt="VectorI652")
+                img.news-vector05(src="/external/主页.svg", alt="VectorI652")
         .news-component-tab-bar1(@click="goPage('action')")
           .news-ticket1
             .news-group06
               .news-group07
-                img.news-vector07(src="/external/vectori652-y7im.svg", alt="VectorI652")
-                img.news-vector08(src="/external/vectori652-87.svg", alt="VectorI652")
-                img.news-vector09(src="/external/vectori652-dr3b.svg", alt="VectorI652")
-                img.news-vector10(src="/external/vectori652-y1lj.svg", alt="VectorI652")
+                img.news-vector07(src="/external/network.svg", alt="VectorI652")
         .news-component-tab-bar2(@click="goPage('town')")
           .news-messages11
             .news-group08
