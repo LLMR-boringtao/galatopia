@@ -293,7 +293,7 @@ export default {
 }
 .town-list {
   gap: 16px;
-  width: 343px;
+  width: 329px;
   display: flex;
   padding: 16px;
   align-items: flex-start;
@@ -505,7 +505,7 @@ export default {
 }
 .town-group476 {
   gap: 16px;
-  width: 343px;
+  width: 329px;
   display: flex;
   padding: 16px;
   align-items: flex-start;

@@ -81,8 +81,7 @@
               .news-setting22
                 .news-group
                   .news-group01
-                    img.news-vector(src="/external/vectori652-f7bt.svg", alt="VectorI652")
-                    img.news-vector01(src="/external/vectori652-z4r.svg", alt="VectorI652")
+                    img.news-vector(src="/external/设置.svg", alt="VectorI652")
         .news-component-elements2
           button.news-button-icon1(@click="goPage('notify')")
             .news-notificationbing1
@@ -806,8 +805,8 @@ export default {
 .news-group01 {
   top: 0px;
   left: 0px;
-  width: 21.520000457763672px;
-  height: 20.381864547729492px;
+  width: 41.520000457763672px;
+  height: 40.381864547729492px;
   display: flex;
   position: absolute;
   align-items: flex-start;

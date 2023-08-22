@@ -929,7 +929,7 @@ export default {
 .interaction2-component-elements1 {
   gap: 10px;
   top: 16px;
-  left: 134px;
+  left: 153px;
   width: 107px;
   display: flex;
   position: absolute;
