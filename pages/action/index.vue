@@ -801,8 +801,8 @@ export default {
 .interaction1-vector03 {
   top: 0px;
   left: 0px;
-  width: 23px;
-  height: 23px;
+  width: 20px;
+  height: 20px;
   position: absolute;
 }
 .interaction1-vector04 {

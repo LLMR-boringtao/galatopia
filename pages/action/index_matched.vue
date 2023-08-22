@@ -38,8 +38,8 @@
                 .interaction1-group
                   .interaction1-group01
                     img.interaction1-vector(src="/external/vectori652-ycl.svg", alt="VectorI652")
-                    //- img.interaction1-vector01(src="/external/vectori652-djz.svg", alt="VectorI652")
-                    //- img.interaction1-vector02(src="/external/vectori652-7jrq.svg", alt="VectorI652")
+                    img.interaction1-vector01(src="/external/vectori652-djz.svg", alt="VectorI652")
+                    img.interaction1-vector02(src="/external/vectori652-7jrq.svg", alt="VectorI652")
         //- .my-agents-component-elements1
         //-   .my-agents-segmented
         //-     .my-agents-bar-segmented-variant3
@@ -742,8 +742,8 @@ export default {
 .interaction1-vector {
   top: 0px;
   left: 1.0019667148590088px;
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
   position: absolute;
 }
 .interaction1-vector01 {
