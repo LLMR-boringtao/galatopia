@@ -37,7 +37,7 @@
         .interaction2-component-elements1
           span.interaction2-text09.ButtonLarge
             span {{ currentUser.name }}
-        .interaction2-component-elements2(@click="goPage('human_human_chat')")
+        .interaction2-component-elements2(@click="goPage('human_chat')")
           button.interaction2-button-icon1
             .interaction2-call1
               .interaction2-group04
@@ -160,6 +160,8 @@ export default {
         this.$router.push('/action/user')
       } else if (page === 'chat') {
         this.$router.push('/action/' + userID)
+      } else if (page === 'human_chat') {
+        this.$router.push('/human_chat/' + parseInt(this.$route.params.id, 10))
       } else if (page === 'bot_chat') {
         this.$router.push('/action/bot_chat')
       } else if (page === 'human_human_chat') {

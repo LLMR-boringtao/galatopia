@@ -31,7 +31,7 @@
               img.interaction2-stroke1(src="/external/stroke1i652-gx98.svg", alt="Stroke1I652")
         .interaction2-component-elements1
           span.interaction2-text09.ButtonLarge
-            span 张小玥
+            span {{ currentUser.name }}
         .interaction2-component-elements2
           button.interaction2-button-icon1
             .interaction2-call1
@@ -92,14 +92,28 @@ export default {
     return {
       messages: [],
       composedMessage: "",
-      history: []
+      history: [],
+      users: [
+        { id: 1, name: "吴小婷"},
+        { id: 2, name: "杨小刚"},
+        { id: 3, name: "胡小花"},
+        { id: 4, name: "陈小昊"},
+        { id: 5, name: "张小雯"},
+        { id: 6, name: "黄小鹅"},
+        { id: 7, name: "张小玥"},
+      ]
     }
   },
 
   computed: {
     ...mapState([
       'imageCDN', 'user'
-    ])
+    ]),
+    currentUser() {
+      const userID = parseInt(this.$route.params.id, 10);
+      console.log(this.$route.params.id)
+      return this.users.find(user => user.id === userID);
+    }
   },
   components: {
 
