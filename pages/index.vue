@@ -7,7 +7,7 @@
           img.news-rectangle1(src="/external/rectangle1i652-fr6-200w.png", alt="Rectangle1I652")
           .news-frame9
             span.news-text
-              span 张小玥，她想请你一杯冰拿铁！
+              span 张小悦，她想请你一杯冰拿铁！
             .news-frame2
               img.news-ellipse1(src="/external/ellipse1i652-9t0w-200h.png", alt="Ellipse1I652")
               span.news-status
@@ -81,7 +81,8 @@
               .news-setting22
                 .news-group
                   .news-group01
-                    img.news-vector(src="/external/设置.svg", alt="VectorI652")
+                    img.news-vector(src="/external/vectori652-f7bt.svg", alt="VectorI652")
+                    img.news-vector01(src="/external/vectori652-z4r.svg", alt="VectorI652")
         .news-component-elements2
           button.news-button-icon1(@click="goPage('notify')")
             .news-notificationbing1
@@ -103,10 +104,7 @@
           .news-ticket1
             .news-group06
               .news-group07
-                img.news-vector07(src="/external/vectori652-y7im.svg", alt="VectorI652")
-                img.news-vector08(src="/external/vectori652-87.svg", alt="VectorI652")
-                img.news-vector09(src="/external/vectori652-dr3b.svg", alt="VectorI652")
-                img.news-vector10(src="/external/vectori652-y1lj.svg", alt="VectorI652")
+                img.news-vector07(src="/external/network.svg", alt="VectorI652")
         .news-component-tab-bar2(@click="goPage('action')")
           .news-messages11
             .news-group08
@@ -813,10 +811,10 @@ export default {
   flex-shrink: 1;
 }
 .news-vector {
-  top: 0px;
-  left: 0px;
-  width: 24px;
-  height: 24px;
+  top: 6.437786102294922px;
+  left: 7px;
+  width: 7px;
+  height: 7px;
   position: absolute;
 }
 .news-vector01 {

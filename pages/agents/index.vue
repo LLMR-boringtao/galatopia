@@ -35,10 +35,7 @@
           .my-agents-ticket1
             .my-agents-group08
               .my-agents-group09
-                img.my-agents-vector08(src="/external/vectori652-62fg.svg", alt="VectorI652")
-                img.my-agents-vector09(src="/external/vectori652-xxgb.svg", alt="VectorI652")
-                img.my-agents-vector10(src="/external/vectori652-khsd.svg", alt="VectorI652")
-                img.my-agents-vector11(src="/external/vectori652-zv4d.svg", alt="VectorI652")
+                img.my-agents-vector08(src="/external/network.svg", alt="VectorI652")
         .my-agents-component-tab-bar2(@click='goPage("action")')
           .my-agents-messages11
             .my-agents-group10
