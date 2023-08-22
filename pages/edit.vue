@@ -45,6 +45,28 @@
                   .page5-group03
                     .page5-group04
                       img.page5-vector06(src="/external/vectori652-hbfi.svg", alt="VectorI652")
+            .page5-group453
+          span.page5-text08.HeadlineHeadline6
+            span 基本信息
+          .page5-frame476
+            .page5-list
+              .page5-frame469
+                .page5-location3
+                  div
+                    .page5-group01
+                      .page5-group02
+                        .page5-iconly-light-outline-location
+                          .page5-location
+                            img.page5-combined-shape(src="/external/combinedshapei652-gdm.svg", alt="CombinedShapeI652")
+                span.page5-text10
+                  span 工作
+              .page5-frame470
+                span.page5-text12
+                  span AI研究员
+                .page5-arrowright12
+                  .page5-group03
+                    .page5-group04
+                      img.page5-vector06(src="/external/vectori652-hbfi.svg", alt="VectorI652")
             .page5-frame472
               .page5-frame4691
                 .page5-location31
@@ -630,6 +652,7 @@ export default {
   position: absolute;
   align-items: flex-start;
   flex-direction: column;
+  width: 343px;
 }
 .page5-list {
   box-sizing: border-box;
@@ -787,7 +810,7 @@ export default {
 }
 .page5-frame472 {
   gap: 8px;
-  width: 343px;
+  width: 309px;
   display: flex;
   padding: 16px;
   align-items: center;
@@ -2016,7 +2039,7 @@ export default {
 }
 .page7-frame478 {
   gap: 12px;
-  width: 343px;
+  width: 322px;
   display: flex;
   padding: 16px;
   align-items: center;
@@ -2081,7 +2104,7 @@ export default {
 }
 .page7-frame4781 {
   gap: 12px;
-  width: 343px;
+  width: 322px;
   display: flex;
   padding: 16px;
   align-items: center;

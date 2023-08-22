@@ -99,6 +99,11 @@
         .town-time-light
           img.town-svg941(src="/external/svg941i652-rokf.svg", alt="SVG941I652")
       .town-navigation1
+        .town-component-elements1
+            button.town-button-icon
+              .town-group05
+                .town-group06
+                  img.town-vector200(src="/external/vectori652-ycl.svg", alt="VectorI652")
         .town-component-elements
           button.town-button-icon
             .town-iconsearch
@@ -955,6 +960,15 @@ export default {
   position: absolute;
   align-items: flex-start;
 }
+.town-component-elements1 {
+  gap: 10px;
+  top: 8px;
+  left: 30px;
+  width: 40px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
 .town-button-icon {
   border: none;
   gap: 10px;
@@ -1007,6 +1021,13 @@ export default {
 }
 .town-vector10 {
   top: 0px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.town-vector200 {
+  top: 10px;
   left: 0px;
   width: 20px;
   height: 20px;
