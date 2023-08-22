@@ -100,19 +100,22 @@
               .news-group05
                 img.news-vector05(src="/external/vectori652-2ota.svg", alt="VectorI652")
                 img.news-vector06(src="/external/vectori652-qf5g.svg", alt="VectorI652")
-        .news-component-tab-bar1(@click="goPage('agents')")
+        .news-component-tab-bar1(@click="goPage('action')")
           .news-ticket1
             .news-group06
               .news-group07
-                img.news-vector07(src="/external/network.svg", alt="VectorI652")
-        .news-component-tab-bar2(@click="goPage('action')")
+                img.news-vector07(src="/external/vectori652-y7im.svg", alt="VectorI652")
+                img.news-vector08(src="/external/vectori652-87.svg", alt="VectorI652")
+                img.news-vector09(src="/external/vectori652-dr3b.svg", alt="VectorI652")
+                img.news-vector10(src="/external/vectori652-y1lj.svg", alt="VectorI652")
+        .news-component-tab-bar2(@click="goPage('town')")
           .news-messages11
             .news-group08
               .news-group09
                 img.news-vector11(src="/external/vectori652-z8y6.svg", alt="VectorI652")
                 img.news-vector12(src="/external/vectori652-rf8o.svg", alt="VectorI652")
                 img.news-vector13(src="/external/vectori652-jhoe.svg", alt="VectorI652")
-        .news-component-tab-bar3(@click="goPage('town')")
+        .news-component-tab-bar3(@click="goPage('agents')")
           .news-profilecircle2
             .news-group10
               .news-group11

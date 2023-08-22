@@ -3,19 +3,14 @@
   .interaction2-interaction2
     img.interaction2-rectangle84(src="/external/rectangle84i652-gzhi-400w.png", alt="Rectangle84I652")
     .chats
-      div(
-        v-for="(message, index) in messages", 
-        :key="index", 
-        :class="message.type != 'received' ? 'cents' : 'receive'")
-        .interaction2-image(v-if="message.type != 'received'")
+      .cents
+        .interaction2-image(@click="goPage('user')")
           img.interaction2-rectangle26(src="/external/rectangle26i652-g2u2-200h.png", alt="Rectangle26I652")
-        .interaction2-frame498(v-if="message.type != 'received'")
+        .interaction2-frame498
           .interaction2-frame432
-            span.interaction2-text.ButtonSmall {{ message.content }}
-        .interaction2-frame4321(v-if="message.type === 'received'")
-          span.interaction2-text05.ButtonSmall {{ message.content }}
-        .interaction2-image1(v-if="message.type === 'received'")
-          img.interaction2-rectangle261(src="/external/rectangle26i652-rtm-200h.png", alt="Rectangle26I652")
+            span.interaction2-text.ButtonSmall
+              span
+                span Start conversation!
     .interaction2-navigation
       .interaction2-system-status
         .interaction2-notch
@@ -31,13 +26,13 @@
           img.interaction2-svg941(src="/external/svg941i652-xhab.svg", alt="SVG941I652")
       .interaction2-navigation1
         .interaction2-component-elements
-          button.interaction2-button-icon(@click="onClickLeft")
+          button.interaction2-button-icon(@click="goPage('index_matched')")
             .interaction2-iconarrowleft
               img.interaction2-stroke1(src="/external/stroke1i652-gx98.svg", alt="Stroke1I652")
         .interaction2-component-elements1
           span.interaction2-text09.ButtonLarge
-            span {{ currentUser.name }}
-        .interaction2-component-elements2(@click="goPage('human_human_chat')")
+            span 张小玥
+        .interaction2-component-elements2
           button.interaction2-button-icon1
             .interaction2-call1
               .interaction2-group04
@@ -48,6 +43,7 @@
           //- .interaction2-component3
           //-   .interaction2-video2
           //-     img.interaction2-union(src="/external/unioni652-88vi.svg", alt="UnionI652")
+
     .interaction2-bottom-input
       .interaction2-frame4361
         .interaction2-emojibeamingfacewithsmilingeyesemoji
@@ -75,35 +71,7 @@
       .interaction2-system-footer
         .interaction2-home-indicator
           img.interaction2-home-indicator1(src="/external/homeindicatori652-rawd-200h.png", alt="HomeIndicatorI652")
-//- .chat-dialog
-//-   van-nav-bar(left-text="返回", left-arrow, @click-left="onClickLeft")
-//-   .chat-messages
-//-     //- .chat-message(
-//-     //-   v-for="(message, index) in messages", 
-//-     //-   :key="index", 
-//-     //-   :class="{'chat-message--received': message.type === 'received'}") {{ message.content }}
-//-     .chat-conversation
-//-       div(
-//-         v-for="(message, index) in messages", 
-//-         :key="index", 
-//-         :class="{'right': message.type === 'received'}")
-//-         .conversation-list.message-highlight
-//-           .chat-avatar
-//-             img.avatar(v-if="message.type === 'received'" src="/img/avatar-1.jpg")
-//-             img.avatar(v-if="message.type != 'received'" src="/img/avatar-2.jpg")
-//-           .user-chat-content
-//-             .ctext-wrap
-//-               .ctext-wrap-content {{ message.content }}
-//-             .conversation-name(v-if="message.type != 'received'") Me
-//-             .conversation-name(v-if="message.type === 'received'") My Agent
-//-   .chat-input
-//-     van-field(
-//-       v-model="composedMessage", 
-//-       :autosize="{ minRows: 1, maxRows: 3 }", 
-//-       placeholder="请输入消息...", 
-//-       type="textarea", 
-//-       :rows="1")
-//-     van-button(type="primary", @click="sendMessage", icon="share-o")
+
 </template>
 
 <script>
@@ -124,28 +92,14 @@ export default {
     return {
       messages: [],
       composedMessage: "",
-      history: [],
-      users: [
-        { id: 1, name: "吴小婷"},
-        { id: 2, name: "杨小刚"},
-        { id: 3, name: "胡小花"},
-        { id: 4, name: "陈小昊"},
-        { id: 5, name: "张小雯"},
-        { id: 6, name: "黄小鹅"},
-        { id: 7, name: "张小玥"},
-      ]
+      history: []
     }
   },
 
   computed: {
     ...mapState([
       'imageCDN', 'user'
-    ]),
-    currentUser() {
-      const userID = parseInt(this.$route.params.id, 10);
-      console.log(userID)
-      return this.users.find(user => user.id === userID);
-    }
+    ])
   },
   components: {
 
@@ -162,8 +116,6 @@ export default {
         this.$router.push('/action/' + userID)
       } else if (page === 'bot_chat') {
         this.$router.push('/action/bot_chat')
-      } else if (page === 'human_human_chat') {
-        this.$router.push('/action/human_human_chat')
       } else if (page === 'match') {
         this.$router.push('/action/match')
       } else if (page === 'edit') {
@@ -176,29 +128,20 @@ export default {
         this.$router.push('/agents')
       } else if (page === 'town') {
         this.$router.push('/town')
-      } 
+      } else if (page === 'index_matched') {
+        this.$router.push('/action/index_matched')
+      }
     },
     async sendMessage() {
       const user = this.$store.state.user
-      const userID = this.$route.params
-      
       if (this.composedMessage.trim() !== "") {
-        console.log(userID.id)
-        const urls = ['https://5fa2c9364a47.ngrok.app', 
-        'https://a324e4fd48c1.ngrok.app', 
-        'https://c85eccdef31d.ngrok.app',
-        "https://3a9855754f28.ngrok.app",
-        "https://c85eccdef31d.ngrok.app",
-        "https://b26042a5c52f.ngrok.app"
-      ];
-        console.log(urls[userID.id])
         const res = await axios({
           url: '/user/chat',
           method: 'post',
           data: {
             question: user.name + ':' + this.composedMessage,
             history: this.history,
-            url: urls[userID.id-1] + '/chat'
+            url: 'https://3a9855754f28.ngrok.app/chat'
           }
         })
         console.log(res)
@@ -261,23 +204,37 @@ export default {
   position: absolute;
   border-radius: 24px;
 }
-.chats {
+/* .chats {
   gap: 20px;
   top: 120px;
   left: 0px;
-  width: 375px;
+  width: 100%;
   display: flex;
   position: absolute;
   align-items: flex-start;
   flex-direction: column;
+} */
+
+.chats {
+  gap: 20px;
+  top: 120px;
+  left: 0px;
+  width: 100%;
+  height: calc(100vh - 140px); /* Assuming a top offset of 120px and 20px for bottom spacing */
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+  overflow-y: auto;
 }
 .cents {
   gap: 6px;
-  width: 375px;
+  width: 100%;
   display: flex;
   padding: 0 16px;
   align-items: flex-start;
   flex-shrink: 0;
+  box-sizing: border-box;
 }
 .interaction2-image {
   width: 32px;
@@ -318,6 +275,12 @@ export default {
   flex-direction: column;
   background-color: rgba(255, 156, 120, 1);
 }
+
+.interaction2-frame432 img {
+  width: 100%;
+  padding-top: 10px;
+}
+
 .interaction2-text {
   color: var(--dl-color-light_element-1100);
   height: auto;
@@ -370,12 +333,13 @@ export default {
 }
 .receive {
   gap: 6px;
-  width: 375px;
+  width: 100%;
   display: flex;
   padding: 0 16px;
   align-items: flex-start;
   flex-shrink: 0;
   justify-content: flex-end;
+  box-sizing: border-box;
 }
 .interaction2-frame4321 {
   gap: 10px;
@@ -422,7 +386,7 @@ export default {
 }
 .interaction2-frame443 {
   gap: 6px;
-  width: 375px;
+  width: 100%;
   display: flex;
   padding: 0 16px;
   align-items: flex-start;
@@ -694,7 +658,7 @@ export default {
 }
 .interaction2-frame444 {
   gap: 6px;
-  width: 375px;
+  width: 100%;
   display: flex;
   padding: 0 16px;
   align-items: flex-start;
@@ -747,7 +711,7 @@ export default {
 .interaction2-navigation {
   top: 0px;
   left: 0px;
-  width: 375px;
+  width: 100%;
   display: flex;
   position: absolute;
   align-items: flex-start;
@@ -766,7 +730,7 @@ export default {
   gap: 14px;
   top: 0px;
   left: 0px;
-  width: 375px;
+  width: 100%;
   height: 30px;
   display: flex;
   position: absolute;
@@ -852,7 +816,7 @@ export default {
 }
 .interaction2-navigation1 {
   gap: 122px;
-  width: 375px;
+  width: 100%;
   height: 56px;
   display: flex;
   padding: 15px 16px;
@@ -861,6 +825,7 @@ export default {
   align-items: center;
   flex-shrink: 0;
   justify-content: space-between;
+  box-sizing: border-box;
 }
 .interaction2-component-elements {
   gap: 10px;
@@ -968,7 +933,7 @@ export default {
 .interaction2-component-elements2 {
   gap: 8px;
   top: 8px;
-  right: 28px;
+  right: 16px;
   display: flex;
   position: absolute;
   align-items: flex-start;
@@ -1033,10 +998,10 @@ export default {
   flex-shrink: 1;
 }
 .interaction2-stroke-stroke {
-  top: -2px;
-  left: -2px;
-  width: 24px;
-  height: 24px;
+  top: 0px;
+  left: 0px;
+  width: 21px;
+  height: 20px;
   position: absolute;
 }
 .interaction2-component3 {
@@ -1077,13 +1042,14 @@ export default {
 }
 .interaction2-frame4361 {
   gap: 18px;
-  width: 375px;
+  width: 100%;
   display: flex;
   padding: 12px 19px 12px 20px;
   align-items: center;
   flex-shrink: 0;
   justify-content: center;
   background-color: var(--dl-color-dark_background-100);
+  box-sizing: border-box;
 }
 .interaction2-emojibeamingfacewithsmilingeyesemoji {
   width: 32px;
@@ -1199,12 +1165,13 @@ export default {
 }
 .interaction2-frame73 {
   gap: 12px;
-  width: 375px;
+  width: 100%;
   display: flex;
   padding: 8px 16px;
   overflow: hidden;
   align-items: flex-start;
   flex-shrink: 0;
+  box-sizing: border-box;
 }
 .interaction2-input-frame82 {
   gap: 12px;
@@ -1337,14 +1304,14 @@ export default {
   position: absolute;
 }
 .interaction2-system-footer {
-  width: 375px;
+  width: 100%;
   display: flex;
   align-items: center;
   flex-shrink: 0;
   flex-direction: column;
 }
 .interaction2-home-indicator {
-  width: 375px;
+  width: 100%;
   height: 34px;
   display: flex;
   position: relative;
