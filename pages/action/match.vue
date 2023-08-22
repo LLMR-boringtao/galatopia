@@ -7,7 +7,7 @@
     .page6-thumb-image
       img.page6-rectangle1(src="/external/zhouxiaonan_agent_pic_final.png", alt="Rectangle1I652")
     .page6-group492
-      img.page6-rectangle11(src="/external/zhangxiaoyue_profile_final Cropped (1).png", alt="Rectangle1I652")
+      img.page6-rectangle11(src="/external/zhangxiaoyue_match_pic_final.png", alt="Rectangle1I652")
     .page6-group464
       img.page6-star1(src="/external/star1i652-enec.svg", alt="Star1I652")
       img.page6-star3(src="/external/star3i652-369r.svg", alt="Star3I652")
