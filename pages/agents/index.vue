@@ -31,7 +31,7 @@
               .my-agents-group07
                 img.my-agents-vector06(src="/external/vectori652-5d9qpg.svg", alt="VectorI652")
                 img.my-agents-vector07(src="/external/vectori652-2lv8.svg", alt="VectorI652")
-        .my-agents-component-tab-bar1(@click='goPage("agents")')
+        .my-agents-component-tab-bar1(@click='goPage("action")')
           .my-agents-ticket1
             .my-agents-group08
               .my-agents-group09
@@ -39,14 +39,14 @@
                 img.my-agents-vector09(src="/external/vectori652-xxgb.svg", alt="VectorI652")
                 img.my-agents-vector10(src="/external/vectori652-khsd.svg", alt="VectorI652")
                 img.my-agents-vector11(src="/external/vectori652-zv4d.svg", alt="VectorI652")
-        .my-agents-component-tab-bar2(@click='goPage("action")')
+        .my-agents-component-tab-bar2(@click='goPage("town")')
           .my-agents-messages11
             .my-agents-group10
               .my-agents-group11
                 img.my-agents-vector12(src="/external/vectori652-ygkm.svg", alt="VectorI652")
                 img.my-agents-vector13(src="/external/vectori652-0szl.svg", alt="VectorI652")
                 img.my-agents-vector14(src="/external/vectori652-afoa.svg", alt="VectorI652")
-        .my-agents-component-tab-bar3(@click='goPage("town")')
+        .my-agents-component-tab-bar3(@click='goPage("agents")')
           .my-agents-profilecircle2
             .my-agents-group12
               .my-agents-group13
