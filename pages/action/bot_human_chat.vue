@@ -39,7 +39,7 @@
                 .interaction2-group05
                   .interaction2-iconly-curved-call
                     .interaction2-call
-                      img.interaction2-stroke-stroke(src="/external/stroke1strokei652-ag5f.svg", alt="Stroke1StrokeI652")
+                      img.interaction2-stroke-stroke(src="/external/bot.svg", alt="Stroke1StrokeI652")
           //- .interaction2-component3
           //-   .interaction2-video2
           //-     img.interaction2-union(src="/external/unioni652-88vi.svg", alt="UnionI652")
