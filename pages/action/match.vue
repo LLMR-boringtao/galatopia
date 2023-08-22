@@ -185,7 +185,7 @@ export default {
 }
 .page6-thumb-image {
   top: 259px;
-  left: 25px;
+  left: 50px;
   width: 164px;
   height: 254px;
   display: flex;
@@ -198,6 +198,7 @@ export default {
   border-style: solid;
   border-width: 2px;
   border-radius: 24px;
+  transform: rotate(-10deg);
 }
 .page6-rectangle1 {
   top: 0px;
@@ -207,6 +208,7 @@ export default {
   position: absolute;
   flex-grow: 1;
   box-sizing: content-box;
+  transform: rotate(0deg);
 }
 .page6-frame9 {
   top: 210px;
@@ -235,8 +237,8 @@ export default {
   text-decoration: none;
 }
 .page6-group492 {
-  top: 278px;
-  left: 189.06640625px;
+  top: 310px;
+  left: 165px;
   width: 164px;
   height: 254px;
   display: flex;
@@ -249,6 +251,7 @@ export default {
   border-style: solid;
   border-width: 2px;
   border-radius: 24px;
+  transform: rotate(15deg);
 }
 .page6-rectangle11 {
   top: 0px;
@@ -257,6 +260,7 @@ export default {
   height: 254px;
   position: absolute;
   box-sizing: content-box;
+  transform: rotate(0deg);
 }
 .page6-frame91 {
   top: 210px;
@@ -416,7 +420,7 @@ export default {
   left: 49.88067626953125px;
   width: 177px;
   height: 21px;
-  opacity: 0.70;
+  opacity: 1.0;
   position: absolute;
 }
 .page6-vector3 {
@@ -424,7 +428,7 @@ export default {
   left: 0.021744003519415855px;
   width: 227px;
   height: 48px;
-  opacity: 0.70;
+  opacity: 1.0;
   position: absolute;
 }
 .page6-vector4 {
@@ -432,7 +436,7 @@ export default {
   left: 0px;
   width: 267px;
   height: 29px;
-  opacity: 0.70;
+  opacity: 1.0;
   position: absolute;
 }
 .page6-vector5 {
@@ -440,7 +444,7 @@ export default {
   left: 25.198266983032227px;
   width: 243px;
   height: 35px;
-  opacity: 0.70;
+  opacity: 1.0;
   position: absolute;
 }
 .page6-vector6 {
@@ -448,7 +452,7 @@ export default {
   left: 56.54936599731445px;
   width: 178px;
   height: 32px;
-  opacity: 0.70;
+  opacity: 1.0;
   position: absolute;
 }
 .page6-vector7 {
@@ -456,7 +460,7 @@ export default {
   left: 108.38528442382812px;
   width: 174px;
   height: 27px;
-  opacity: 0.70;
+  opacity: 1.0;
   position: absolute;
 }
 .page6-text04 {
@@ -678,11 +682,11 @@ export default {
   position: absolute;
 }
 .page6-text06 {
-  top: 603px;
-  left: 61px;
+  top: 623px;
+  left: 77px;
   color: var(--dl-color-dark_element-100);
   height: auto;
-  opacity: 0.70;
+  opacity: 1.0;
   position: absolute;
   text-align: center;
   line-height: 22px;
