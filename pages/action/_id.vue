@@ -132,7 +132,7 @@ export default {
         { id: 4, name: "陈小昊"},
         { id: 5, name: "张小雯"},
         { id: 6, name: "黄小鹅"},
-        { id: 7, name: "张小悦"},
+        { id: 7, name: "张小玥"},
       ]
     }
   },

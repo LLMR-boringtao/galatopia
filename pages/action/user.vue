@@ -45,7 +45,7 @@
             img.message-vector4(src="/external/vectori652-o2q.svg", alt="VectorI652")
             img.message-vector5(src="/external/vectori652-py3.svg", alt="VectorI652")
           span.message-text
-            span 张小悦
+            span 张小玥
       .message-frame14
         span.message-text02.HeadlineHeadline6
           span 介绍
