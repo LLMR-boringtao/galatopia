@@ -108,9 +108,7 @@
           .news-messages11
             .news-group08
               .news-group09
-                img.news-vector11(src="/external/vectori652-z8y6.svg", alt="VectorI652")
-                img.news-vector12(src="/external/vectori652-rf8o.svg", alt="VectorI652")
-                img.news-vector13(src="/external/vectori652-jhoe.svg", alt="VectorI652")
+                img.news-vector11(src="/external/搜索_G.svg", alt="VectorI652")
         .news-component-tab-bar3(@click="goPage('agents')")
           .news-profilecircle2
             .news-group10
@@ -1161,8 +1159,8 @@ export default {
 .news-vector11 {
   top: 0px;
   left: 0px;
-  width: 19px;
-  height: 21px;
+  width: 23px;
+  height: 23px;
   position: absolute;
 }
 .news-vector12 {
