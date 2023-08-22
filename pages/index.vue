@@ -36,7 +36,7 @@
           img.news-rectangle12(src="/external/zhouxiaonan_agent_pic_new.png", alt="Rectangle1I652")
           .news-frame9_summary
             span.news-text
-              span 周小楠 今天遇到了16位有趣的人，参加了5场活动。
+              span 今天遇到了16位有趣的人，参加了5场活动。
             .news-frame2
               img.news-ellipse1(src="/external/ellipse1i652-9t0w-200h.png", alt="Ellipse1I652")
               span.news-status
@@ -272,7 +272,7 @@ export default {
   top: 180px;
   bottom: 0px;
   left: 0px;
-  width: 164px;
+  width: 150px;
   display: flex;
   padding: 8px 12px 12px;
   position: absolute;
