@@ -934,7 +934,7 @@ export default {
 }
 .interaction1-list {
   gap: 10px;
-  width: 343px;
+  width: 329px;
   display: flex;
   padding: 12px 16px;
   align-items: center;
@@ -996,7 +996,7 @@ export default {
 }
 .interaction1-frame8 {
   gap: 10px;
-  width: 343px;
+  width: 329px;
   display: flex;
   padding: 12px 16px;
   align-items: center;
@@ -1093,7 +1093,7 @@ export default {
 }
 .interaction1-frame9 {
   gap: 10px;
-  width: 343px;
+  width: 329px;
   display: flex;
   padding: 12px 16px;
   align-items: center;
@@ -1155,7 +1155,7 @@ export default {
 }
 .interaction1-frame10 {
   gap: 10px;
-  width: 343px;
+  width: 329px;
   display: flex;
   padding: 12px 16px;
   align-items: center;
