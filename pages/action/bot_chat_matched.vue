@@ -49,7 +49,7 @@
                 .interaction2-group05
                   .interaction2-iconly-curved-call
                     .interaction2-call
-                      img.interaction2-stroke-stroke(src="/external/stroke1strokei652-ag5f.svg", alt="Stroke1StrokeI652")
+                      img.interaction2-stroke-stroke(src="/external/bot.svg", alt="Stroke1StrokeI652")
           //- .interaction2-component3
           //-   .interaction2-video2
           //-     img.interaction2-union(src="/external/unioni652-88vi.svg", alt="UnionI652")
@@ -945,7 +945,7 @@ export default {
 .interaction2-component-elements2 {
   gap: 8px;
   top: 8px;
-  right: 16px;
+  right: 28px;
   display: flex;
   position: absolute;
   align-items: flex-start;
@@ -1010,10 +1010,10 @@ export default {
   flex-shrink: 1;
 }
 .interaction2-stroke-stroke {
-  top: 0px;
-  left: 0px;
-  width: 21px;
-  height: 20px;
+  top: -2px;
+  left: -2px;
+  width: 24px;
+  height: 24px;
   position: absolute;
 }
 .interaction2-component3 {

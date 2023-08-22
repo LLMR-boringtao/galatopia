@@ -945,7 +945,7 @@ export default {
 .interaction2-component-elements2 {
   gap: 8px;
   top: 8px;
-  right: 16px;
+  right: 28px;
   display: flex;
   position: absolute;
   align-items: flex-start;
@@ -1010,10 +1010,10 @@ export default {
   flex-shrink: 1;
 }
 .interaction2-stroke-stroke {
-  top: 0px;
-  left: 0px;
-  width: 21px;
-  height: 20px;
+  top: -2px;
+  left: -2px;
+  width: 24px;
+  height: 24px;
   position: absolute;
 }
 .interaction2-component3 {
