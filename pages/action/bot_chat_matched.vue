@@ -283,7 +283,7 @@ export default {
   flex-shrink: 0;
   border-radius: 4px 32px 32px;
   flex-direction: column;
-  background-color: rgba(255, 156, 203, 1);
+  background-color: rgba(255, 156, 120, 1);
 }
 
 .interaction2-frame432 img {
@@ -433,7 +433,7 @@ export default {
   align-items: flex-start;
   flex-shrink: 0;
   border-radius: 4px 32px 32px;
-  background-color: rgba(255, 156, 203, 1);
+  background-color: rgba(255, 156, 120, 1);
 }
 .interaction2-group515 {
   top: 12px;
@@ -927,7 +927,7 @@ export default {
 .interaction2-component-elements1 {
   gap: 10px;
   top: 16px;
-  left: 134px;
+  left: 153px;
   width: 107px;
   display: flex;
   position: absolute;
