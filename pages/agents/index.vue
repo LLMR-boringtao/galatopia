@@ -661,9 +661,8 @@ img.my-agents-rectangle11 {
 .my-agents-vector06 {
   top: 0px;
   left: 0px;
-  width: 23px;
-  height: 23px;
-  opacity: 0.40;
+  width: 25px;
+  height: 25px;
   position: absolute;
 }
 .my-agents-vector07 {
@@ -687,7 +686,7 @@ img.my-agents-rectangle11 {
 }
 .my-agents-ticket1 {
   top: 18px;
-  left: 21px;
+  left: 27px;
   width: 28px;
   height: 28px;
   display: flex;
@@ -717,10 +716,10 @@ img.my-agents-rectangle11 {
   flex-shrink: 1;
 }
 .my-agents-vector08 {
-  top: 0px;
+  top: -2px;
   left: 0px;
   width: 25px;
-  height: 20px;
+  height: 25px;
   position: absolute;
 }
 .my-agents-vector09 {
@@ -788,10 +787,10 @@ img.my-agents-rectangle11 {
   flex-shrink: 1;
 }
 .my-agents-vector12 {
-  top: 0px;
+  top: 2px;
   left: 0px;
-  width: 23px;
-  height: 23px;
+  width: 25px;
+  height: 25px;
   position: absolute;
 }
 .my-agents-vector13 {
@@ -871,6 +870,7 @@ img.my-agents-rectangle11 {
   width: 25px;
   height: 25px;
   position: absolute;
+  opacity: 0.40;
 }
 .my-agents-system-footer {
   display: flex;

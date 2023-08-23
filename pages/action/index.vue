@@ -1316,7 +1316,7 @@ export default {
   top: 0px;
   left: 0px;
   width: 25px;
-  height: 20px;
+  height: 25px;
   position: absolute;
 }
 .interaction1-vector14 {
@@ -1354,7 +1354,7 @@ export default {
 }
 .interaction1-messages1 {
   top: 18px;
-  left: 21px;
+  left: 19px;
   width: 28px;
   height: 28px;
   display: flex;
@@ -1366,8 +1366,8 @@ export default {
 .interaction1-group09 {
   top: 2.3333334922790527px;
   left: 2.3333334922790527px;
-  width: 23.33333396911621px;
-  height: 23.333026885986328px;
+  width: 25px;
+  height: 25px;
   display: flex;
   position: absolute;
   align-items: flex-start;
@@ -1376,8 +1376,8 @@ export default {
 .interaction1-group10 {
   top: 0px;
   left: 0px;
-  width: 23.33333396911621px;
-  height: 23.333026885986328px;
+  width: 25px;
+  height: 25px;
   display: flex;
   position: absolute;
   align-items: flex-start;
@@ -1386,8 +1386,8 @@ export default {
 .interaction1-vector17 {
   top: 0px;
   left: 0px;
-  width: 19px;
-  height: 21px;
+  width: 25px;
+  height: 25px;
   opacity: 0.40;
   position: absolute;
 }

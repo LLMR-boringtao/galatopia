@@ -1030,8 +1030,8 @@ export default {
 .news-vector05 {
   top: 0px;
   left: 0px;
-  width: 23px;
-  height: 23px;
+  width: 25px;
+  height: 25px;
   opacity: 0.40;
   position: absolute;
 }
@@ -1086,10 +1086,10 @@ export default {
   flex-shrink: 1;
 }
 .news-vector07 {
-  top: 0px;
-  left: 0px;
+  top: -3px;
+  left: 2px;
   width: 25px;
-  height: 20px;
+  height: 25px;
   position: absolute;
 }
 .news-vector08 {
@@ -1157,10 +1157,10 @@ export default {
   flex-shrink: 1;
 }
 .news-vector11 {
-  top: 0px;
+  top: 1px;
   left: 0px;
-  width: 23px;
-  height: 23px;
+  width: 25px;
+  height: 25px;
   position: absolute;
 }
 .news-vector12 {

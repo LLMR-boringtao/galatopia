@@ -134,8 +134,9 @@
           .town-profilecircle2
             .town-group13
               .town-group14
-                img.town-vector20(src="/external/bot.svg", alt="VectorI652")
-                img.town-vector21(src="/external/vectori652-9a6q.svg", alt="VectorI652")
+                img.interaction1-vector20(src="/external/vectori652-fn1o.svg", alt="VectorI652")
+                img.interaction1-vector21(src="/external/vectori652-1ymg.svg", alt="VectorI652")
+                img.interaction1-vector22(src="/external/vectori652-5jl.svg", alt="VectorI652")
       .town-system-footer
         .town-home-indicator
           img.town-home-indicator1(src="/external/homeindicatori652-qx0k-200h.png", alt="HomeIndicatorI652")
@@ -1025,6 +1026,28 @@ export default {
   height: 20px;
   position: absolute;
 }
+
+.interaction1-vector20 {
+  top: 4.935000419616699px;
+  left: 7.85166597366333px;
+  width: 9px;
+  height: 9px;
+  position: absolute;
+}
+.interaction1-vector21 {
+  top: 15.685833930969238px;
+  left: 3.799034833908081px;
+  width: 17px;
+  height: 9px;
+  position: absolute;
+}
+.interaction1-vector22 {
+  top: 0px;
+  left: 0px;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+}
 .town-vector200 {
   top: 10px;
   left: 0px;
@@ -1173,17 +1196,17 @@ export default {
 }
 .town-vector14 {
   top: 0px;
-  left: 0px;
-  width: 23px;
-  height: 23px;
+  left: -2px;
+  width: 25px;
+  height: 25px;
   position: absolute;
+  opacity: 0.40;
 }
 .town-vector15 {
   top: 0px;
   left: 10.208333015441895px;
   width: 15px;
   height: 20px;
-  opacity: 0.40;
   position: absolute;
 }
 .town-component-tab-bar2 {
@@ -1232,8 +1255,8 @@ export default {
 .town-vector16 {
   top: 0px;
   left: 0px;
-  width: 21px;
-  height: 21px;
+  width: 25px;
+  height: 25px;
   position: absolute;
 }
 .town-vector17 {
