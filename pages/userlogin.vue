@@ -4,10 +4,10 @@
     .frame1-frame490
       .frame1-input
         .frame1-input-frame82
-          input.frame1-component-elements(v-model = 'email', name = 'email' type="text" placeholder="Type your email")
+          input.frame1-component-elements(v-model = 'email', name = 'email' type="text" placeholder="Username/Email")
       .frame1-input
         .frame1-input-frame82
-          input.frame1-component-elements(v-model = 'password', name = 'password' type="password" placeholder="Type your email")
+          input.frame1-component-elements(v-model = 'password', name = 'password' type="password" placeholder="Password")
       button.frame1-button(@click="login" type="button")
         span.frame1-text11.ButtonDefault
           span Login

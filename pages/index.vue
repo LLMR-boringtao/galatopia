@@ -11,7 +11,7 @@
             .news-frame2
               img.news-ellipse1(src="/external/ellipse1i652-9t0w-200h.png", alt="Ellipse1I652")
               span.news-status
-                span Social
+                span 社交
         .news-group3
           img.news-rectangle11(src="/external/aobenhaimo_poster_final.png", alt="Rectangle1I652")
           .news-frame9
@@ -36,7 +36,7 @@
           img.news-rectangle12(src="/external/zhouxiaonan_agent_pic_new.png", alt="Rectangle1I652")
           .news-frame9_summary
             span.news-text
-              span 今天遇到了16位有趣的人，参加了5场活动。
+              span 今天遇到16位有趣的人，参加5场活动。
             .news-frame2
               img.news-ellipse1(src="/external/ellipse1i652-9t0w-200h.png", alt="Ellipse1I652")
               span.news-status
@@ -346,7 +346,7 @@ export default {
   font-size: 18px;
   font-style: Regular;
   text-align: left;
-  font-family: Gochi Hand;
+  font-family: Noto Sans;
   font-weight: 400;
   line-height: normal;
   font-stretch: normal;
