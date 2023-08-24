@@ -20,7 +20,7 @@
             .news-frame2
               img.news-ellipse1(src="/external/ellipse1i652-9t0w-200h.png", alt="Ellipse1I652")
               span.news-status
-                span Events
+                span 活动
       .news-frame11
         .news-thumb-image1
           img.news-rectangle12(src="/external/chinajoy_cos_final.png", alt="Rectangle1I652")
@@ -30,7 +30,7 @@
             .news-frame2
               img.news-ellipse1(src="/external/ellipse1i652-9t0w-200h.png", alt="Ellipse1I652")
               span.news-status
-                span Events
+                span 活动
 
         .news-group31
           img.news-rectangle12(src="/external/zhouxiaonan_agent_pic_new.png", alt="Rectangle1I652")
@@ -40,7 +40,7 @@
             .news-frame2
               img.news-ellipse1(src="/external/ellipse1i652-9t0w-200h.png", alt="Ellipse1I652")
               span.news-status
-                span Daily Summary
+                span 今日总结
 
       .news-frame12
         .news-thumb-image2
@@ -343,7 +343,7 @@ export default {
 .news-status {
   color: var(--dl-color-light_element-1100);
   height: auto;
-  font-size: 18px;
+  font-size: 13px;
   font-style: Regular;
   text-align: left;
   font-family: Noto Sans;

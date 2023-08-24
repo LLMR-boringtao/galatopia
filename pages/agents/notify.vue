@@ -6,7 +6,7 @@
         img.page-star1(src="/external/zhnagxiaoyue_icon.svg", alt="Star1I652")
         .page-frame464
           span.page-text.ButtonSmall
-            span 张小玥 给你发送了真人聊天邀请。
+            span 张小悦 给你发送了真人聊天邀请。
           span.page-text04
             span.page-text05
             span • 今天 13：25
@@ -31,6 +31,8 @@
         .page-frame4643
           span.page-text21.ButtonSmall
             span 周小楠 突然对你的音乐爱好很感兴趣，你愿意介绍平时听什么歌吗？
+              span.page-text21.ButtonSmall
+                span 聊会儿：你平时喜欢听啥乐队？
           span.page-text25
             span.page-text26
             span • 昨天 21：00
@@ -39,7 +41,7 @@
         .page-frame4644
           span.page-text28.ButtonSmall
             span
-              span 今天在ChinaJoy活动上，周小楠 邂逅了 张小玥，发现彼此都很喜欢动漫《时光代理人》。
+              span 今天在ChinaJoy活动上，周小楠 邂逅了 张小悦，发现彼此都很喜欢动漫《时光代理人》。
           span.page-text35
             span.page-text36
             span • 昨天 17：30

@@ -183,28 +183,28 @@
             .page7-frame486
               img.page7-image1335(src="/external/image1335i652-kv5m-200h.png", alt="image1335I652")
               span.page7-text02.ButtonSmall
-                span Bowling
+                span 保龄
             .page7-frame489
               img.page7-image13351(src="/external/image1335i652-f0aa-200h.png", alt="image1335I652")
               span.page7-text04.ButtonSmall
-                span Party
+                span 聚会
             .page7-frame487
               img.page7-image13352(src="/external/image1335i652-fhz6-200h.png", alt="image1335I652")
               span.page7-text06.ButtonSmall
-                span Football
+                span 足球
           .page7-frame480
             .page7-frame490
               img.page7-image13353(src="/external/image1335i652-mjpq-200h.png", alt="image1335I652")
               span.page7-text08.ButtonSmall
-                span 8-ball
+                span 桌球
             .page7-frame488
               img.page7-image13354(src="/external/image1335i652-lslk-200h.png", alt="image1335I652")
               span.page7-text10.ButtonSmall
-                span Cat
+                span 撸猫
             .page7-frame4871
               img.page7-image13355(src="/external/image1335i652-0sql-200h.png", alt="image1335I652")
               span.page7-text12.ButtonSmall
-                span Gaming
+                span 游戏
       .page7-frame498
         img.page7-rectangle71(src="/external/rectangle71i652-6c3w-200h.png", alt="Rectangle71I652")
         img.page7-rectangle72(src="/external/zhouxiaonan_profile4_final.png", alt="Rectangle72I652")
@@ -461,13 +461,14 @@ export default {
 }
 .page5-group485 {
   top: 0px;
-  left: 64px;
+  left: 85px;
   width: 247.99993896484100%;
   height: 80.00016021728516px;
   display: flex;
   position: absolute;
   align-items: flex-start;
   flex-shrink: 1;
+  justify-content: center;
 }
 .page5-group {
   top: 0px;
@@ -538,7 +539,7 @@ export default {
   align-self: stretch;
   font-style: Regular;
   text-align: center;
-  font-family: Noto Sans;
+  font-family: ZCOOL KuaiLe;
   font-weight: 400;
   line-height: 40px;
   font-stretch: normal;

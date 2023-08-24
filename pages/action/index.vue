@@ -11,7 +11,7 @@
         img.interaction1-rectangle301(src="/external/zhangxiaoyue_profile_final.png", alt="Rectangle30I652")
         .interaction1-frame4741
           span.interaction1-text02_CH
-            span 张小玥
+            span 张小悦
       .interaction1-frame476
         img.interaction1-rectangle302(src="/external/two_people_final.png", alt="Rectangle30I652")
         .interaction1-frame4742
@@ -371,6 +371,14 @@ export default {
   left: 0px;
   width: 130px;
   height: 213px;
+  position: absolute;
+}
+
+.interaction1-rectangle301-new{
+  top: 0px;
+  left: 0px;
+  width: 100px;
+  height: 150px;
   position: absolute;
 }
 .interaction1-frame4741 {
