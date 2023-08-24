@@ -48,7 +48,7 @@
           .my-agents-messages11
             .my-agents-group10
               .my-agents-group11
-                img.my-agents-vector12(src="/external/搜索_G.svg", alt="VectorI652")
+                img.my-agents-vector12(src="/external/城镇.svg", alt="VectorI652")
         .my-agents-component-tab-bar3(@click='goPage("agents")')
           .my-agents-profilecircle2
             .my-agents-group12

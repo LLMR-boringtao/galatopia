@@ -177,7 +177,7 @@
           .interaction1-ticket1
             .interaction1-group07
               .interaction1-group08
-                img.interaction1-vector13(src="/external/搜索_G.svg", alt="VectorI652")
+                img.interaction1-vector13(src="/external/城镇.svg", alt="VectorI652")
         .interaction1-component-tab-bar3(@click="goPage('agent')")
           .interaction1-profilecircle2
             .interaction1-group11

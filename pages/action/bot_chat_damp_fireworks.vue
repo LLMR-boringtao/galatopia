@@ -10,7 +10,7 @@
       .receive
         .interaction2-frame4321
           span.interaction2-text05.ButtonSmall
-            span 嗨小弟弟！我叫张小悦！
+            span YES! I got the day off! Say when and where?
         .interaction2-image1
           img.interaction2-rectangle261(src="/external/rectangle26i652-rtm-200h.png", alt="Rectangle26I652")
       .cents
@@ -26,7 +26,7 @@
       .receive
         .interaction2-frame4321
           span.interaction2-text05.ButtonSmall
-            span 我叫周小楠 痴迷英斗！
+            span YES! I got the day off! Say when and where?
         .interaction2-image1
           img.interaction2-rectangle261(src="/external/rectangle26i652-rtm-200h.png", alt="Rectangle26I652")
       .cents
