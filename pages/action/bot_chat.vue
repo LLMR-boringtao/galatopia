@@ -115,12 +115,12 @@
         :success-text="'Matched!'"
         :background="'black'"
         :progress-bar-bg="'#ff9c78'"
-        :completed-bg="black"
-        :handler-bg="black"
-        :handler-icon="white"
-        :text-size=20
-        :success-icon="successIcon"
-        :circle="getShape"
+        :completed-bg="'#ff9c78'"
+        :handler-bg="'#ff9c78'"
+        :handler-icon="'#ff9c78'"
+        :text-size="'20'"
+        :success-icon="'successIcon'"
+        :circle="true"
         @passcallback="goPage('match')"
       )
       
