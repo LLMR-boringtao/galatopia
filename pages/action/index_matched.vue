@@ -74,12 +74,12 @@
           .interaction1-frame3
             .interaction1-frame22
               span.interaction1-text10.ButtonDefault_CH
-                span 张小玥
+                span 张小悦
               span.interaction1-text12.ButtonMini
                 span 18:47 pm
             span.interaction1-text14.BodyMini
               span.
-                很高兴认识你呀！听小玥说你也是喜欢乐队嘛！
+                很高兴认识你呀！听小悦说你也是帝国理工的嘛
       .interaction1-list(@click="goPage('chat', 1)")
         .interaction1-frame21
           img.interaction1-rectangle31(src="/external/wuxiaoting_icon-modified.png", alt="Rectangle31I652")
@@ -167,19 +167,18 @@
           .interaction1-discover11
             .interaction1-group05
               .interaction1-group06
-                img.interaction1-vector11(src="/external/vectori652-wsmc.svg", alt="VectorI652")
-                img.interaction1-vector12(src="/external/vectori652-843b.svg", alt="VectorI652")
-        .interaction1-component-tab-bar1(@click="goPage('agent')")
-          .interaction1-ticket1
-            .interaction1-group07
-              .interaction1-group08
-                img.interaction1-vector13(src="/external/搜索_G.svg", alt="VectorI652")
-        .interaction1-component-tab-bar2(@click="goPage('action')")
+                img.interaction1-vector11(src="/external/主页.svg", alt="VectorI652")
+        .interaction1-component-tab-bar1(@click="goPage('action')")
           .interaction1-messages1
             .interaction1-group09
               .interaction1-group10
                 img.interaction1-vector17(src="/external/network.svg", alt="VectorI652")
-        .interaction1-component-tab-bar3(@click="goPage('town')")
+        .interaction1-component-tab-bar2(@click="goPage('town')")
+          .interaction1-ticket1
+            .interaction1-group07
+              .interaction1-group08
+                img.interaction1-vector13(src="/external/城镇.svg", alt="VectorI652")
+        .interaction1-component-tab-bar3(@click="goPage('agent')")
           .interaction1-profilecircle2
             .interaction1-group11
               .interaction1-group12

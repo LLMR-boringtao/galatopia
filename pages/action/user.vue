@@ -44,8 +44,8 @@
             img.message-vector3(src="/external/vectori652-yzso.svg", alt="VectorI652")
             img.message-vector4(src="/external/vectori652-o2q.svg", alt="VectorI652")
             img.message-vector5(src="/external/vectori652-py3.svg", alt="VectorI652")
-          span.message-text
-            span 张小玥
+          span.message-text_ch
+            span 张秋悦
       .message-frame14
         span.message-text02.HeadlineHeadline6
           span 介绍
@@ -608,6 +608,23 @@ export default {
   font-style: Regular;
   text-align: center;
   font-family: Gochi Hand;
+  font-weight: 400;
+  line-height: 40px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.message-text_ch {
+  top: 20px;
+  left: 31.000043869018555px;
+  color: var(--dl-color-dark_background-100);
+  width: 185px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: center;
+  font-family: ZCOOL KuaiLe;
   font-weight: 400;
   line-height: 40px;
   font-stretch: normal;

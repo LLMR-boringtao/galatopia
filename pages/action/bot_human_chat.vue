@@ -10,7 +10,7 @@
           .interaction2-frame432
             span.interaction2-text.ButtonSmall
               span
-                span Start conversation!
+                span 很高兴认识你呀！听小悦说你也是帝国理工的嘛
     .interaction2-navigation
       .interaction2-system-status
         .interaction2-notch
@@ -31,7 +31,7 @@
               img.interaction2-stroke1(src="/external/stroke1i652-gx98.svg", alt="Stroke1I652")
         .interaction2-component-elements1
           span.interaction2-text09.ButtonLarge
-            span 张小玥
+            span 张小悦
         .interaction2-component-elements2
           button.interaction2-button-icon1
             .interaction2-call1

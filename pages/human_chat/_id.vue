@@ -10,7 +10,7 @@
           .interaction2-frame432
             span.interaction2-text.ButtonSmall
               span
-                span Start conversation!
+                span 很高兴认识你呀！听小悦说你也是帝国理工的嘛
     .interaction2-navigation
       .interaction2-system-status
         .interaction2-notch
@@ -100,7 +100,7 @@ export default {
         { id: 4, name: "陈小昊"},
         { id: 5, name: "张小雯"},
         { id: 6, name: "黄小鹅"},
-        { id: 7, name: "张小玥"},
+        { id: 7, name: "张小悦"},
       ]
     }
   },

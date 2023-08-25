@@ -11,7 +11,7 @@
         img.interaction1-rectangle301(src="/external/zhangxiaoyue_profile_final.png", alt="Rectangle30I652")
         .interaction1-frame4741
           span.interaction1-text02_CH
-            span 张小玥
+            span 张小悦
       .interaction1-frame476
         img.interaction1-rectangle302(src="/external/two_people_final.png", alt="Rectangle30I652")
         .interaction1-frame4742
@@ -157,7 +157,7 @@
           .interaction1-ticket1
             .interaction1-group07
               .interaction1-group08
-                img.interaction1-vector13(src="/external/搜索_G.svg", alt="VectorI652")
+                img.interaction1-vector13(src="/external/城镇.svg", alt="VectorI652")
         .interaction1-component-tab-bar3(@click="goPage('agent')")
           .interaction1-profilecircle2
             .interaction1-group11
@@ -371,6 +371,14 @@ export default {
   left: 0px;
   width: 130px;
   height: 213px;
+  position: absolute;
+}
+
+.interaction1-rectangle301-new{
+  top: 0px;
+  left: 0px;
+  width: 100px;
+  height: 150px;
   position: absolute;
 }
 .interaction1-frame4741 {

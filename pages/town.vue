@@ -129,7 +129,7 @@
             .town-ticket2
               .town-group09
                 .town-group10
-                  img.town-vector14(src="/external/搜索_G.svg", alt="VectorI652")
+                  img.town-vector14(src="/external/城镇.svg", alt="VectorI652")
         .town-component-tab-bar3(@click = "goPage('agents')")
           .town-profilecircle2
             .town-group13

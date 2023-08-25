@@ -9,7 +9,7 @@
       .receive
         .interaction2-frame4321
           span.interaction2-text05.ButtonSmall
-            span YES! I got the day off! Say when and where?
+            span 我叫周小楠 痴迷英斗！
         .interaction2-image1
           img.interaction2-rectangle261(src="/external/rectangle26i652-rtm-200h.png", alt="Rectangle26I652")
       .cents
@@ -19,13 +19,15 @@
           .interaction2-frame432
             span.interaction2-text.ButtonSmall
               span
-                span lets do this its been way
+                span 嗨小弟弟！我叫张小玥！
                 br
-                span to long since we were all together
+                span 今天吃饭很开心 以后吃喝玩乐我第一个喊你！
       .receive
         .interaction2-frame4321
           span.interaction2-text05.ButtonSmall
-            span YES! I got the day off! Say when and where?
+            span 好嘞 我干活唯唯诺诺 吃饭第一名 
+            br
+            span 你平时有什么兴趣爱好？
         .interaction2-image1
           img.interaction2-rectangle261(src="/external/rectangle26i652-rtm-200h.png", alt="Rectangle26I652")
       .cents
@@ -34,14 +36,11 @@
         .interaction2-frame498
           .interaction2-frame432
             span.interaction2-text.ButtonSmall
-              span
-                span lets do this its been way
-                br
-                span to long since we were all together
+              span 我痴迷的东西太多了 下次面对面跟你好好聊
       .receive
         .interaction2-frame4321
           span.interaction2-text05.ButtonSmall
-            span YES! I got the day off! Say when and where?
+            span 哈哈哈哈 你涉猎广泛啊
         .interaction2-image1
           img.interaction2-rectangle261(src="/external/rectangle26i652-rtm-200h.png", alt="Rectangle26I652")
       .cents
@@ -50,14 +49,11 @@
         .interaction2-frame498
           .interaction2-frame432
             span.interaction2-text.ButtonSmall
-              span
-                span lets do this its been way
-                br
-                span to long since we were all together
+              span 是哦 最近我沉迷健身和博德之门3无法自拔
       .receive
         .interaction2-frame4321
           span.interaction2-text05.ButtonSmall
-            span YES! I got the day off! Say when and where?
+            span 你也喜欢玩游戏？太好了 我平时在伦敦居住 我们可以约打游戏
         .interaction2-image1
           img.interaction2-rectangle261(src="/external/rectangle26i652-rtm-200h.png", alt="Rectangle26I652")
       .cents
@@ -66,14 +62,11 @@
         .interaction2-frame498
           .interaction2-frame432
             span.interaction2-text.ButtonSmall
-              span
-                span lets do this its been way
-                br
-                span to long since we were all together
+              span 好啊 我来看看我的这周日历 有没有时间
       .receive
         .interaction2-frame4321
           span.interaction2-text05.ButtonSmall
-            span YES! I got the day off! Say when and where?
+            span 嗯嗯 我也可以带你去伦敦的帝国理工逛逛 那是我本科的学校
         .interaction2-image1
           img.interaction2-rectangle261(src="/external/rectangle26i652-rtm-200h.png", alt="Rectangle26I652")
       .cents
@@ -82,10 +75,7 @@
         .interaction2-frame498
           .interaction2-frame432
             span.interaction2-text.ButtonSmall
-              span
-                span lets do this its been way
-                br
-                span to long since we were all together
+              span 巧了 我也是那个学校的！
       .receive
         .interaction2-frame4321
           span.interaction2-text05.ButtonSmall
@@ -113,22 +103,22 @@
         .interaction2-botto
           .interaction2-component-elements1
             span.interaction2-text09.ButtonLarge
-              span 张小玥
+              span 张小悦
             //- .interaction2-component3
             //-   .interaction2-video2
             //-     img.interaction2-union(src="/external/unioni652-88vi.svg", alt="UnionI652")
     .interaction2-bottom-input
       drag-verify(
         :width="360"
-        :height="60"
+        :height="50"
         :text="'解锁一位新好友'"
         :success-text="'Matched!'"
         :background="'black'"
-        :progress-bar-bg="progressBarBg"
-        :completed-bg="completedBg"
-        :handler-bg="handlerBg"
-        :handler-icon="'pink'"
-        :text-size="textSize"
+        :progress-bar-bg="'#ff9c78'"
+        :completed-bg="black"
+        :handler-bg="black"
+        :handler-icon="white"
+        :text-size=20
         :success-icon="successIcon"
         :circle="getShape"
         @passcallback="goPage('match')"
