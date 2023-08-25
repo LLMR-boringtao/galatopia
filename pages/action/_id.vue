@@ -7,15 +7,19 @@
         v-for="(message, index) in messages", 
         :key="index", 
         :class="message.type != 'received' ? 'cents' : 'receive'")
-        .interaction2-image(v-if="message.type != 'received'")
-          img.interaction2-rectangle26(src="/external/rectangle26i652-g2u2-200h.png", alt="Rectangle26I652")
         .interaction2-frame498(v-if="message.type != 'received'")
           .interaction2-frame432
             span.interaction2-text.ButtonSmall {{ message.content }}
+        .interaction2-image(v-if="message.type != 'received'")
+          img.interaction2-rectangle261(src="/external/rectangle26i652-rtm-200h.png", alt="Rectangle26I652")
+        .interaction2-image1(v-if="message.type === 'received'")
+          img.interaction2-rectangle26(src="/external/rectangle26i652-g2u2-200h.png", alt="Rectangle26I652")
+          
         .interaction2-frame4321(v-if="message.type === 'received'")
           span.interaction2-text05.ButtonSmall {{ message.content }}
-        .interaction2-image1(v-if="message.type === 'received'")
-          img.interaction2-rectangle261(src="/external/rectangle26i652-rtm-200h.png", alt="Rectangle26I652")
+        
+        
+        
     .interaction2-navigation
       .interaction2-system-status
         .interaction2-notch
@@ -209,7 +213,7 @@ export default {
           this.history = res.data.data.history
           const history =  res.data.data.history
           for (let item of history) {
-            this.messages.push({ type: "sent", content: item[0] });
+            this.messages.push({ type: "sent", content: item[0].split(':')[1] });
             this.messages.push({ type: "received", content: item[1] });
           }
           this.composedMessage = ""
@@ -273,6 +277,16 @@ export default {
   align-items: flex-start;
   flex-direction: column;
 }
+.chats {
+  gap: 20px;
+  top: 120px;
+  left: 0px;
+  width: 375px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+}
 .cents {
   gap: 6px;
   width: 375px;
@@ -280,6 +294,7 @@ export default {
   padding: 0 16px;
   align-items: flex-start;
   flex-shrink: 0;
+  margin-left: 55px;
 }
 .interaction2-image {
   width: 32px;
@@ -372,7 +387,7 @@ export default {
 }
 .receive {
   gap: 6px;
-  width: 375px;
+  width: 312px;
   display: flex;
   padding: 0 16px;
   align-items: flex-start;
@@ -859,7 +874,7 @@ export default {
   display: flex;
   padding: 15px 16px;
   overflow: hidden;
-  position: relative;
+  position: absolute;
   align-items: center;
   flex-shrink: 0;
   justify-content: space-between;
