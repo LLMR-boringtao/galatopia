@@ -175,7 +175,7 @@ export default {
           url: '/user/chat',
           method: 'post',
           data: {
-            question: user.name + ':' + this.composedMessage,
+            question: "朋友" + ':' + this.composedMessage,
             history: this.history,
             url: urls[userID.id-1] + '/chat'
           }
