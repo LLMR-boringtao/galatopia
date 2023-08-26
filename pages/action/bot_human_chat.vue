@@ -62,7 +62,7 @@
           img.interaction2-grinningfacewithsweatemoji(src="/external/grinningfacewithsweatemojii652-vn9p-200h.png", alt="grinningfacewithsweatemojiI652")
       .interaction2-frame73
         .interaction2-input-frame82
-          input.chat-input(type='text', placeholder='Type a message...', v-model="composedMessage")
+          input.chat-input(type='text', placeholder='输入消息', v-model="composedMessage")
         button.send-btn(@click="sendMessage")
           .interaction2-send21
             .interaction2-group08
