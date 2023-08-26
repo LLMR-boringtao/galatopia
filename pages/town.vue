@@ -103,7 +103,9 @@
             button.town-button-icon
               .town-group05
                 .town-group06
-                  img.town-vector200(src="/external/vectori652-ycl.svg", alt="VectorI652")
+                  img.interaction1-vector(src="/external/vectori652-ycl.svg", alt="VectorI652")
+                  img.interaction1-vector01(src="/external/vectori652-djz.svg", alt="VectorI652")
+                  img.interaction1-vector02(src="/external/vectori652-7jrq.svg", alt="VectorI652")
         .town-component-elements
           button.town-button-icon
             .town-iconsearch
@@ -204,6 +206,27 @@ export default {
 
 </script>
 <style scoped>
+.interaction1-vector {
+  top: 0px;
+  left: 1.0019667148590088px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+}
+.interaction1-vector01 {
+  top: 2.875688076019287px;
+  left: 8.901907920837402px;
+  width: 7px;
+  height: 7px;
+  position: absolute;
+}
+.interaction1-vector02 {
+  top: 19.823780059814453px;
+  left: 0px;
+  width: 19px;
+  height: 1px;
+  position: absolute;
+}
 .town-container {
   width: 100%;
   display: flex;
@@ -1033,6 +1056,7 @@ export default {
   width: 9px;
   height: 9px;
   position: absolute;
+  opacity: 0.40;
 }
 .interaction1-vector21 {
   top: 15.685833930969238px;
@@ -1040,6 +1064,7 @@ export default {
   width: 17px;
   height: 9px;
   position: absolute;
+  opacity: 0.40;
 }
 .interaction1-vector22 {
   top: 0px;
@@ -1047,6 +1072,7 @@ export default {
   width: 25px;
   height: 25px;
   position: absolute;
+  opacity: 0.40;
 }
 .town-vector200 {
   top: 10px;
@@ -1132,6 +1158,7 @@ export default {
   width: 25px;
   height: 25px;
   position: absolute;
+  opacity: 0.40;
 }
 .town-vector13 {
   top: 7.6434478759765625px;
@@ -1153,8 +1180,8 @@ export default {
   justify-content: center;
 }
 .town-ticketstar1 {
-  top: 18px;
-  left: 21px;
+  top: 17px;
+  left: 18px;
   width: 28px;
   height: 28px;
   display: flex;
@@ -1196,11 +1223,10 @@ export default {
 }
 .town-vector14 {
   top: 0px;
-  left: -2px;
+  left: -1px;
   width: 25px;
   height: 25px;
   position: absolute;
-  opacity: 0.40;
 }
 .town-vector15 {
   top: 0px;
@@ -1258,6 +1284,7 @@ export default {
   width: 25px;
   height: 25px;
   position: absolute;
+  opacity: 0.40;
 }
 .town-vector17 {
   top: 4.748505115509033px;
@@ -1329,6 +1356,7 @@ export default {
   width: 17px;
   height: 9px;
   position: absolute;
+  opacity: 0.40;
 }
 .town-vector21 {
   top: 0px;
@@ -1336,6 +1364,7 @@ export default {
   width: 25px;
   height: 25px;
   position: absolute;
+  opacity: 0.40;
 }
 .town-system-footer {
   display: flex;
