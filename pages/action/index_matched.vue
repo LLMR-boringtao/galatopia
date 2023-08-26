@@ -916,7 +916,7 @@ export default {
 }
 .interaction1-frame2 {
   gap: 8px;
-  top: 455px;
+  top: 410px;
   left: 0px;
   width: 100%;
   display: flex;

@@ -6,16 +6,21 @@
       div(
         v-for="(message, index) in messages", 
         :key="index", 
-        :class="message.type != 'received' ? 'cents' : 'receive'")
-        .interaction2-image(v-if="message.type != 'received'")
-          img.interaction2-rectangle26(src="/external/rectangle26i652-g2u2-200h.png", alt="Rectangle26I652")
-        .interaction2-frame498(v-if="message.type != 'received'")
-          .interaction2-frame432
-            span.interaction2-text.ButtonSmall {{ message.content }}
-        .interaction2-frame4321(v-if="message.type === 'received'")
-          span.interaction2-text05.ButtonSmall {{ message.content }}
-        .interaction2-image1(v-if="message.type === 'received'")
-          img.interaction2-rectangle261(src="/external/rectangle26i652-rtm-200h.png", alt="Rectangle26I652")
+        :class="message.type == 'received' ? 'cents' : 'receive'")
+        template(v-if="message.type !== 'received'")
+          .interaction2-frame4321
+            span.interaction2-text05.ButtonSmall
+              span {{ message.content }}
+          .interaction2-image1
+            img.interaction2-rectangle261(src="/external/rectangle26i652-rtm-200h.png", alt="Rectangle26I652")
+        template(v-if="message.type === 'received'")
+          .interaction2-image
+            img.interaction2-rectangle26(:src="currentUser.icon", alt="Rectangle26I652")
+          .interaction2-frame498
+            .interaction2-frame432
+              span.interaction2-text.ButtonSmall
+                span {{ message.content }}
+          
     .interaction2-navigation
       .interaction2-system-status
         .interaction2-notch
@@ -98,13 +103,13 @@ export default {
       composedMessage: "",
       history: [],
       users: [
-        { id: 1, name: "吴小婷"},
-        { id: 2, name: "杨小刚"},
-        { id: 3, name: "胡小花"},
-        { id: 4, name: "陈小昊"},
-        { id: 5, name: "张小雯"},
-        { id: 6, name: "黄小鹅"},
-        { id: 7, name: "张小玥"},
+        { id: 1, name: "吴小婷", icon: "/external/wuxiaoting_icon-modified.png"},
+        { id: 2, name: "杨小刚", icon: "/external/yangxiaogang_icon.png"},
+        { id: 3, name: "胡小花", icon: "/external/huxiaohua_icon.png"},
+        { id: 4, name: "陈小昊", icon: "/external/chenxiaohao_icon.png"},
+        { id: 5, name: "张小雯", icon: "/external/zhangxiaowen_icon.png"},
+        { id: 6, name: "黄小鹅", icon: "/external/huangxiaoe_icon.png"},
+        { id: 7, name: "张小玥", icon: "/external/张小玥 _chat_icon.png"},
       ]
     }
   },
@@ -181,8 +186,14 @@ export default {
           this.history = res.data.data.history
           const history =  res.data.data.history
           for (let item of history) {
-            this.messages.push({ type: "sent", content: item[0].split(':')[1] });
-            this.messages.push({ type: "received", content: item[1] });
+              this.messages.push({ 
+                  type: "sent", 
+                  content: item[0].includes(':') ? item[0].split(':')[1] : item[0] 
+              });
+              this.messages.push({ 
+                  type: "received", 
+                  content: item[1].includes('：') ? item[1].split('：')[1] : item[1].slice(3) 
+              });
           }
           this.composedMessage = ""
         }
@@ -230,18 +241,58 @@ export default {
   border-radius: 24px;
 }
 
-.chats {
-  gap: 20px;
-  top: 120px;
+
+.interaction2-navigation {
+  top: 0px;
   left: 0px;
   width: 100%;
-  height: calc(100vh - 140px); /* Assuming a top offset of 120px and 20px for bottom spacing */
   display: flex;
+  position: fixed;  /* Change to fixed */
+  align-items: flex-start;
+  flex-direction: column;
+  z-index: 10000000;  /* Optional: Increase z-index to ensure it stays on top */
+  background-color: var(--dl-color-dark_background-100);
+}
+
+/* Assuming .interaction2-bottom-input or a related class for the bottom input */
+.interaction2-bottom-input {
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  display: flex;
+  position: fixed;  /* Change to fixed */
+  overflow: hidden;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: var(--dl-color-dark_background-100);
+  z-index: 10;  /* Optional: Increase z-index to ensure it stays on top */
+  padding: 15px;
+}
+/* .interaction2-bottom-input {
+  bottom: 0;
+  left: 0px;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
   position: absolute;
   align-items: flex-start;
   flex-direction: column;
-  overflow-y: auto;
-  z-index: 0;
+  background-color: var(--dl-color-dark_background-100);
+  padding: 15px;
+} */
+
+.chats {
+  gap: 20px;
+  padding-top: 120px; 
+  padding-bottom: 420px;
+  width: 100%;
+  max-height: calc(100vh - 400px);  
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  overflow-y: auto;  
+  z-index: 1;  
 }
 .cents {
   gap: 6px;
@@ -718,7 +769,7 @@ export default {
   border-style: solid;
   border-width: 2px;
 }
-.interaction2-navigation {
+/* .interaction2-navigation {
   top: 0px;
   left: 0px;
   width: 100%;
@@ -726,7 +777,7 @@ export default {
   position: absolute;
   align-items: flex-start;
   flex-direction: column;
-}
+} */
 .interaction2-system-status {
   width: 100%;
   height: 44px;
@@ -1039,18 +1090,7 @@ export default {
   height: 18px;
   position: absolute;
 }
-.interaction2-bottom-input {
-  bottom: 0;
-  left: 0px;
-  width: 100%;
-  display: flex;
-  overflow: hidden;
-  position: absolute;
-  align-items: flex-start;
-  flex-direction: column;
-  background-color: var(--dl-color-dark_background-100);
-  padding: 15px;
-}
+
 .interaction2-frame4361 {
   gap: 18px;
   width: 100%;
@@ -1176,7 +1216,7 @@ export default {
 }
 .interaction2-frame73 {
   gap: 12px;
-  width: 98%;
+  width: 95%;
   display: flex;
   padding: 8px 16px;
   overflow: hidden;

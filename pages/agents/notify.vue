@@ -80,8 +80,9 @@
               .page-searchnormal11
                 .page-group2
                   .page-group3
-                    img.page-vector(src="/external/vectori652-3ojn.svg", alt="VectorI652")
-                    img.page-vector1(src="/external/vectori652-lpfz.svg", alt="VectorI652")
+                    img.my-agents-vector26(src="/external/vectori652-68a.svg", alt="VectorI652")
+                    img.my-agents-vector27(src="/external/vectori652-3ojn.svg", alt="VectorI652")
+                    img.my-agents-vector28(src="/external/vectori652-lpfz.svg", alt="VectorI652")
     .page-title
       .page-group4
         img.page-vector2(src="/external/vectori652-4fej.svg", alt="VectorI652")
@@ -179,6 +180,28 @@ export default {
 
 </script>
 <style scoped>
+
+.my-agents-vector26 {
+  top: 4.449999809265137px;
+  left: 8.899280548095703px;
+  width: 1px;
+  height: 5px;
+  position: absolute;
+}
+.my-agents-vector27 {
+  top: 0px;
+  left: 0px;
+  width: 19px;
+  height: 19px;
+  position: absolute;
+}
+.my-agents-vector28 {
+  top: 17.579999923706055px;
+  left: 5.569281101226807px;
+  width: 8px;
+  height: 4px;
+  position: absolute;
+}
 .page-container {
   width: 100%;
   display: flex;
@@ -753,8 +776,8 @@ export default {
 }
 .page-component-elements1 {
   gap: 10px;
-  top: 8px;
-  left: 319px;
+  top: 10px;
+  left: 336px;
   width: 40px;
   display: flex;
   position: absolute;
