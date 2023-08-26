@@ -8,18 +8,25 @@
             img.my-agents-rectangle11(src="/external/zhouxiaonan_agent_pic_final.png", alt="Rectangle1I652")
           span.wrapper(v-else)
             span.wrapper-text
+              br
+              | 
+              br
               | 昵称：周小楠 
+              br
               br
               | 今日状态：兴奋
               br
+              br
               | 新增记忆：ChinaJoy
+              br
               br
               | 近期热词：奥本海默
               br
+              br
               | 更新日期：07.2023 
               br
+              br
               | 训练文本：3423对话
-
       .my-agents-frame12(@click = 'handleChat')
         span.my-agents-text04
           span 周小楠
