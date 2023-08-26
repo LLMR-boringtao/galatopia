@@ -34,10 +34,10 @@
             .town-frame475
               .town-frame492
                 span.town-text12.ButtonSmall
-                  span 13:00PM
+                  span 13:00
               .town-frame491
                 span.town-text14.ButtonSmall
-                  span 18:00PM
+                  span 18:00
             .town-group474
               img.town-ellipse20(src="/external/ellipse20i652-vqkn-200h.png", alt="Ellipse20I652")
               img.town-ellipse21(src="/external/ellipse21i652-q4mf-200h.png", alt="Ellipse21I652")
@@ -66,10 +66,10 @@
             .town-frame4751
               .town-frame4921
                 span.town-text24
-                  span 09:00AM
+                  span 09:00
               .town-frame4911
                 span.town-text26
-                  span 20:00PM
+                  span 20:00
             .town-group4741
               img.town-ellipse201(src="/external/ellipse20i652-5mnk-200h.png", alt="Ellipse20I652")
               img.town-ellipse211(src="/external/ellipse21i652-6et4-200h.png", alt="Ellipse21I652")
@@ -272,7 +272,6 @@ export default {
   align-self: stretch;
   align-items: flex-start;
   border-radius: 32px;
-  background-color: var(--dl-color-dark_background-100);
 }
 .town-button {
   gap: 10px;
@@ -340,7 +339,7 @@ export default {
   border-radius: 44px;
   flex-direction: column;
   justify-content: center;
-  background-color: var(--dl-color-dark_two-300);
+  background-color: var(--dl-color-dark_four-300);
 }
 .town-text04 {
   color: var(--dl-color-dark_background-1100);
@@ -436,7 +435,7 @@ export default {
 }
 .town-group488 {
   width: 310px;
-  height: 32.00000762939453px;
+  height: 20.00000762939453px;
   display: flex;
   position: relative;
   align-items: flex-start;
@@ -498,7 +497,7 @@ export default {
   position: absolute;
   border-color: rgba(0, 0, 0, 1);
   border-style: solid;
-  border-width: 3px;
+  border-width: 0px;
 }
 .town-ellipse21 {
   top: 0.00005340576171875px;
@@ -508,7 +507,7 @@ export default {
   position: absolute;
   border-color: rgba(0, 0, 0, 1);
   border-style: solid;
-  border-width: 3px;
+  border-width: 0px;
 }
 .town-ellipse22 {
   top: 0.00005340576171875px;
@@ -518,7 +517,7 @@ export default {
   position: absolute;
   border-color: rgba(0, 0, 0, 1);
   border-style: solid;
-  border-width: 3px;
+  border-width: 0px;
 }
 .town-rectangle83 {
   width: auto;
@@ -552,7 +551,7 @@ export default {
   border-radius: 44px;
   flex-direction: column;
   justify-content: center;
-  background-color: var(--dl-color-dark_four-300);
+  background-color: var(--dl-color-dark_two-300);
 }
 .town-text16 {
   color: var(--dl-color-dark_background-1100);
@@ -746,7 +745,7 @@ export default {
   position: absolute;
   border-color: rgba(0, 0, 0, 1);
   border-style: solid;
-  border-width: 3px;
+  border-width: 0px;
 }
 .town-ellipse211 {
   top: 0.00005340576171875px;
@@ -756,7 +755,7 @@ export default {
   position: absolute;
   border-color: rgba(0, 0, 0, 1);
   border-style: solid;
-  border-width: 3px;
+  border-width: 0px;
 }
 .town-ellipse221 {
   top: 0.00005340576171875px;
@@ -766,7 +765,7 @@ export default {
   position: absolute;
   border-color: rgba(0, 0, 0, 1);
   border-style: solid;
-  border-width: 3px;
+  border-width: 0px;
 }
 .town-rectangle831 {
   width: auto;
@@ -789,7 +788,7 @@ export default {
 .town-group04 {
   top: 20px;
   left: 80px;
-  width: 216.00006103515625px;
+  width: 50%;
   height: 80.00016021728516px;
   display: flex;
   position: absolute;

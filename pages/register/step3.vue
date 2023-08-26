@@ -273,7 +273,7 @@ export default {
   flex-shrink: 0;
   border-color: rgba(248, 168, 13, 1);
   border-style: solid;
-  border-width: 3px;
+  border-width: 0px;
   border-radius: 36px;
   flex-direction: column;
   justify-content: center;

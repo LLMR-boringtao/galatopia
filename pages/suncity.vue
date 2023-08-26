@@ -56,9 +56,9 @@
           span.town-suncity-text14
             span 介绍
           span.town-suncity-text16
-            span.
-              
+            span.   
               周日下午我们在摄政公园举办了夏季长跑活动，全长35公里，欢迎参加！
+              摄政公园附近的餐饮店家将提供特别优惠，请出示APP内二维码。
               
         .town-suncity-frame498
           img.town-suncity-rectangle71(src="/external/run1_final.png", alt="Rectangle71I652")
@@ -200,10 +200,11 @@ export default {
 .town-suncity-title {
   width: 375px;
   height: 80px;
+  left: 20px;
   display: flex;
   padding: 40px 20px 20px;
   position: relative;
-  align-items: flex-start;
+  align-items: center;
   flex-shrink: 0;
   justify-content: center;
 }
@@ -300,7 +301,8 @@ export default {
 .town-suncity-frame519 {
   gap: 149px;
   display: flex;
-  padding: 12px 16px;
+  left: 50px;
+  padding: 12px 35px;
   align-items: center;
   justify-content: center;
 }
@@ -320,7 +322,7 @@ export default {
   position: absolute;
   border-color: rgba(0, 0, 0, 1);
   border-style: solid;
-  border-width: 3px;
+  border-width: 0px;
 }
 .town-suncity-ellipse21 {
   top: 0px;
@@ -330,7 +332,7 @@ export default {
   position: absolute;
   border-color: rgba(0, 0, 0, 1);
   border-style: solid;
-  border-width: 3px;
+  border-width: 0px;
 }
 .town-suncity-ellipse22 {
   top: 0px;
@@ -340,7 +342,7 @@ export default {
   position: absolute;
   border-color: rgba(0, 0, 0, 1);
   border-style: solid;
-  border-width: 3px;
+  border-width: 0px;
 }
 .town-suncity-ellipse23 {
   top: 0px;
@@ -350,7 +352,7 @@ export default {
   position: absolute;
   border-color: rgba(0, 0, 0, 1);
   border-style: solid;
-  border-width: 3px;
+  border-width: 0px;
 }
 .town-suncity-group499 {
   top: 0px;
@@ -387,7 +389,7 @@ export default {
 .town-suncity-text04 {
   color: var(--dl-color-dark_four-400);
   height: auto;
-  font-size: 14px;
+  font-size: 16px;
   font-style: Medium;
   text-align: left;
   font-family: Aeonik;
@@ -400,7 +402,8 @@ export default {
   gap: 16px;
   width: 375px;
   display: flex;
-  padding: 8px 16px;
+  left: 20px;
+  padding: 8px 30px;
   align-items: center;
   flex-shrink: 0;
   justify-content: center;
@@ -600,8 +603,10 @@ export default {
 .town-suncity-frame14 {
   gap: 4px;
   display: flex;
-  padding: 8px 16px;
-  align-items: flex-start;
+  padding: 8px 40px;
+  align-items: left;   
+  flex-shrink: 0;   
+  justify-content: center;
   flex-direction: column;
 }
 .town-suncity-text14 {
