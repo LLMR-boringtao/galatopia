@@ -192,7 +192,11 @@ export default {
               });
               this.messages.push({ 
                   type: "received", 
-                  content: item[1].includes('：') ? item[1].split('：')[1] : item[1].slice(3) 
+                  content: item[1].includes('：') 
+                    ? item[1].split('：')[1]
+                    : item[1].includes(':')
+                      ? item[1].split(':')[1]
+                      : item[1].slice(3)
               });
           }
           this.composedMessage = ""
@@ -417,7 +421,7 @@ export default {
   color: var(--dl-color-dark_element-200);
   height: auto;
   align-self: stretch;
-  text-align: left;
+  text-align: right;
   line-height: 18px;
 }
 .interaction2-image1 {
