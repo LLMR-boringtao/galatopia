@@ -358,7 +358,7 @@ export default {
   color: var(--dl-color-dark_element-200);
   height: auto;
   align-self: stretch;
-  text-align: left;
+  text-align: right;
   line-height: 18px;
 }
 .interaction2-image1 {
