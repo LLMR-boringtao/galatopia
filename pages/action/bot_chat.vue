@@ -3,9 +3,6 @@
   .interaction2-interaction2
     img.interaction2-rectangle84(src="/external/rectangle84i652-gzhi-400w.png", alt="Rectangle84I652")
     .chats
-      //- <vue-damp-fireworks v-if="showFireworks" :boxHeight="800" :boxWidth="500">
-      //-   <p>Fireworks Animation!</p>
-      //- </vue-damp-fireworks>
       .receive
         .interaction2-frame4321
           span.interaction2-text05.ButtonSmall
@@ -115,12 +112,12 @@
         :success-text="'Matched!'"
         :background="'black'"
         :progress-bar-bg="'#ff9c78'"
-        :completed-bg="black"
-        :handler-bg="black"
-        :handler-icon="white"
-        :text-size=20
-        :success-icon="successIcon"
-        :circle="getShape"
+        :completed-bg="'#ff9c78'"
+        :handler-bg="'#ff9c78'"
+        :handler-icon="'#ff9c78'"
+        :text-size="'20'"
+        :success-icon="'successIcon'"
+        :circle="true"
         @passcallback="goPage('match')"
       )
       

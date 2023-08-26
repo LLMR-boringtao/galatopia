@@ -89,8 +89,9 @@
               .my-agents-setting22
                 .my-agents-group15
                   .my-agents-group16
-                    img.my-agents-vector24(src="/external/vectori652-04q4.svg", alt="VectorI652")
-                    img.my-agents-vector25(src="/external/vectori652-rbxd.svg", alt="VectorI652")
+                    img.interaction1-vector(src="/external/vectori652-ycl.svg", alt="VectorI652")
+                    img.interaction1-vector01(src="/external/vectori652-djz.svg", alt="VectorI652")
+                    img.interaction1-vector02(src="/external/vectori652-7jrq.svg", alt="VectorI652")
         .my-agents-component-elements2
           button.my-agents-button-icon1(@click='goPage("notify")')
             .my-agents-notificationbing1
@@ -205,6 +206,27 @@ export default {
 
 </script>
 <style scoped>
+.interaction1-vector {
+  top: 0px;
+  left: 1.0019667148590088px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+}
+.interaction1-vector01 {
+  top: 2.875688076019287px;
+  left: 8.901907920837402px;
+  width: 7px;
+  height: 7px;
+  position: absolute;
+}
+.interaction1-vector02 {
+  top: 19.823780059814453px;
+  left: 0px;
+  width: 19px;
+  height: 1px;
+  position: absolute;
+}
 .my-agents-thumb-image div {
   position: relative;
 }
@@ -218,12 +240,12 @@ export default {
 
 .my-agents-thumb-image div span.wrapper span.wrapper-text {
   position: absolute;
-  top: 20%;
-  left: 50%;
+  top: 30%;
+  left: 60%;
   transform: translate(-50%, -50%);
-  font-size: 30px;
+  font-size: 22px;
   font-weight: bold;
-  text-align: center;
+  text-align: left;
   width: 100%;
 }
 
@@ -673,6 +695,7 @@ img.my-agents-rectangle11 {
   width: 25px;
   height: 25px;
   position: absolute;
+  opacity: 0.40;
 }
 .my-agents-vector07 {
   top: 7.137040615081787px;
@@ -730,6 +753,7 @@ img.my-agents-rectangle11 {
   width: 25px;
   height: 25px;
   position: absolute;
+  opacity: 0.40;
 }
 .my-agents-vector09 {
   top: 0px;
@@ -766,7 +790,7 @@ img.my-agents-rectangle11 {
 }
 .my-agents-messages11 {
   top: 18px;
-  left: 21px;
+  left: 24px;
   width: 28px;
   height: 28px;
   display: flex;
@@ -801,6 +825,7 @@ img.my-agents-rectangle11 {
   width: 25px;
   height: 25px;
   position: absolute;
+  opacity: 0.40;
 }
 .my-agents-vector13 {
   top: 4.748505115509033px;
@@ -879,7 +904,6 @@ img.my-agents-rectangle11 {
   width: 25px;
   height: 25px;
   position: absolute;
-  opacity: 0.40;
 }
 .my-agents-system-footer {
   display: flex;

@@ -75,35 +75,7 @@
       .interaction2-system-footer
         .interaction2-home-indicator
           img.interaction2-home-indicator1(src="/external/homeindicatori652-rawd-200h.png", alt="HomeIndicatorI652")
-//- .chat-dialog
-//-   van-nav-bar(left-text="返回", left-arrow, @click-left="onClickLeft")
-//-   .chat-messages
-//-     //- .chat-message(
-//-     //-   v-for="(message, index) in messages", 
-//-     //-   :key="index", 
-//-     //-   :class="{'chat-message--received': message.type === 'received'}") {{ message.content }}
-//-     .chat-conversation
-//-       div(
-//-         v-for="(message, index) in messages", 
-//-         :key="index", 
-//-         :class="{'right': message.type === 'received'}")
-//-         .conversation-list.message-highlight
-//-           .chat-avatar
-//-             img.avatar(v-if="message.type === 'received'" src="/img/avatar-1.jpg")
-//-             img.avatar(v-if="message.type != 'received'" src="/img/avatar-2.jpg")
-//-           .user-chat-content
-//-             .ctext-wrap
-//-               .ctext-wrap-content {{ message.content }}
-//-             .conversation-name(v-if="message.type != 'received'") Me
-//-             .conversation-name(v-if="message.type === 'received'") My Agent
-//-   .chat-input
-//-     van-field(
-//-       v-model="composedMessage", 
-//-       :autosize="{ minRows: 1, maxRows: 3 }", 
-//-       placeholder="请输入消息...", 
-//-       type="textarea", 
-//-       :rows="1")
-//-     van-button(type="primary", @click="sendMessage", icon="share-o")
+
 </template>
 
 <script>
@@ -132,7 +104,7 @@ export default {
         { id: 4, name: "陈小昊"},
         { id: 5, name: "张小雯"},
         { id: 6, name: "黄小鹅"},
-        { id: 7, name: "张小悦"},
+        { id: 7, name: "张小玥"},
       ]
     }
   },
@@ -209,7 +181,7 @@ export default {
           this.history = res.data.data.history
           const history =  res.data.data.history
           for (let item of history) {
-            this.messages.push({ type: "sent", content: item[0] });
+            this.messages.push({ type: "sent", content: item[0].split(':')[1] });
             this.messages.push({ type: "received", content: item[1] });
           }
           this.composedMessage = ""
@@ -232,14 +204,7 @@ export default {
 
 </script>
 <style scoped>
-.interaction2-container {
-  width: 100%;
-  display: flex;
-  overflow: auto;
-  min-height: 100vh;
-  align-items: center;
-  flex-direction: column;
-}
+
 .interaction2-interaction2 {
   width: 100%;
   height: 100vh;
@@ -249,6 +214,7 @@ export default {
   align-items: flex-start;
   flex-shrink: 0;
   background-color: var(--dl-color-dark_background-100);
+  z-index: 0;
 }
 
 .chat-input {
@@ -259,27 +225,32 @@ export default {
   left: 0px;
   width: 100%;
   height: 566px;
-  opacity: 0.80;
+  /* opacity: 0.80; */
   position: absolute;
   border-radius: 24px;
 }
+
 .chats {
   gap: 20px;
   top: 120px;
   left: 0px;
-  width: 375px;
+  width: 100%;
+  height: calc(100vh - 140px); /* Assuming a top offset of 120px and 20px for bottom spacing */
   display: flex;
   position: absolute;
   align-items: flex-start;
   flex-direction: column;
+  overflow-y: auto;
+  z-index: 0;
 }
 .cents {
   gap: 6px;
-  width: 375px;
+  width: 100%;
   display: flex;
   padding: 0 16px;
   align-items: flex-start;
   flex-shrink: 0;
+  box-sizing: border-box;
 }
 .interaction2-image {
   width: 32px;
@@ -372,12 +343,13 @@ export default {
 }
 .receive {
   gap: 6px;
-  width: 375px;
+  width: 100%;
   display: flex;
   padding: 0 16px;
   align-items: flex-start;
   flex-shrink: 0;
   justify-content: flex-end;
+  box-sizing: border-box;
 }
 .interaction2-frame4321 {
   gap: 10px;
@@ -424,7 +396,7 @@ export default {
 }
 .interaction2-frame443 {
   gap: 6px;
-  width: 375px;
+  width: 100%;
   display: flex;
   padding: 0 16px;
   align-items: flex-start;
@@ -696,7 +668,7 @@ export default {
 }
 .interaction2-frame444 {
   gap: 6px;
-  width: 375px;
+  width: 100%;
   display: flex;
   padding: 0 16px;
   align-items: flex-start;
@@ -749,7 +721,7 @@ export default {
 .interaction2-navigation {
   top: 0px;
   left: 0px;
-  width: 375px;
+  width: 100%;
   display: flex;
   position: absolute;
   align-items: flex-start;
@@ -768,7 +740,7 @@ export default {
   gap: 14px;
   top: 0px;
   left: 0px;
-  width: 375px;
+  width: 100%;
   height: 30px;
   display: flex;
   position: absolute;
@@ -854,7 +826,7 @@ export default {
 }
 .interaction2-navigation1 {
   gap: 122px;
-  width: 375px;
+  width: 100%;
   height: 56px;
   display: flex;
   padding: 15px 16px;
@@ -863,6 +835,7 @@ export default {
   align-items: center;
   flex-shrink: 0;
   justify-content: space-between;
+  box-sizing: border-box;
 }
 .interaction2-component-elements {
   gap: 10px;
@@ -1076,16 +1049,18 @@ export default {
   align-items: flex-start;
   flex-direction: column;
   background-color: var(--dl-color-dark_background-100);
+  padding: 15px;
 }
 .interaction2-frame4361 {
   gap: 18px;
-  width: 375px;
+  width: 100%;
   display: flex;
   padding: 12px 19px 12px 20px;
   align-items: center;
   flex-shrink: 0;
   justify-content: center;
   background-color: var(--dl-color-dark_background-100);
+  box-sizing: border-box;
 }
 .interaction2-emojibeamingfacewithsmilingeyesemoji {
   width: 32px;
@@ -1201,12 +1176,13 @@ export default {
 }
 .interaction2-frame73 {
   gap: 12px;
-  width: 375px;
+  width: 98%;
   display: flex;
   padding: 8px 16px;
   overflow: hidden;
   align-items: flex-start;
   flex-shrink: 0;
+  box-sizing: border-box;
 }
 .interaction2-input-frame82 {
   gap: 12px;
@@ -1339,14 +1315,14 @@ export default {
   position: absolute;
 }
 .interaction2-system-footer {
-  width: 375px;
+  width: 100%;
   display: flex;
   align-items: center;
   flex-shrink: 0;
   flex-direction: column;
 }
 .interaction2-home-indicator {
-  width: 375px;
+  width: 100%;
   height: 34px;
   display: flex;
   position: relative;

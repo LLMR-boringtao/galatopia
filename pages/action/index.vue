@@ -274,6 +274,7 @@ export default {
 
 </script>
 <style scoped>
+
 .interaction1-container {
   width: 100%;
   display: flex;
@@ -1269,6 +1270,7 @@ export default {
   width: 25px;
   height: 25px;
   position: absolute;
+  opacity: 0.40;
 }
 .interaction1-vector12 {
   top: 7.6434478759765625px;
@@ -1290,8 +1292,8 @@ export default {
   justify-content: center;
 }
 .interaction1-ticket1 {
-  top: 18px;
-  left: 21px;
+  top: 17px;
+  left: 23px;
   width: 28px;
   height: 28px;
   display: flex;
@@ -1326,6 +1328,7 @@ export default {
   width: 25px;
   height: 25px;
   position: absolute;
+  opacity: 0.40;
 }
 .interaction1-vector14 {
   top: 0px;
@@ -1396,7 +1399,6 @@ export default {
   left: 0px;
   width: 25px;
   height: 25px;
-  opacity: 0.40;
   position: absolute;
 }
 .interaction1-vector18 {
@@ -1462,6 +1464,7 @@ export default {
   width: 9px;
   height: 9px;
   position: absolute;
+  opacity: 0.40;
 }
 .interaction1-vector21 {
   top: 15.685833930969238px;
@@ -1469,6 +1472,7 @@ export default {
   width: 17px;
   height: 9px;
   position: absolute;
+  opacity: 0.40;
 }
 .interaction1-vector22 {
   top: 0px;
@@ -1476,6 +1480,7 @@ export default {
   width: 25px;
   height: 25px;
   position: absolute;
+  opacity: 0.40;
 }
 .interaction1-system-footer {
   display: flex;

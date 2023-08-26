@@ -36,7 +36,7 @@
           img.news-rectangle12(src="/external/zhouxiaonan_agent_pic_new.png", alt="Rectangle1I652")
           .news-frame9_summary
             span.news-text
-              span 今天遇到16位有趣的人，参加5场活动。
+              span 遇到了16位有趣的人，参加了5场活动。
             .news-frame2
               img.news-ellipse1(src="/external/ellipse1i652-9t0w-200h.png", alt="Ellipse1I652")
               span.news-status
@@ -81,8 +81,9 @@
               .news-setting22
                 .news-group
                   .news-group01
-                    img.news-vector(src="/external/vectori652-f7bt.svg", alt="VectorI652")
-                    img.news-vector01(src="/external/vectori652-z4r.svg", alt="VectorI652")
+                    img.interaction1-vector(src="/external/vectori652-ycl.svg", alt="VectorI652")
+                    img.interaction1-vector01(src="/external/vectori652-djz.svg", alt="VectorI652")
+                    img.interaction1-vector02(src="/external/vectori652-7jrq.svg", alt="VectorI652")
         .news-component-elements2
           button.news-button-icon1(@click="goPage('notify')")
             .news-notificationbing1
@@ -188,6 +189,27 @@ export default {
 
 </script>
 <style scoped>
+.interaction1-vector {
+  top: 0px;
+  left: 1.0019667148590088px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+}
+.interaction1-vector01 {
+  top: 2.875688076019287px;
+  left: 8.901907920837402px;
+  width: 7px;
+  height: 7px;
+  position: absolute;
+}
+.interaction1-vector02 {
+  top: 19.823780059814453px;
+  left: 0px;
+  width: 19px;
+  height: 1px;
+  position: absolute;
+}
 .news-container {
   width: 100%;
   display: flex;
@@ -1032,7 +1054,6 @@ export default {
   left: 0px;
   width: 25px;
   height: 25px;
-  opacity: 0.40;
   position: absolute;
 }
 .news-vector06 {
@@ -1056,7 +1077,7 @@ export default {
 }
 .news-ticket1 {
   top: 18px;
-  left: 21px;
+  left: 23px;
   width: 28px;
   height: 28px;
   display: flex;
@@ -1091,6 +1112,7 @@ export default {
   width: 25px;
   height: 25px;
   position: absolute;
+  opacity: 0.40;
 }
 .news-vector08 {
   top: 0px;
@@ -1127,7 +1149,7 @@ export default {
 }
 .news-messages11 {
   top: 18px;
-  left: 21px;
+  left: 23px;
   width: 28px;
   height: 28px;
   display: flex;
@@ -1162,6 +1184,7 @@ export default {
   width: 25px;
   height: 25px;
   position: absolute;
+  opacity: 0.40;
 }
 .news-vector12 {
   top: 4.748505115509033px;
@@ -1226,6 +1249,7 @@ export default {
   width: 9px;
   height: 9px;
   position: absolute;
+  opacity: 0.40;
 }
 .news-vector15 {
   top: 15.685833930969238px;
@@ -1233,6 +1257,7 @@ export default {
   width: 17px;
   height: 9px;
   position: absolute;
+  opacity: 0.40;
 }
 .news-vector16 {
   top: 0px;
@@ -1240,6 +1265,7 @@ export default {
   width: 25px;
   height: 25px;
   position: absolute;
+  opacity: 0.40;
 }
 .news-system-footer {
   display: flex;
