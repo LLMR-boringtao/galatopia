@@ -7,7 +7,7 @@
           img.news-rectangle1(src="/external/rectangle1i652-fr6-200w.png", alt="Rectangle1I652")
           .news-frame9
             span.news-text
-              span 张小悦，她想请你一杯冰拿铁！
+              span 张小悦 她想请你一杯冰拿铁！
             .news-frame2
               img.news-ellipse1(src="/external/ellipse1i652-9t0w-200h.png", alt="Ellipse1I652")
               span.news-status
@@ -16,7 +16,7 @@
           img.news-rectangle11(src="/external/aobenhaimo_poster_final.png", alt="Rectangle1I652")
           .news-frame9
             span.news-text
-              span 伦敦《奥本海默》电影首映BOOM！
+              span 电影《奥本海默》伦敦首映礼，BOOM！
             .news-frame2
               img.news-ellipse1(src="/external/ellipse1i652-9t0w-200h.png", alt="Ellipse1I652")
               span.news-status
@@ -26,7 +26,7 @@
           img.news-rectangle12(src="/external/chinajoy_cos_final.png", alt="Rectangle1I652")
           .news-frame9
             span.news-text
-              span ChinaJoy 2023!
+              span ChinaJoy! 周小楠 见到了喜欢的动漫角色
             .news-frame2
               img.news-ellipse1(src="/external/ellipse1i652-9t0w-200h.png", alt="Ellipse1I652")
               span.news-status
@@ -34,9 +34,9 @@
 
         .news-group31
           img.news-rectangle12(src="/external/zhouxiaonan_agent_pic_new.png", alt="Rectangle1I652")
-          .news-frame9_summary
+          .news-frame9
             span.news-text
-              span 遇到了16位有趣的人，参加了5场活动。
+              span 遇到了16位有趣的人 参加了5场活动
             .news-frame2
               img.news-ellipse1(src="/external/ellipse1i652-9t0w-200h.png", alt="Ellipse1I652")
               span.news-status
@@ -273,7 +273,7 @@ export default {
   top: 180px;
   bottom: 0px;
   left: 0px;
-  width: 164px;
+  width: 148px;
   display: flex;
   padding: 8px 12px 12px;
   position: absolute;

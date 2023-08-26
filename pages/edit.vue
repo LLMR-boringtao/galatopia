@@ -18,7 +18,7 @@
       .page5-frame522
         .page5-group456
           .page5-group455
-            span.page5-text02.HeadlineHeadline6
+            span.page7-text14.HeadlineHeadline5
               span 自我介绍
           .page5-group454
             span.page5-text06
@@ -80,7 +80,7 @@
                   span 学历
               .page5-frame470
                 span.page5-text16
-                  span 机器学习硕士
+                  span 硕士-机器学习
                 .page5-arrowright121
                   .page5-group07
                     .page5-group08
@@ -216,8 +216,6 @@
         .page7-group455
           span.page7-text14.HeadlineHeadline5
             span 关联账号
-          span.page7-text16.BodyMini
-            span Show off your Instagram and Music.
         .page7-frame478
           .page7-group512
             img.page7-ellipse8(src="/external/ellipse8i652-ffsg-200h.png", alt="Ellipse8I652")
@@ -225,11 +223,11 @@
               img.page7-instagram21(src="/external/instagram21i652-s91t.svg", alt="instagram21I652")
           .page7-frame477
             span.page7-text18.HeadlineHeadline6
-              span Connect Your Instagram
+              span 关联你的Instagram账号
             span.page7-text20.BodyMini
               span.
                 
-                Connecting your Instagram will add your latest posts to your profile. Your username won't bevisible.
+                分享你的日常生活点滴
                 
         .page7-frame4781
           .page7-group513
@@ -237,11 +235,11 @@
             img.page7-spotify11(src="/external/spotify11i652-4lbe.svg", alt="spotify11I652")
           .page7-frame4771
             span.page7-text22.HeadlineHeadline6
-              span Connect Your Spotify
+              span 关联你的Spotify账号
             span.page7-text24.BodyMini
               span.
                 
-                Connecting your Spotify will add your latest posts to your profile. Your username won't bevisible.
+                分享你的音乐品味
                 
     //- .page7-system-footer
     //-   .page7-home-indicator
@@ -625,7 +623,7 @@ export default {
 }
 .page5-group453 {
   width: 343px;
-  height: 220px;
+  height: 180px;
   display: flex;
   position: relative;
   align-items: flex-start;
@@ -1668,7 +1666,7 @@ export default {
 }
 .page7-frame2 {
   width: 100%;
-  height: 800px;
+  height: 750px;
   display: flex;
   overflow: hidden;
   position: relative;
@@ -1801,9 +1799,10 @@ export default {
   line-height: 22px;
 }
 .page7-group495 {
-  width: 295px;
+  width: 500px;
   height: 152px;
   display: flex;
+  left: 46px;
   position: relative;
   align-items: flex-start;
   flex-shrink: 1;
@@ -2017,7 +2016,7 @@ export default {
 }
 .page7-group455 {
   width: 229px;
-  height: 46px;
+  height: 30px;
   display: flex;
   position: relative;
   align-items: flex-start;

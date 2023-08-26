@@ -6,7 +6,7 @@
         img.page-star1(src="/external/zhnagxiaoyue_icon.svg", alt="Star1I652")
         .page-frame464
           span.page-text.ButtonSmall
-            span 张小悦 给你发送了真人聊天邀请。
+            span 张小悦 给你发送了真人聊天邀请
           span.page-text04
             span.page-text05
             span • 今天 13：25
@@ -22,7 +22,7 @@
         img.page-star12(src="/external/zhounan_icon.svg", alt="Star1I652")
         .page-frame4642
           span.page-text14.ButtonSmall
-            span 今日总结：认识了20位新小伙伴，参加了城镇里3项活动，周小楠 想和你分享。
+            span 今日总结：认识了16位新小伙伴，参加了城镇里5项活动，周小楠 想和你分享
           span.page-text18
             span.page-text19
             span • 昨天 23：59
@@ -31,8 +31,6 @@
         .page-frame4643
           span.page-text21.ButtonSmall
             span 周小楠 突然对你的音乐爱好很感兴趣，你愿意介绍平时听什么歌吗？
-              span.page-text21.ButtonSmall
-                span 聊会儿：你平时喜欢听啥乐队？
           span.page-text25
             span.page-text26
             span • 昨天 21：00
@@ -41,7 +39,7 @@
         .page-frame4644
           span.page-text28.ButtonSmall
             span
-              span 今天在ChinaJoy活动上，周小楠 邂逅了 张小悦，发现彼此都很喜欢动漫《时光代理人》。
+              span 在ChinaJoy活动上，周小楠 邂逅了 张小悦，发现彼此都很喜欢动漫《时光代理人》
           span.page-text35
             span.page-text36
             span • 昨天 17：30
@@ -49,7 +47,7 @@
         img.page-star15(src="/external/cosplay.svg", alt="Star1I653")
         .page-frame4645
           span.page-text38.ButtonSmall
-            span ChinaJoy！周小楠 在活动现场玩了一整天。
+            span ChinaJoy！周小楠 在活动现场玩了一整天
           span.page-text42
             span.page-text43
             span • 昨天 8：30
@@ -75,14 +73,6 @@
             .page-iconarrowleft
               img.page-stroke1(src="/external/arrow - left.png", alt="Stroke1I652")
         .page-component-elements1
-          button.page-button-icon1
-            .page-iconsearch
-              .page-searchnormal11
-                .page-group2
-                  .page-group3
-                    img.my-agents-vector26(src="/external/vectori652-68a.svg", alt="VectorI652")
-                    img.my-agents-vector27(src="/external/vectori652-3ojn.svg", alt="VectorI652")
-                    img.my-agents-vector28(src="/external/vectori652-lpfz.svg", alt="VectorI652")
     .page-title
       .page-group4
         img.page-vector2(src="/external/vectori652-4fej.svg", alt="VectorI652")
