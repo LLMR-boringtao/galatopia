@@ -188,7 +188,7 @@ export default {
           for (let item of history) {
               this.messages.push({ 
                   type: "sent", 
-                  content: item[0].includes(':') ? "朋友: "+ item[0].split(':')[1] : item[0] 
+                  content: item[0].includes(':') ? item[0].split(':')[1] : item[0] 
               });
               this.messages.push({ 
                   type: "received", 
