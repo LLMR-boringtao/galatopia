@@ -14,12 +14,14 @@
           .interaction2-image1
             img.interaction2-rectangle261(src="/external/rectangle26i652-rtm-200h.png", alt="Rectangle26I652")
         template(v-if="message.type === 'received'")
-          .interaction2-image
-            img.interaction2-rectangle26(:src="currentUser.icon", alt="Rectangle26I652")
-          .interaction2-frame498
-            .interaction2-frame432
-              span.interaction2-text.ButtonSmall
-                span {{ message.content }}
+          <div v-for="contentPart in splitMessage(message.content)" :key="contentPart" class="chat-block">
+            .interaction2-image
+              img.interaction2-rectangle26(:src="currentUser.icon", alt="Rectangle26I652")
+            .interaction2-frame498
+              .interaction2-frame432
+                span.interaction2-text.ButtonSmall
+                  span {{ contentPart }}
+          </div>
           
     .interaction2-navigation
       .interaction2-system-status
@@ -132,6 +134,25 @@ export default {
       // 返回上一页的逻辑
       this.$router.go(-1)
     },
+    splitMessage(content) {
+      content = content.trim();
+      if (!content) return [];
+
+      const spaces = content.match(/ /g);
+      if (spaces && spaces.length > 0) {
+        const randomSpaceIndex = Math.floor(Math.random() * spaces.length) + 1;
+        const splitParts = content.split(' ', randomSpaceIndex);
+        
+        const result = [
+          splitParts.slice(0, randomSpaceIndex).join(' '),
+          splitParts.slice(randomSpaceIndex).join(' ')
+        ];
+
+        return result.filter(part => part.trim());
+      } else {
+        return [content];
+      }
+    },
     goPage (page, userID=1) {
       if (page === 'user') {
         this.$router.push('/action/user')
@@ -220,6 +241,39 @@ export default {
 </script>
 <style scoped>
 
+/* .cents-block {
+  gap: 6px;
+  width: 100%;
+  padding: 0 16px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  display: block;
+} */
+
+.cents {
+  gap: 6px;
+  width: 100%;
+  padding: 0 16px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  display: block;
+}
+/* .cents {
+  gap: 6px;
+  width: 100%;
+  display: flex;
+  padding: 0 16px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  box-sizing: border-box;
+} */
+.cents div.chat-block {
+  padding-bottom: 20px;
+  display: flex;
+}
+
 .interaction2-interaction2 {
   width: 100%;
   height: 100vh;
@@ -298,15 +352,7 @@ export default {
   overflow-y: auto;  
   z-index: 1;  
 }
-.cents {
-  gap: 6px;
-  width: 100%;
-  display: flex;
-  padding: 0 16px;
-  align-items: flex-start;
-  flex-shrink: 0;
-  box-sizing: border-box;
-}
+
 .interaction2-image {
   width: 32px;
   height: 32px;
@@ -340,6 +386,7 @@ export default {
   width: 230px;
   display: flex;
   padding: 16px;
+  margin-left: 10px;
   align-items: flex-start;
   flex-shrink: 0;
   border-radius: 4px 32px 32px;

@@ -9,16 +9,23 @@
             span 我叫周小楠 痴迷英斗！
         .interaction2-image1
           img.interaction2-rectangle261(src="/external/rectangle26i652-rtm-200h.png", alt="Rectangle26I652")
-      .cents
-        .interaction2-image
-          img.interaction2-rectangle26(src="/external/rectangle26i652-g2u2-200h.png", alt="Rectangle26I652")
-        .interaction2-frame498
-          .interaction2-frame432
-            span.interaction2-text.ButtonSmall
-              span
-                span 嗨小弟弟！我叫张小玥！
-                br
-                span 今天吃饭很开心 以后吃喝玩乐我第一个喊你！
+      .cents-block
+        div.chat-block
+          .interaction2-image
+            img.interaction2-rectangle26(src="/external/rectangle26i652-g2u2-200h.png", alt="Rectangle26I652")
+          .interaction2-frame498
+            .interaction2-frame432
+              span.interaction2-text.ButtonSmall
+                span
+                  span 嗨小弟弟！我叫张小玥！
+        div.chat-block
+          .interaction2-image
+            img.interaction2-rectangle26(src="/external/rectangle26i652-g2u2-200h.png", alt="Rectangle26I652")
+          .interaction2-frame498
+            .interaction2-frame432
+              span.interaction2-text.ButtonSmall
+                span
+                  span 今天吃饭很开心 以后吃喝玩乐我第一个喊你！
       .receive
         .interaction2-frame4321
           span.interaction2-text05.ButtonSmall
@@ -272,11 +279,24 @@ export default {
 .cents {
   gap: 6px;
   width: 100%;
-  display: flex;
   padding: 0 16px;
   align-items: flex-start;
   flex-shrink: 0;
   box-sizing: border-box;
+  display: flex;
+}
+.cents-block {
+  gap: 6px;
+  width: 100%;
+  padding: 0 16px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  display: block;
+}
+.cents-block div.chat-block {
+  padding-bottom: 20px;
+  display: flex;
 }
 .interaction2-image {
   width: 32px;
@@ -305,6 +325,7 @@ export default {
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-end;
+  padding: 0 10px;
 }
 .interaction2-frame432 {
   gap: 12px;

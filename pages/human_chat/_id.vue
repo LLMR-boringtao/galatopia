@@ -3,14 +3,26 @@
   .interaction2-interaction2
     img.interaction2-rectangle84(src="/external/rectangle84i652-gzhi-400w.png", alt="Rectangle84I652")
     .chats
-      .cents
-        .interaction2-image(@click="goPage('user')")
-          img.interaction2-rectangle26(src="/external/rectangle26i652-g2u2-200h.png", alt="Rectangle26I652")
-        .interaction2-frame498
-          .interaction2-frame432
-            span.interaction2-text.ButtonSmall
-              span
-                span 很高兴认识你呀！听小悦说你也是帝国理工的嘛
+      div(
+        v-for="(message, index) in messages", 
+        :key="index", 
+        :class="message.type == 'received' ? 'cents' : 'receive'")
+        template(v-if="message.type !== 'received'")
+          .interaction2-frame4321
+            span.interaction2-text05.ButtonSmall
+              span {{ message.content }}
+          .interaction2-image1
+            img.interaction2-rectangle261(src="/external/rectangle26i652-rtm-200h.png", alt="Rectangle26I652")
+        template(v-if="message.type === 'received'")
+          <div v-for="contentPart in splitMessage(message.content)" :key="contentPart" class="chat-block">
+            .interaction2-image
+              img.interaction2-rectangle26(:src="currentUser.icon", alt="Rectangle26I652")
+            .interaction2-frame498
+              .interaction2-frame432
+                span.interaction2-text.ButtonSmall
+                  span {{ contentPart }}
+          </div>
+          
     .interaction2-navigation
       .interaction2-system-status
         .interaction2-notch
@@ -26,13 +38,13 @@
           img.interaction2-svg941(src="/external/svg941i652-xhab.svg", alt="SVG941I652")
       .interaction2-navigation1
         .interaction2-component-elements
-          button.interaction2-button-icon(@click="goPage('index_matched')")
+          button.interaction2-button-icon(@click="onClickLeft")
             .interaction2-iconarrowleft
               img.interaction2-stroke1(src="/external/stroke1i652-gx98.svg", alt="Stroke1I652")
         .interaction2-component-elements1
           span.interaction2-text09.ButtonLarge
             span {{ currentUser.name }}
-        .interaction2-component-elements2
+        .interaction2-component-elements2(@click="goPage('human_chat')")
           button.interaction2-button-icon1
             .interaction2-call1
               .interaction2-group04
@@ -43,7 +55,6 @@
           //- .interaction2-component3
           //-   .interaction2-video2
           //-     img.interaction2-union(src="/external/unioni652-88vi.svg", alt="UnionI652")
-
     .interaction2-bottom-input
       .interaction2-frame4361
         .interaction2-emojibeamingfacewithsmilingeyesemoji
@@ -94,13 +105,13 @@ export default {
       composedMessage: "",
       history: [],
       users: [
-        { id: 1, name: "吴小婷"},
-        { id: 2, name: "杨小刚"},
-        { id: 3, name: "胡小花"},
-        { id: 4, name: "陈小昊"},
-        { id: 5, name: "张小雯"},
-        { id: 6, name: "黄小鹅"},
-        { id: 7, name: "张小悦"},
+        { id: 1, name: "吴小婷", icon: "/external/wuxiaoting_icon-modified.png"},
+        { id: 2, name: "杨小刚", icon: "/external/yangxiaogang_icon.png"},
+        { id: 3, name: "胡小花", icon: "/external/huxiaohua_icon.png"},
+        { id: 4, name: "陈小昊", icon: "/external/chenxiaohao_icon.png"},
+        { id: 5, name: "张小雯", icon: "/external/zhangxiaowen_icon.png"},
+        { id: 6, name: "黄小鹅", icon: "/external/huangxiaoe_icon.png"},
+        { id: 7, name: "张小玥", icon: "/external/张小玥 _chat_icon.png"},
       ]
     }
   },
@@ -111,7 +122,7 @@ export default {
     ]),
     currentUser() {
       const userID = parseInt(this.$route.params.id, 10);
-      console.log(this.$route.params.id)
+      console.log(userID)
       return this.users.find(user => user.id === userID);
     }
   },
@@ -123,13 +134,36 @@ export default {
       // 返回上一页的逻辑
       this.$router.go(-1)
     },
+    splitMessage(content) {
+      content = content.trim();
+      if (!content) return [];
+
+      const spaces = content.match(/ /g);
+      if (spaces && spaces.length > 0) {
+        const randomSpaceIndex = Math.floor(Math.random() * spaces.length) + 1;
+        const splitParts = content.split(' ', randomSpaceIndex);
+        
+        const result = [
+          splitParts.slice(0, randomSpaceIndex).join(' '),
+          splitParts.slice(randomSpaceIndex).join(' ')
+        ];
+
+        return result.filter(part => part.trim());
+      } else {
+        return [content];
+      }
+    },
     goPage (page, userID=1) {
       if (page === 'user') {
         this.$router.push('/action/user')
       } else if (page === 'chat') {
         this.$router.push('/action/' + userID)
+      } else if (page === 'human_chat') {
+        this.$router.push('/human_chat/' + parseInt(this.$route.params.id, 10))
       } else if (page === 'bot_chat') {
         this.$router.push('/action/bot_chat')
+      } else if (page === 'human_human_chat') {
+        this.$router.push('/action/human_human_chat')
       } else if (page === 'match') {
         this.$router.push('/action/match')
       } else if (page === 'edit') {
@@ -142,20 +176,29 @@ export default {
         this.$router.push('/agents')
       } else if (page === 'town') {
         this.$router.push('/town')
-      } else if (page === 'index_matched') {
-        this.$router.push('/action/index_matched')
-      }
+      } 
     },
     async sendMessage() {
       const user = this.$store.state.user
+      const userID = this.$route.params
+      
       if (this.composedMessage.trim() !== "") {
+        console.log(userID.id)
+        const urls = ['https://5fa2c9364a47.ngrok.app', 
+        'https://a324e4fd48c1.ngrok.app', 
+        'https://c85eccdef31d.ngrok.app',
+        "https://3a9855754f28.ngrok.app",
+        "https://c85eccdef31d.ngrok.app",
+        "https://b26042a5c52f.ngrok.app"
+      ];
+        console.log(urls[userID.id])
         const res = await axios({
           url: '/user/chat',
           method: 'post',
           data: {
-            question: user.name + ':' + this.composedMessage,
+            question: "朋友" + ': ' + this.composedMessage,
             history: this.history,
-            url: 'https://3a9855754f28.ngrok.app/chat'
+            url: urls[userID.id-1] + '/chat'
           }
         })
         console.log(res)
@@ -164,8 +207,18 @@ export default {
           this.history = res.data.data.history
           const history =  res.data.data.history
           for (let item of history) {
-            this.messages.push({ type: "sent", content: item[0] });
-            this.messages.push({ type: "received", content: item[1] });
+              this.messages.push({ 
+                  type: "sent", 
+                  content: item[0].includes(':') ? item[0].split(':')[1] : item[0] 
+              });
+              this.messages.push({ 
+                  type: "received", 
+                  content: item[1].includes('：') 
+                    ? item[1].split('：')[1]
+                    : item[1].includes(':')
+                      ? item[1].split(':')[1]
+                      : item[1].slice(3)
+              });
           }
           this.composedMessage = ""
         }
@@ -187,14 +240,40 @@ export default {
 
 </script>
 <style scoped>
-.interaction2-container {
+
+/* .cents-block {
+  gap: 6px;
+  width: 100%;
+  padding: 0 16px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  display: block;
+} */
+
+.cents {
+  gap: 6px;
+  width: 100%;
+  padding: 0 16px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  display: block;
+}
+/* .cents {
+  gap: 6px;
   width: 100%;
   display: flex;
-  overflow: auto;
-  min-height: 100vh;
-  align-items: center;
-  flex-direction: column;
+  padding: 0 16px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  box-sizing: border-box;
+} */
+.cents div.chat-block {
+  padding-bottom: 20px;
+  display: flex;
 }
+
 .interaction2-interaction2 {
   width: 100%;
   height: 100vh;
@@ -204,6 +283,7 @@ export default {
   align-items: flex-start;
   flex-shrink: 0;
   background-color: var(--dl-color-dark_background-100);
+  z-index: 0;
 }
 
 .chat-input {
@@ -214,42 +294,65 @@ export default {
   left: 0px;
   width: 100%;
   height: 566px;
-  opacity: 0.80;
+  /* opacity: 0.80; */
   position: absolute;
   border-radius: 24px;
 }
-/* .chats {
-  gap: 20px;
-  top: 120px;
+
+
+.interaction2-navigation {
+  top: 0px;
   left: 0px;
   width: 100%;
   display: flex;
+  position: fixed;  /* Change to fixed */
+  align-items: flex-start;
+  flex-direction: column;
+  z-index: 10000000;  /* Optional: Increase z-index to ensure it stays on top */
+  background-color: var(--dl-color-dark_background-100);
+}
+
+/* Assuming .interaction2-bottom-input or a related class for the bottom input */
+.interaction2-bottom-input {
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  display: flex;
+  position: fixed;  /* Change to fixed */
+  overflow: hidden;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: var(--dl-color-dark_background-100);
+  z-index: 10;  /* Optional: Increase z-index to ensure it stays on top */
+  padding: 15px;
+}
+/* .interaction2-bottom-input {
+  bottom: 0;
+  left: 0px;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
   position: absolute;
   align-items: flex-start;
   flex-direction: column;
+  background-color: var(--dl-color-dark_background-100);
+  padding: 15px;
 } */
 
 .chats {
   gap: 20px;
-  top: 120px;
-  left: 0px;
+  padding-top: 120px; 
+  padding-bottom: 420px;
   width: 100%;
-  height: calc(100vh - 140px); /* Assuming a top offset of 120px and 20px for bottom spacing */
+  max-height: calc(100vh - 400px);  
   display: flex;
-  position: absolute;
+  position: relative;
   align-items: flex-start;
   flex-direction: column;
-  overflow-y: auto;
+  overflow-y: auto;  
+  z-index: 1;  
 }
-.cents {
-  gap: 6px;
-  width: 100%;
-  display: flex;
-  padding: 0 16px;
-  align-items: flex-start;
-  flex-shrink: 0;
-  box-sizing: border-box;
-}
+
 .interaction2-image {
   width: 32px;
   height: 32px;
@@ -283,18 +386,13 @@ export default {
   width: 230px;
   display: flex;
   padding: 16px;
+  margin-left: 10px;
   align-items: flex-start;
   flex-shrink: 0;
   border-radius: 4px 32px 32px;
   flex-direction: column;
   background-color: rgba(255, 156, 120, 1);
 }
-
-.interaction2-frame432 img {
-  width: 100%;
-  padding-top: 10px;
-}
-
 .interaction2-text {
   color: var(--dl-color-light_element-1100);
   height: auto;
@@ -370,7 +468,7 @@ export default {
   color: var(--dl-color-dark_element-200);
   height: auto;
   align-self: stretch;
-  text-align: left;
+  text-align: right;
   line-height: 18px;
 }
 .interaction2-image1 {
@@ -722,7 +820,7 @@ export default {
   border-style: solid;
   border-width: 2px;
 }
-.interaction2-navigation {
+/* .interaction2-navigation {
   top: 0px;
   left: 0px;
   width: 100%;
@@ -730,7 +828,7 @@ export default {
   position: absolute;
   align-items: flex-start;
   flex-direction: column;
-}
+} */
 .interaction2-system-status {
   width: 100%;
   height: 44px;
@@ -947,7 +1045,7 @@ export default {
 .interaction2-component-elements2 {
   gap: 8px;
   top: 8px;
-  right: 16px;
+  right: 28px;
   display: flex;
   position: absolute;
   align-items: flex-start;
@@ -1012,10 +1110,10 @@ export default {
   flex-shrink: 1;
 }
 .interaction2-stroke-stroke {
-  top: 0px;
-  left: 0px;
-  width: 21px;
-  height: 20px;
+  top: -2px;
+  left: -2px;
+  width: 24px;
+  height: 24px;
   position: absolute;
 }
 .interaction2-component3 {
@@ -1043,17 +1141,7 @@ export default {
   height: 18px;
   position: absolute;
 }
-.interaction2-bottom-input {
-  bottom: 0;
-  left: 0px;
-  width: 100%;
-  display: flex;
-  overflow: hidden;
-  position: absolute;
-  align-items: flex-start;
-  flex-direction: column;
-  background-color: var(--dl-color-dark_background-100);
-}
+
 .interaction2-frame4361 {
   gap: 18px;
   width: 100%;
@@ -1179,7 +1267,7 @@ export default {
 }
 .interaction2-frame73 {
   gap: 12px;
-  width: 100%;
+  width: 95%;
   display: flex;
   padding: 8px 16px;
   overflow: hidden;
