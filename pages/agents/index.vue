@@ -276,7 +276,7 @@ img.my-agents-rectangle11 {
 
 .my-agents-my-agents {
   width: 100%;
-  height: 100vh;
+  height: 110vh;
   display: flex;
   overflow: hidden;
   position: relative;
@@ -1025,6 +1025,7 @@ img.my-agents-rectangle11 {
   position: fixed;
   align-items: flex-start;
   flex-direction: column;
+  background-color: var(--dl-color-dark_background-100);
 }
 .my-agents-system-status {
   width: 375px;
@@ -1126,7 +1127,7 @@ img.my-agents-rectangle11 {
 .my-agents-navigation1 {
   gap: 122px;
   width: 375px;
-  height: 56px;
+  height: 35px;
   display: flex;
   padding: 15px 16px;
   overflow: hidden;
