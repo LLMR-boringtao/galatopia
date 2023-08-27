@@ -916,7 +916,7 @@ export default {
   align-items: flex-start;
   border-radius: 30px;
   flex-direction: column;
-  background-color: var(--dl-color-dark_background-200);
+  background-color: var(--dl-color-dark_background-100);
   box-sizing: border-box;
 }
 .interaction1-list {
@@ -991,7 +991,7 @@ export default {
   border-radius: 24px 24px 2px;
   flex-direction: column;
   justify-content: center;
-  background-color: var(--dl-color-dark_background-300);
+  background-color: var(--dl-color-dark_background-200);
 }
 .interaction1-frame23 {
   gap: 16px;

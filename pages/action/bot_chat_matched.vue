@@ -209,7 +209,7 @@ export default {
   opacity: 0.80;
   position: absolute;
   border-radius: 24px;
-  background-color: var(--dl-color-dark_background-400);
+  background-color: var(--dl-color-dark_background-100);
 }
 /* .chats {
   gap: 20px;
