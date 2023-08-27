@@ -236,7 +236,7 @@ export default {
   position: relative;
   align-items: flex-start;
   flex-shrink: 0;
-  background-color: var(--dl-color-dark_background-200);
+  background-color: var(--dl-color-dark_background-100);
 }
 .town-frame518 {
   top: 224px;
@@ -259,6 +259,7 @@ export default {
   flex-shrink: 0;
   flex-direction: column;
   justify-content: center;
+  background-color: var(--dl-color-dark_background-100);
 }
 .town-bar-segmented-variant3 {
   display: flex;
@@ -306,7 +307,7 @@ export default {
   padding: 16px;
   align-items: flex-start;
   flex-direction: column;
-  background-color: var(--dl-color-dark_background-300);
+  background-color: var(--dl-color-dark_background-100);
 }
 .town-list {
   gap: 16px;
@@ -317,7 +318,7 @@ export default {
   flex-shrink: 0;
   border-radius: 28px;
   flex-direction: column;
-  background-color: var(--dl-color-dark_background-100);
+  background-color: var(--dl-color-dark_background-200);
 }
 .town-frame465 {
   gap: 12px;
@@ -532,7 +533,7 @@ export default {
   flex-shrink: 0;
   border-radius: 28px;
   flex-direction: column;
-  background-color: var(--dl-color-dark_background-100);
+  background-color: var(--dl-color-dark_background-200);
 }
 .town-frame4651 {
   gap: 12px;
@@ -777,13 +778,14 @@ export default {
   top: 100px;
   left: 0px;
   width: 100%;
-  height: 100px;
+  height: 50px;
   display: flex;
   padding: 40px 20px 20px;
   position: absolute;
   align-items: flex-start;
   flex-shrink: 0;
   justify-content: center;
+  background-color: var(--dl-color-dark_background-100);
 }
 .town-group04 {
   top: 20px;

@@ -203,7 +203,7 @@ export default {
   opacity: 0.80;
   position: absolute;
   border-radius: 24px;
-  background-color: var(--dl-color-dark_background-400);
+  background-color: var(--dl-color-dark_background-100);
 }
 /* .chats {
   gap: 20px;
@@ -351,7 +351,7 @@ export default {
   flex-shrink: 0;
   border-radius: 32px 4px 32px 32px;
   flex-direction: column;
-  background-color: var(--dl-color-dark_background-100);
+  background-color: var(--dl-color-dark_background-300);
 }
 .interaction2-text05 {
   color: var(--dl-color-dark_element-200);

@@ -239,7 +239,7 @@ export default {
   justify-content: center;
   box-sizing: border-box;
   overflow-y: scroll;
-  background-color: var(--dl-color-dark_background-200);
+  background-color: var(--dl-color-dark_background-100);
 }
 .news-frame10 {
   gap: 15px;
@@ -281,8 +281,7 @@ export default {
   flex-shrink: 0;
   flex-direction: column;
   justify-content: center;
-  background-color: var(--dl-color-default-overlay);
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6000000238418579) 100%);
+  background-color: var(--dl-color-dark_background-200);
 }
 .news-frame9_summary {
   top: 180px;
@@ -359,8 +358,7 @@ export default {
   flex-shrink: 0;
   flex-direction: column;
   justify-content: center;
-  background-color: var(--dl-color-default-overlay);
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6000000238418579) 100%);
+  background-color: var(--dl-color-dark_background-200);
 }
 .news-status {
   color: var(--dl-color-light_element-1100);
@@ -659,6 +657,7 @@ export default {
   position: fixed;
   align-items: flex-start;
   flex-direction: column;
+  background-color: var(--dl-color-dark_background-100);
 }
 .news-system-status {
   width: 100%;

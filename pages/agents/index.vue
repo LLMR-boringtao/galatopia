@@ -280,7 +280,7 @@ img.my-agents-rectangle11 {
   position: relative;
   align-items: flex-start;
   flex-shrink: 0;
-  background-color: var(--dl-color-dark_background-200);
+  background-color: var(--dl-color-dark_background-100);
 }
 .my-agents-group463 {
   top: 190.41571044921875px;
@@ -430,8 +430,7 @@ img.my-agents-rectangle11 {
   align-items: flex-start;
   flex-shrink: 0;
   flex-direction: column;
-  background-color: var(--dl-color-default-overlay);
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6000000238418579) 100%);
+  background-color: var(--dl-color-dark_background-200);
 }
 .my-agents-text04 {
   color: var(--dl-color-light_element-1100);
