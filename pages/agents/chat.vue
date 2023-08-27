@@ -1,4 +1,4 @@
-<template lang="pug">
+gitp<template lang="pug">
 .interaction2-container
   .interaction2-interaction2
     img.interaction2-rectangle84(src="/external/rectangle84i652-gzhi-400w.png", alt="Rectangle84I652")

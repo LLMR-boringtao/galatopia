@@ -39,7 +39,7 @@
         .page-frame4644
           span.page-text28.ButtonSmall
             span
-              span 在ChinaJoy活动上，周小楠 邂逅了 张小悦，发现彼此都很喜欢动漫《时光代理人》
+              span 在ChinaJoy，周小楠 邂逅了 张小悦，发现彼此都很喜欢动漫《时光代理人》
           span.page-text35
             span.page-text36
             span • 昨天 17：30
@@ -47,7 +47,7 @@
         img.page-star15(src="/external/cosplay.svg", alt="Star1I653")
         .page-frame4645
           span.page-text38.ButtonSmall
-            span ChinaJoy！周小楠 在活动现场玩了一整天
+            span ChinaJoy！周小楠 在活动玩了一整天
           span.page-text42
             span.page-text43
             span • 昨天 8：30

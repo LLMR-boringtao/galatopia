@@ -7,7 +7,7 @@
         .interaction2-frame4321
           span.interaction2-text05.ButtonSmall
             span 我叫周小楠 痴迷英斗！
-        .interaction2-image1
+        .interaction2-image
           img.interaction2-rectangle261(src="/external/rectangle26i652-rtm-200h.png", alt="Rectangle26I652")
       .cents-block
         div.chat-block
@@ -32,7 +32,7 @@
             span 好嘞 我干活唯唯诺诺 吃饭第一名 
             br
             span 你平时有什么兴趣爱好？
-        .interaction2-image1
+        .interaction2-image
           img.interaction2-rectangle261(src="/external/rectangle26i652-rtm-200h.png", alt="Rectangle26I652")
       .cents
         .interaction2-image
@@ -45,7 +45,7 @@
         .interaction2-frame4321
           span.interaction2-text05.ButtonSmall
             span 哈哈哈哈 你涉猎广泛啊
-        .interaction2-image1
+        .interaction2-image
           img.interaction2-rectangle261(src="/external/rectangle26i652-rtm-200h.png", alt="Rectangle26I652")
       .cents
         .interaction2-image
@@ -58,7 +58,7 @@
         .interaction2-frame4321
           span.interaction2-text05.ButtonSmall
             span 你也喜欢玩游戏？太好了 我平时在伦敦居住 我们可以约打游戏
-        .interaction2-image1
+        .interaction2-image
           img.interaction2-rectangle261(src="/external/rectangle26i652-rtm-200h.png", alt="Rectangle26I652")
       .cents
         .interaction2-image
@@ -71,7 +71,7 @@
         .interaction2-frame4321
           span.interaction2-text05.ButtonSmall
             span 嗯嗯 我也可以带你去伦敦的帝国理工逛逛 那是我本科的学校
-        .interaction2-image1
+        .interaction2-image
           img.interaction2-rectangle261(src="/external/rectangle26i652-rtm-200h.png", alt="Rectangle26I652")
       .cents
         .interaction2-image
@@ -84,7 +84,7 @@
         .interaction2-frame4321
           span.interaction2-text05.ButtonSmall
             span YES! I got the day off! Say when and where?
-        .interaction2-image1
+        .interaction2-image
           img.interaction2-rectangle261(src="/external/rectangle26i652-rtm-200h.png", alt="Rectangle26I652")
     .interaction2-navigation
       .interaction2-system-status
@@ -261,6 +261,7 @@ export default {
   /* opacity: 0.80; */
   position: absolute;
   border-radius: 24px;
+  background-color: var(--dl-color-dark_background-200);
 }
 
 .chats {

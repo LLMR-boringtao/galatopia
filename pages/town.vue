@@ -444,7 +444,7 @@ export default {
 .town-frame475 {
   gap: 6px;
   top: 0px;
-  left: 202px;
+  left: 195px;
   display: flex;
   position: absolute;
   align-items: flex-start;
@@ -683,7 +683,7 @@ export default {
 .town-frame4751 {
   gap: 6px;
   top: 0px;
-  left: 202px;
+  left: 195px;
   display: flex;
   position: absolute;
   align-items: flex-start;

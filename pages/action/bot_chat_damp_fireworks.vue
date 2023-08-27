@@ -11,7 +11,7 @@
         .interaction2-frame4321
           span.interaction2-text05.ButtonSmall
             span YES! I got the day off! Say when and where?
-        .interaction2-image1
+        .interaction2-image
           img.interaction2-rectangle261(src="/external/rectangle26i652-rtm-200h.png", alt="Rectangle26I652")
       .cents
         .interaction2-image
@@ -27,7 +27,7 @@
         .interaction2-frame4321
           span.interaction2-text05.ButtonSmall
             span YES! I got the day off! Say when and where?
-        .interaction2-image1
+        .interaction2-image
           img.interaction2-rectangle261(src="/external/rectangle26i652-rtm-200h.png", alt="Rectangle26I652")
       .cents
         .interaction2-image
@@ -43,7 +43,7 @@
         .interaction2-frame4321
           span.interaction2-text05.ButtonSmall
             span YES! I got the day off! Say when and where?
-        .interaction2-image1
+        .interaction2-image
           img.interaction2-rectangle261(src="/external/rectangle26i652-rtm-200h.png", alt="Rectangle26I652")
       .cents
         .interaction2-image
@@ -59,7 +59,7 @@
         .interaction2-frame4321
           span.interaction2-text05.ButtonSmall
             span YES! I got the day off! Say when and where?
-        .interaction2-image1
+        .interaction2-image
           img.interaction2-rectangle261(src="/external/rectangle26i652-rtm-200h.png", alt="Rectangle26I652")
       .cents
         .interaction2-image
@@ -75,7 +75,7 @@
         .interaction2-frame4321
           span.interaction2-text05.ButtonSmall
             span YES! I got the day off! Say when and where?
-        .interaction2-image1
+        .interaction2-image
           img.interaction2-rectangle261(src="/external/rectangle26i652-rtm-200h.png", alt="Rectangle26I652")
       .cents
         .interaction2-image
@@ -91,7 +91,7 @@
         .interaction2-frame4321
           span.interaction2-text05.ButtonSmall
             span YES! I got the day off! Say when and where?
-        .interaction2-image1
+        .interaction2-image
           img.interaction2-rectangle261(src="/external/rectangle26i652-rtm-200h.png", alt="Rectangle26I652")
     .interaction2-navigation
       .interaction2-system-status

@@ -45,22 +45,23 @@
       .news-frame12
         .news-thumb-image2
           img.news-rectangle14(src="/external/event_food_news.png", alt="Rectangle1I652")
-          .news-frame94
-            span.news-text16
-              span Hailey, 21
+          .news-frame9
+            span.news-text
+              span 诺丁山狂欢节，周小楠 品尝了最爱的美食
             .news-frame24
-              img.news-ellipse14(src="/external/ellipse1i652-1nnn-200h.png", alt="Ellipse1I652")
-              span.news-text18.ButtonTiny
-                span Active
+              img.news-ellipse1(src="/external/ellipse1i652-9t0w-200h.png", alt="Ellipse1I652")
+              span.news-status
+                span 活动
         .news-group32
           img.news-rectangle15(src="/external/event_club_news.png", alt="Rectangle1I652")
-          .news-frame95
-            span.news-text20
-              span Hailey, 21
+          .news-frame9
+            span.news-text
+              span Fire Night Club 今夜Kpop专场！
             .news-frame25
-              img.news-ellipse15(src="/external/ellipse1i652-x4z8-200h.png", alt="Ellipse1I652")
-              span.news-text22.ButtonTiny
-                span Active
+              img.news-ellipse1(src="/external/ellipse1i652-9t0w-200h.png", alt="Ellipse1I652")
+              span.news-status
+                span 活动
+
     .news-navigation
       .news-system-status
         .news-notch

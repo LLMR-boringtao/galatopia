@@ -11,7 +11,7 @@
           .interaction2-frame4321
             span.interaction2-text05.ButtonSmall
               span {{ message.content }}
-          .interaction2-image1
+          .interaction2-image
             img.interaction2-rectangle261(src="/external/rectangle26i652-rtm-200h.png", alt="Rectangle26I652")
         template(v-if="message.type === 'received'")
           <div v-for="contentPart in splitMessage(message.content)" :key="contentPart" class="chat-block">
