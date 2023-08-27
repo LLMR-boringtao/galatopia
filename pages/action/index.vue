@@ -31,15 +31,6 @@
         .interaction1-time-light
           img.interaction1-svg941(src="/external/svg941i652-p93e.svg", alt="SVG941I652")
       .interaction1-navigation1
-        .interaction1-component-elements
-          button.interaction1-button-icon(@click="goPage('edit')")
-            .interaction1-edit21
-              .interaction1-edit22
-                .interaction1-group
-                  .interaction1-group01
-                    img.interaction1-vector(src="/external/vectori652-ycl.svg", alt="VectorI652")
-                    img.interaction1-vector01(src="/external/vectori652-djz.svg", alt="VectorI652")
-                    img.interaction1-vector02(src="/external/vectori652-7jrq.svg", alt="VectorI652")
         .interaction1-component-elements1
           button.interaction1-button-icon1
             .interaction1-iconsearch
@@ -914,7 +905,7 @@ export default {
   align-items: flex-start;
   border-radius: 30px;
   flex-direction: column;
-  background-color: var(--dl-color-dark_background-200);
+  background-color: var(--dl-color-dark_background-300);
   box-sizing: border-box;
 }
 .interaction1-list {

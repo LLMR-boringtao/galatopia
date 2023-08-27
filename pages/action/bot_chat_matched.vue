@@ -9,7 +9,7 @@
         .interaction2-frame498
           .interaction2-frame432
             span.interaction2-text.ButtonSmall
-              span 周小楠今天在ChinaJoy活动偶遇了张小悦，交谈中发现彼此都对游戏感到兴趣，张小玥她很喜玩博德之门3，更有意思的是，他们来自同一所伦敦高校帝国理工。
+              span 周小楠今天在ChinaJoy活动偶遇了张小悦，交谈中发现彼此都对游戏感到兴趣，张小悦她很喜玩博德之门3，更有意思的是，他们来自同一所伦敦高校帝国理工。
               br
               span 
               br
@@ -209,6 +209,7 @@ export default {
   opacity: 0.80;
   position: absolute;
   border-radius: 24px;
+  background-color: var(--dl-color-dark_background-400);
 }
 /* .chats {
   gap: 20px;
@@ -937,9 +938,10 @@ export default {
   padding-left: 20px;
 }
 .interaction2-component-elements2 {
-  gap: 8px;
-  top: 8px;
-  right: 28px;
+  gap: 10px;
+  top: 18px;
+  left: 340px;
+  width: 40px;
   display: flex;
   position: absolute;
   align-items: flex-start;

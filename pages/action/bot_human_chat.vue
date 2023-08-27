@@ -39,7 +39,7 @@
                 .interaction2-group05
                   .interaction2-iconly-curved-call
                     .interaction2-call
-                      img.interaction2-stroke-stroke(src="/external/bot.svg", alt="Stroke1StrokeI652")
+                      img.interaction2-stroke-stroke(src="/external/humanicon.svg", alt="Stroke1StrokeI652")
           //- .interaction2-component3
           //-   .interaction2-video2
           //-     img.interaction2-union(src="/external/unioni652-88vi.svg", alt="UnionI652")
@@ -203,6 +203,7 @@ export default {
   opacity: 0.80;
   position: absolute;
   border-radius: 24px;
+  background-color: var(--dl-color-dark_background-400);
 }
 /* .chats {
   gap: 20px;
@@ -931,9 +932,10 @@ export default {
   padding-left: 20px;
 }
 .interaction2-component-elements2 {
-  gap: 8px;
+  gap: 10px;
   top: 8px;
-  right: 28px;
+  left: 336px;
+  width: 40px;
   display: flex;
   position: absolute;
   align-items: flex-start;

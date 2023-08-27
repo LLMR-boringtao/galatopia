@@ -204,6 +204,7 @@ export default {
   opacity: 0.80;
   position: absolute;
   border-radius: 24px;
+  background-color: var(--dl-color-dark_background-400);
 }
 .chats {
   gap: 20px;
@@ -934,9 +935,10 @@ export default {
   line-height: 24px;
 }
 .interaction2-component-elements2 {
-  gap: 8px;
+  gap: 10px;
   top: 8px;
-  right: 28px;
+  left: 336px;
+  width: 40px;
   display: flex;
   position: absolute;
   align-items: flex-start;

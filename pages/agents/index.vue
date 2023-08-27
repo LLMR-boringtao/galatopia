@@ -68,12 +68,12 @@
           img.my-agents-home-indicator1(src="/external/homeindicatori652-rmm-200h.png", alt="HomeIndicatorI652")
     .my-agents-group477
       .my-agents-group14
-        img.my-agents-vector18(src="/external/vectori652-4fej.svg", alt="VectorI652")
-        img.my-agents-vector19(src="/external/vectori652-ptuw.svg", alt="VectorI652")
-        img.my-agents-vector20(src="/external/vectori652-5zw9.svg", alt="VectorI652")
-        img.my-agents-vector21(src="/external/vectori652-sx9g.svg", alt="VectorI652")
-        img.my-agents-vector22(src="/external/vectori652-kdmp.svg", alt="VectorI652")
-        img.my-agents-vector23(src="/external/vectori652-ey2h.svg", alt="VectorI652")
+        img.my-agents-vector18(src="/external/vectori652-9uk.svg", alt="VectorI652")
+        img.my-agents-vector19(src="/external/vectori652-ztki.svg", alt="VectorI652")
+        img.my-agents-vector20(src="/external/vectori652-6g0g.svg", alt="VectorI652")
+        img.my-agents-vector21(src="/external/vectori652-igmi.svg", alt="VectorI652")
+        img.my-agents-vector22(src="/external/vectori652-2msq.svg", alt="VectorI652")
+        img.my-agents-vector23(src="/external/vectori652-ese.svg", alt="VectorI652")
       span.my-agents-text12
         span Agents
     .my-agents-navigation
@@ -96,9 +96,7 @@
               .my-agents-setting22
                 .my-agents-group15
                   .my-agents-group16
-                    img.interaction1-vector(src="/external/vectori652-ycl.svg", alt="VectorI652")
-                    img.interaction1-vector01(src="/external/vectori652-djz.svg", alt="VectorI652")
-                    img.interaction1-vector02(src="/external/vectori652-7jrq.svg", alt="VectorI652")
+                    img.interaction1-vector(src="/external/个人资料icon.svg", alt="VectorI652")
         .my-agents-component-elements2
           button.my-agents-button-icon1(@click='goPage("notify")')
             .my-agents-notificationbing1
@@ -250,7 +248,7 @@ export default {
   top: 30%;
   left: 60%;
   transform: translate(-50%, -50%);
-  font-size: 22px;
+  font-size: 16px;
   font-weight: bold;
   text-align: left;
   width: 100%;
@@ -1005,7 +1003,7 @@ img.my-agents-rectangle11 {
 .my-agents-text12 {
   top: 12px;
   left: 31px;
-  color: var(--dl-color-dark_one-100);
+  color: var(--dl-color-dark_element-1100);
   height: auto;
   position: absolute;
   font-size: 48px;
@@ -1273,8 +1271,9 @@ img.my-agents-rectangle11 {
   line-height: 18px;
 }
 .my-agents-component-elements2 {
-  top: 12px;
-  right: 30px;
+ gap: 10px;
+  top: 8px;
+  left: 336px;
   width: 40px;
   display: flex;
   position: absolute;

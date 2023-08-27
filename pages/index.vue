@@ -82,9 +82,7 @@
               .news-setting22
                 .news-group
                   .news-group01
-                    img.interaction1-vector(src="/external/vectori652-ycl.svg", alt="VectorI652")
-                    img.interaction1-vector01(src="/external/vectori652-djz.svg", alt="VectorI652")
-                    img.interaction1-vector02(src="/external/vectori652-7jrq.svg", alt="VectorI652")
+                    img.interaction1-vector(src="/external/个人资料icon.svg", alt="VectorI652")
         .news-component-elements2
           button.news-button-icon1(@click="goPage('notify')")
             .news-notificationbing1
@@ -241,6 +239,7 @@ export default {
   justify-content: center;
   box-sizing: border-box;
   overflow-y: scroll;
+  background-color: var(--dl-color-dark_background-200);
 }
 .news-frame10 {
   gap: 15px;
@@ -813,8 +812,8 @@ export default {
 .news-group {
   top: 1.812213659286499px;
   left: 1.25px;
-  width: 21.520000457763672px;
-  height: 20.381864547729492px;
+  width: 28.520000457763672px;
+  height: 28.381864547729492px;
   display: flex;
   position: absolute;
   align-items: flex-start;
@@ -823,8 +822,8 @@ export default {
 .news-group01 {
   top: 0px;
   left: 0px;
-  width: 21.520000457763672px;
-  height: 20.381864547729492px;
+  width: 28.520000457763672px;
+  height: 28.381864547729492px;
   display: flex;
   position: absolute;
   align-items: flex-start;
@@ -907,8 +906,9 @@ export default {
   line-height: 18px;
 }
 .news-component-elements2 {
+  gap: 10px;
   top: 8px;
-  left: 319px;
+  left: 336px;
   width: 40px;
   display: flex;
   position: absolute;
@@ -916,6 +916,7 @@ export default {
 }
 .news-button-icon1 {
   gap: 10px;
+  left: 10px;
   display: flex;
   padding: 8px;
   align-items: center;

@@ -287,6 +287,7 @@ export default {
   /* opacity: 0.80; */
   position: absolute;
   border-radius: 24px;
+  background-color: var(--dl-color-dark_background-400);
 }
 
 .chats {
@@ -999,21 +1000,22 @@ export default {
   line-height: 24px;
 }
 .interaction2-component-elements2 {
-  gap: 8px;
+  gap: 10px;
   top: 8px;
-  right: 28px;
+  left: 336px;
+  width: 40px;
   display: flex;
   position: absolute;
   align-items: flex-start;
 }
 .interaction2-button-icon1 {
-  border: none;
   gap: 10px;
+  top: 8px;
+  left: 336px;
+  width: 40px;
   display: flex;
-  padding: 8px;
-  align-items: center;
-  border-radius: 48px;
-  justify-content: center;
+  position: absolute;
+  align-items: flex-start;
   background-color: var(--dl-color-dark_background-200);
 }
 .interaction2-call1 {

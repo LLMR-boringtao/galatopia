@@ -99,13 +99,6 @@
         .town-time-light
           img.town-svg941(src="/external/svg941i652-rokf.svg", alt="SVG941I652")
       .town-navigation1
-        .town-component-elements1
-            button.town-button-icon
-              .town-group05
-                .town-group06
-                  img.interaction1-vector(src="/external/vectori652-ycl.svg", alt="VectorI652")
-                  img.interaction1-vector01(src="/external/vectori652-djz.svg", alt="VectorI652")
-                  img.interaction1-vector02(src="/external/vectori652-7jrq.svg", alt="VectorI652")
         .town-component-elements
           button.town-button-icon
             .town-iconsearch
@@ -253,6 +246,7 @@ export default {
   position: absolute;
   align-items: flex-start;
   flex-direction: column;
+  background-color: var(--dl-color-dark_background-300);
 }
 .town-segmented {
   box-sizing: border-box;
@@ -312,6 +306,7 @@ export default {
   padding: 16px;
   align-items: flex-start;
   flex-direction: column;
+  background-color: var(--dl-color-dark_background-300);
 }
 .town-list {
   gap: 16px;

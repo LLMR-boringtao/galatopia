@@ -117,12 +117,13 @@
         :height="50"
         :text="'解锁一位新好友'"
         :success-text="'Matched!'"
-        :background="'black'"
+        :background="'#393939'"
         :progress-bar-bg="'#ff9c78'"
         :completed-bg="'#ff9c78'"
         :handler-bg="'#ff9c78'"
         :handler-icon="'#ff9c78'"
         :text-size="'20'"
+        :color="''"
         :success-icon="'successIcon'"
         :circle="true"
         @passcallback="goPage('match')"
@@ -257,11 +258,11 @@ export default {
   top: 100px;
   left: 0px;
   width: 100%;
-  height: 566px;
+  height: 800px;
   /* opacity: 0.80; */
   position: absolute;
   border-radius: 24px;
-  background-color: var(--dl-color-dark_background-200);
+  background-color: var(--dl-color-dark_background-400);
 }
 
 .chats {
@@ -989,9 +990,10 @@ export default {
   padding-left: 20px;
 }
 .interaction2-component-elements2 {
-  gap: 8px;
+  gap: 10px;
   top: 8px;
-  right: 28px;
+  left: 336px;
+  width: 40px;
   display: flex;
   position: absolute;
   align-items: flex-start;

@@ -31,15 +31,6 @@
         .interaction1-time-light
           img.interaction1-svg941(src="/external/svg941i652-p93e.svg", alt="SVG941I652")
       .interaction1-navigation1
-        .interaction1-component-elements
-          button.interaction1-button-icon(@click="goPage('edit')")
-            .interaction1-edit21
-              .interaction1-edit22
-                .interaction1-group
-                  .interaction1-group01
-                    img.interaction1-vector(src="/external/vectori652-ycl.svg", alt="VectorI652")
-                    img.interaction1-vector01(src="/external/vectori652-djz.svg", alt="VectorI652")
-                    img.interaction1-vector02(src="/external/vectori652-7jrq.svg", alt="VectorI652")
         //- .my-agents-component-elements1
         //-   .my-agents-segmented
         //-     .my-agents-bar-segmented-variant3
@@ -916,7 +907,7 @@ export default {
 }
 .interaction1-frame2 {
   gap: 8px;
-  top: 410px;
+  top: 455px;
   left: 0px;
   width: 100%;
   display: flex;
@@ -925,7 +916,7 @@ export default {
   align-items: flex-start;
   border-radius: 30px;
   flex-direction: column;
-  background-color: var(--dl-color-dark_background-200);
+  background-color: var(--dl-color-dark_background-300);
   box-sizing: border-box;
 }
 .interaction1-list {
@@ -1578,12 +1569,14 @@ export default {
   line-height: 18px;
 }
 .my-agents-component-elements2 {
+  gap: 10px;
   top: 8px;
-  left: 319px;
+  left: 336px;
   width: 40px;
   display: flex;
   position: absolute;
   align-items: flex-start;
+
 }
 .my-agents-button-icon1 {
   gap: 10px;

@@ -111,7 +111,7 @@ export default {
         { id: 4, name: "陈小昊", icon: "/external/chenxiaohao_icon.png"},
         { id: 5, name: "张小雯", icon: "/external/zhangxiaowen_icon.png"},
         { id: 6, name: "黄小鹅", icon: "/external/huangxiaoe_icon.png"},
-        { id: 7, name: "张小玥", icon: "/external/张小玥 _chat_icon.png"},
+        { id: 7, name: "张小悦", icon: "/external/张小玥 _chat_icon.png"},
       ]
     }
   },
@@ -297,6 +297,7 @@ export default {
   /* opacity: 0.80; */
   position: absolute;
   border-radius: 24px;
+  background-color: var(--dl-color-dark_background-400);
 }
 
 
@@ -1043,9 +1044,10 @@ export default {
   padding-left: 20px;
 }
 .interaction2-component-elements2 {
-  gap: 8px;
+  gap: 10px;
   top: 8px;
-  right: 28px;
+  left: 336px;
+  width: 40px;
   display: flex;
   position: absolute;
   align-items: flex-start;

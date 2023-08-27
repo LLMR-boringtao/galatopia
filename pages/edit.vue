@@ -57,7 +57,7 @@
                       .page5-group02
                         .page5-iconly-light-outline-location
                           .page5-location
-                            img.page5-combined-shape(src="/external/combinedshapei652-gdm.svg", alt="CombinedShapeI652")
+                            img.page5-combined-shape(src="/external/工作-icon.svg", alt="CombinedShapeI652")
                 span.page5-text10
                   span 工作
               .page5-frame470
@@ -75,7 +75,7 @@
                       .page5-group06
                         .page5-iconly-light-outline-location1
                           .page5-location1
-                            img.page5-combined-shape1(src="/external/combinedshapei652-kbzo.svg", alt="CombinedShapeI652")
+                            img.page5-combined-shape1(src="/external/学历.svg", alt="CombinedShapeI652")
                 span.page5-text14
                   span 学历
               .page5-frame470
@@ -87,7 +87,7 @@
                       img.page5-vector07(src="/external/vectori652-aj74.svg", alt="VectorI652")
             .page5-frame472
               .page5-frame4692
-                img.page5-leo1(src="/external/leo1i652-slar.svg", alt="leo1I652")
+                img.page5-leo1(src="/external/MBTI.svg", alt="CombinedShapeI652")
                 span.page5-text18
                   span MBTI
               .page5-frame4702
