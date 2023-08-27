@@ -668,6 +668,7 @@ export default {
   position: relative;
   align-items: flex-start;
   flex-shrink: 0;
+  background-color: black;
 }
 .news-notch {
   gap: 14px;
@@ -768,6 +769,7 @@ export default {
   align-items: center;
   flex-shrink: 0;
   justify-content: space-between;
+  background-color: black;
 }
 .news-component-elements {
   gap: 10px;
