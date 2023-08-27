@@ -56,9 +56,11 @@
           span.town-suncity-text14
             span 介绍
           span.town-suncity-text16
-            span.   
-              周日下午我们在摄政公园举办了夏季长跑活动，全长35公里，欢迎参加！
-              摄政公园附近的餐饮店家将提供特别优惠，请出示APP内二维码。
+            span 周日下午我们在摄政公园举办了夏季长跑活动，全长35公里，欢迎参加！
+            br 
+            span 
+            br
+            span 摄政公园附近的餐饮店家将提供特别优惠，请出示APP内二维码。
               
         .town-suncity-frame498
           img.town-suncity-rectangle71(src="/external/run1_final.png", alt="Rectangle71I652")

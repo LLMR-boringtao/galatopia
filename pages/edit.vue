@@ -132,14 +132,6 @@
                   .page5-group12
                     img.page5-vector09(src="/external/stroke1i652-gx98.svg", alt="VectorI652")
         .page5-component-elements
-          button.page5-button-icon
-            .page5-edit21
-              .page5-edit22
-                .page5-group11
-                  .page5-group12
-                    img.page5-vector09(src="/external/vectori652-3tva.svg", alt="VectorI652")
-                    img.page5-vector10(src="/external/vectori652-tgad.svg", alt="VectorI652")
-                    img.page5-vector11(src="/external/vectori652-p63.svg", alt="VectorI652")
     .page5-bottom-tabbar
       .page5-tab
         .page5-component-tab-bar

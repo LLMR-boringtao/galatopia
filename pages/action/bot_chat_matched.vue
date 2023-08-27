@@ -9,7 +9,11 @@
         .interaction2-frame498
           .interaction2-frame432
             span.interaction2-text.ButtonSmall
-              span 周小楠今天在ChinaJoy活动偶遇了张小悦，通过交流他们发现他们都对游戏感到兴趣，张小玥自己很喜玩博德之门3，更有意思的是，他们居然来自伦敦同一所学校帝国理工，现在你可以开始选择和张小悦/张秋悦开始对话，认识您的新朋友！
+              span 周小楠今天在ChinaJoy活动偶遇了张小悦，交谈中发现彼此都对游戏感到兴趣，张小玥她很喜玩博德之门3，更有意思的是，他们来自同一所伦敦高校帝国理工。
+              br
+              span 
+              br
+              span 现在你可以开始选择和张小悦/张秋悦开始对话，认识您的新朋友！
               img.interaction1-rectangle301-new(src="/external/zhangxiaoyue_match_chat.png")
     .interaction2-navigation
       .interaction2-system-status
