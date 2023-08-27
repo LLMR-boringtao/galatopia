@@ -443,8 +443,8 @@ export default {
 }
 .town-frame475 {
   gap: 6px;
-  top: 1px;
-  left: 136px;
+  top: 0px;
+  left: 202px;
   display: flex;
   position: absolute;
   align-items: flex-start;
@@ -455,11 +455,12 @@ export default {
   padding: 6px 12px;
   align-items: center;
   border-radius: 29px;
+  border: 1px solid white;
   justify-content: center;
-  background-color: var(--dl-color-dark_background-1100);
+  background-color: black;
 }
 .town-text12 {
-  color: var(--dl-color-dark_element-1100);
+  color: white;
   height: auto;
   text-align: left;
   line-height: 18px;
@@ -471,10 +472,11 @@ export default {
   align-items: center;
   border-radius: 29px;
   justify-content: center;
-  background-color: var(--dl-color-dark_background-1100);
+  border: 1px solid white;
+  background-color: black;
 }
 .town-text14 {
-  color: var(--dl-color-dark_element-1100);
+  color: white;
   height: auto;
   text-align: left;
   line-height: 18px;
@@ -520,6 +522,7 @@ export default {
   border-width: 0px;
 }
 .town-rectangle83 {
+  margin-top: 10px;
   width: auto;
   height: 96px;
   align-self: stretch;
@@ -679,8 +682,8 @@ export default {
 }
 .town-frame4751 {
   gap: 6px;
-  top: 1px;
-  left: 136px;
+  top: 0px;
+  left: 202px;
   display: flex;
   position: absolute;
   align-items: flex-start;
@@ -692,10 +695,11 @@ export default {
   align-items: center;
   border-radius: 29px;
   justify-content: center;
-  background-color: var(--dl-color-dark_background-1100);
+  border: 1px solid white;
+  background-color: black;
 }
 .town-text24 {
-  color: var(--dl-color-dark_element-1100);
+  color: white;
   height: auto;
   font-size: 14px;
   font-style: Medium;
@@ -713,10 +717,11 @@ export default {
   align-items: center;
   border-radius: 29px;
   justify-content: center;
-  background-color: var(--dl-color-dark_background-1100);
+  border: 1px solid white;
+  background-color: black;
 }
 .town-text26 {
-  color: var(--dl-color-dark_element-1100);
+  color: white;
   height: auto;
   font-size: 14px;
   font-style: Medium;

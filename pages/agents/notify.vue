@@ -223,6 +223,11 @@ export default {
   flex-direction: column;
   background-color: var(--dl-color-dark_background-100);
 }
+
+.page-frame516 span.ButtonSmall {
+  padding-right: 20px;
+}
+
 .page-frame531 {
   gap: 12px;
   width: 100%;

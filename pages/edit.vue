@@ -206,7 +206,6 @@
               span.page7-text12.ButtonSmall
                 span 游戏
       .page7-frame498
-        img.page7-rectangle71(src="/external/rectangle71i652-6c3w-200h.png", alt="Rectangle71I652")
         img.page7-rectangle72(src="/external/zhouxiaonan_profile4_final.png", alt="Rectangle72I652")
         img.page7-rectangle73(src="/external/zhouxiaonan_profile2_final.png", alt="Rectangle73I652")
         a(href="/info_zn") 
@@ -1774,7 +1773,7 @@ export default {
   position: absolute;
 }
 .page7-frame512 {
-  top: 44px;
+  top: 4px;
   left: 0px;
   width: 100%;
   display: flex;
@@ -1975,22 +1974,22 @@ export default {
   box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.10000000149011612) ;
   align-items: center;
   flex-shrink: 0;
-  justify-content: center;
+  /* justify-content: center; */
 }
 .page7-rectangle71 {
-  width: 140px;
+  width: auto;
   height: 192px;
   box-sizing: content-box;
   border-radius: 12px;
 }
 .page7-rectangle72 {
-  width: 140px;
+  width: auto;
   height: 192px;
   box-sizing: content-box;
   border-radius: 12px;
 }
 .page7-rectangle73 {
-  width: 140px;
+  width: auto;
   height: 192px;
   box-sizing: content-box;
   border-radius: 12px;
