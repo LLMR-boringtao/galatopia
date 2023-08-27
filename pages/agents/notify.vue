@@ -208,7 +208,7 @@ export default {
   position: relative;
   align-items: flex-start;
   flex-shrink: 0;
-  background-color: var(--dl-color-dark_background-200);
+  background-color: var(--dl-color-dark_background-100);
 }
 .page-frame516 {
   top: 241px;
@@ -235,7 +235,7 @@ export default {
   padding: 15px 16px;
   align-items: flex-start;
   flex-shrink: 0;
-  background-color: var(--dl-color-dark_background-100);
+  background-color: var(--dl-color-dark_background-200);
   box-sizing: border-box;
 }
 .page-star1 {
@@ -288,7 +288,7 @@ export default {
   padding: 15px 16px;
   align-items: flex-start;
   flex-shrink: 0;
-  background-color: var(--dl-color-dark_background-100);
+  background-color: var(--dl-color-dark_background-200);
 }
 .page-star11 {
   width: 56px;
@@ -340,7 +340,7 @@ export default {
   padding: 15px 16px;
   align-items: flex-start;
   flex-shrink: 0;
-  background-color: var(--dl-color-dark_background-100);
+  background-color: var(--dl-color-dark_background-200);
 }
 .page-star12 {
   width: 56px;
@@ -392,7 +392,7 @@ export default {
   padding: 15px 16px;
   align-items: flex-start;
   flex-shrink: 0;
-  background-color: var(--dl-color-dark_background-100);
+  background-color: var(--dl-color-dark_background-200);
 }
 .page-star13 {
   width: 56px;
@@ -444,7 +444,7 @@ export default {
   padding: 15px 16px;
   align-items: flex-start;
   flex-shrink: 0;
-  background-color: var(--dl-color-dark_background-100);
+  background-color: var(--dl-color-dark_background-200);
 }
 .page-star14 {
   width: 56px;
@@ -496,7 +496,7 @@ export default {
   padding: 15px 16px;
   align-items: flex-start;
   flex-shrink: 0;
-  background-color: var(--dl-color-dark_background-100);
+  background-color: var(--dl-color-dark_background-200);
 }
 .page-star15 {
   width: 56px;
